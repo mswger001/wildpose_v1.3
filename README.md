@@ -1,4 +1,5 @@
-# WildPose v1.2
+# WildPose v1.3
+
 
 - Intel NUC 13 Pro Kit ([NUC13ANKi7000](https://ark.intel.com/content/www/us/en/ark/products/233101/intel-nuc-13-pro-kit-nuc13anki7.html))
 - [Ubuntu 22.04](https://ubuntu.com/download/iot/intel-iot)
