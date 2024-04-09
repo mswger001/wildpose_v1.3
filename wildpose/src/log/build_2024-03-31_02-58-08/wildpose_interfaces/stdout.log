@@ -1,0 +1,210 @@
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  4%] Built target wildpose_interfaces__cpp
+[  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[  8%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 12%] [32mBuilding C object CMakeFiles/wildpose_interfaces__rosidl_generator_c.dir/rosidl_generator_c/wildpose_interfaces/msg/detail/dji_rs_status__functions.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/wildpose_interfaces__rosidl_generator_c.dir/rosidl_generator_c/wildpose_interfaces/msg/detail/motor_positions__functions.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/wildpose_interfaces__rosidl_generator_c.dir/rosidl_generator_c/wildpose_interfaces/msg/detail/motor_status__functions.c.o[0m
+[ 19%] [32m[1mLinking C shared library libwildpose_interfaces__rosidl_generator_c.so[0m
+[ 19%] Built target wildpose_interfaces__rosidl_generator_c
+[ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wildpose_interfaces/msg/detail/dji_rs_status__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wildpose_interfaces/msg/detail/motor_positions__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wildpose_interfaces/msg/detail/motor_status__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wildpose_interfaces/msg/detail/dds_fastrtps/motor_positions__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wildpose_interfaces/msg/detail/dds_fastrtps/dji_rs_status__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wildpose_interfaces/msg/detail/dds_fastrtps/motor_status__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wildpose_interfaces/msg/dji_rs_status__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wildpose_interfaces/msg/motor_positions__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wildpose_interfaces/msg/motor_status__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/wildpose_interfaces/msg/motor_status__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/wildpose_interfaces/msg/dji_rs_status__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/wildpose_interfaces/msg/motor_positions__type_support.cpp.o[0m
+[ 51%] [32m[1mLinking CXX shared library libwildpose_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 53%] [32mBuilding C object CMakeFiles/wildpose_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wildpose_interfaces/msg/detail/dji_rs_status__type_support.c.o[0m
+[ 55%] [32mBuilding C object CMakeFiles/wildpose_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wildpose_interfaces/msg/detail/motor_status__type_support.c.o[0m
+[ 57%] [32mBuilding C object CMakeFiles/wildpose_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wildpose_interfaces/msg/detail/motor_positions__type_support.c.o[0m
+[ 59%] [32m[1mLinking CXX shared library libwildpose_interfaces__rosidl_typesupport_c.so[0m
+[ 61%] [32m[1mLinking C shared library libwildpose_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 63%] [32m[1mLinking CXX shared library libwildpose_interfaces__rosidl_typesupport_cpp.so[0m
+[ 63%] Built target wildpose_interfaces__rosidl_typesupport_introspection_cpp
+[ 63%] Built target wildpose_interfaces__rosidl_typesupport_c
+[ 63%] Built target wildpose_interfaces__rosidl_typesupport_introspection_c
+[ 63%] Built target wildpose_interfaces__rosidl_typesupport_cpp
+[ 65%] [32m[1mLinking CXX shared library libwildpose_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 65%] Built target wildpose_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 68%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wildpose_interfaces/msg/detail/dji_rs_status__type_support_c.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wildpose_interfaces/msg/detail/motor_positions__type_support_c.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wildpose_interfaces/msg/detail/motor_status__type_support_c.cpp.o[0m
+[ 76%] [32m[1mLinking CXX shared library libwildpose_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 76%] Built target wildpose_interfaces__rosidl_typesupport_fastrtps_c
+[ 76%] Built target wildpose_interfaces
+[ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 78%] Built target wildpose_interfaces__py
+[ 80%] [32mBuilding C object CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_dji_rs_status_s.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_motor_status_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_motor_positions_s.c.o[0m
+[ 87%] [32m[1mLinking C shared library rosidl_generator_py/wildpose_interfaces/libwildpose_interfaces__python.so[0m
+[ 87%] Built target wildpose_interfaces__python
+[ 89%] [32mBuilding C object CMakeFiles/wildpose_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/wildpose_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/wildpose_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[ 95%] [32m[1mLinking CXX shared library rosidl_generator_py/wildpose_interfaces/wildpose_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 95%] Built target wildpose_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[100%] [32m[1mLinking C shared library rosidl_generator_py/wildpose_interfaces/wildpose_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/wildpose_interfaces/wildpose_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[100%] Built target wildpose_interfaces__rosidl_typesupport_introspection_c__pyext
+[100%] Built target wildpose_interfaces__rosidl_typesupport_c__pyext
+-- Install configuration: ""
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/ament_index/resource_index/rosidl_interfaces/wildpose_interfaces
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/dji_rs_status.h
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__functions.h
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__type_support.h
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__functions.c
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__functions.c
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__functions.c
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__struct.h
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__struct.h
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__type_support.h
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__type_support.h
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__struct.h
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__functions.h
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__functions.h
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/motor_status.h
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/motor_positions.h
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/environment/library_path.sh
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/environment/library_path.dsv
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/lib/libwildpose_interfaces__rosidl_generator_c.so
+-- Set runtime path of "/home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/lib/libwildpose_interfaces__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces
+-- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg
+-- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/lib/libwildpose_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/lib/libwildpose_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces
+-- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dds_fastrtps
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/lib/libwildpose_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/lib/libwildpose_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces
+-- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg
+-- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__type_support.c
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__rosidl_typesupport_introspection_c.h
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__rosidl_typesupport_introspection_c.h
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__type_support.c
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__rosidl_typesupport_introspection_c.h
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__type_support.c
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/lib/libwildpose_interfaces__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/lib/libwildpose_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/lib/libwildpose_interfaces__rosidl_typesupport_c.so
+-- Set runtime path of "/home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/lib/libwildpose_interfaces__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces
+-- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg
+-- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__type_support.hpp
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__struct.hpp
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__struct.hpp
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__struct.hpp
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__traits.hpp
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__traits.hpp
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__type_support.hpp
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__builder.hpp
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__traits.hpp
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__type_support.hpp
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__builder.hpp
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__builder.hpp
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/motor_status.hpp
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/motor_positions.hpp
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/dji_rs_status.hpp
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces
+-- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg
+-- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__type_support.cpp
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__type_support.cpp
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__type_support.cpp
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/lib/libwildpose_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/lib/libwildpose_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/lib/libwildpose_interfaces__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/lib/libwildpose_interfaces__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/environment/pythonpath.sh
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/environment/pythonpath.dsv
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/__init__.py
+Compiling '/home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/__init__.py'...
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/msg
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/msg/__init__.py
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/msg/_motor_positions_s.c
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/msg/_motor_status_s.c
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/msg/_motor_positions.py
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/msg/_dji_rs_status_s.c
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/msg/_motor_status.py
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/msg/_dji_rs_status.py
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/wildpose_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/wildpose_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/wildpose_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/wildpose_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/wildpose_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/wildpose_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/lib/libwildpose_interfaces__python.so
+-- Set runtime path of "/home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/lib/libwildpose_interfaces__python.so" to ""
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/msg/DjiRsStatus.idl
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/msg/MotorStatus.idl
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/msg/MotorPositions.idl
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/msg/DjiRsStatus.msg
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/msg/MotorStatus.msg
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/msg/MotorPositions.msg
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/ament_index/resource_index/package_run_dependencies/wildpose_interfaces
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/ament_index/resource_index/parent_prefix_path/wildpose_interfaces
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/environment/ament_prefix_path.sh
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/environment/ament_prefix_path.dsv
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/environment/path.sh
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/environment/path.dsv
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/local_setup.bash
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/local_setup.sh
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/local_setup.zsh
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/local_setup.dsv
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/package.dsv
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/ament_index/resource_index/packages/wildpose_interfaces
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfaces__rosidl_generator_cppExport.cmake
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfacesConfig.cmake
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfacesConfig-version.cmake
+-- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/wildpose_interfaces/share/wildpose_interfaces/package.xml

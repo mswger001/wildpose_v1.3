@@ -1,0 +1,20 @@
+[0.165s] Invoking command in '/home/m2s2/WildPose_v1.2-main/wildpose/build/lidar_control_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/m2s2/WildPose_v1.2-main/wildpose/install/motor_controller_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/m2s2/WildPose_v1.2-main/wildpose/build/lidar_control_package -- -j16 -l16
+[0.183s] Invoked command in '/home/m2s2/WildPose_v1.2-main/wildpose/build/lidar_control_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/m2s2/WildPose_v1.2-main/wildpose/install/motor_controller_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/m2s2/WildPose_v1.2-main/wildpose/build/lidar_control_package -- -j16 -l16
+[0.203s] Invoking command in '/home/m2s2/WildPose_v1.2-main/wildpose/build/lidar_control_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/m2s2/WildPose_v1.2-main/wildpose/install/motor_controller_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/m2s2/WildPose_v1.2-main/wildpose/build/lidar_control_package
+[0.218s] -- Install configuration: ""
+[0.218s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/lidar_control_package/share/ament_index/resource_index/package_run_dependencies/lidar_control_package
+[0.219s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/lidar_control_package/share/ament_index/resource_index/parent_prefix_path/lidar_control_package
+[0.219s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/lidar_control_package/share/lidar_control_package/environment/ament_prefix_path.sh
+[0.220s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/lidar_control_package/share/lidar_control_package/environment/ament_prefix_path.dsv
+[0.220s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/lidar_control_package/share/lidar_control_package/environment/path.sh
+[0.220s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/lidar_control_package/share/lidar_control_package/environment/path.dsv
+[0.220s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/lidar_control_package/share/lidar_control_package/local_setup.bash
+[0.221s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/lidar_control_package/share/lidar_control_package/local_setup.sh
+[0.221s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/lidar_control_package/share/lidar_control_package/local_setup.zsh
+[0.221s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/lidar_control_package/share/lidar_control_package/local_setup.dsv
+[0.222s] -- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/install/lidar_control_package/share/lidar_control_package/package.dsv
+[0.222s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/lidar_control_package/share/ament_index/resource_index/packages/lidar_control_package
+[0.222s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/lidar_control_package/share/lidar_control_package/cmake/lidar_control_packageConfig.cmake
+[0.222s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/lidar_control_package/share/lidar_control_package/cmake/lidar_control_packageConfig-version.cmake
+[0.222s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/lidar_control_package/share/lidar_control_package/package.xml
+[0.223s] Invoked command in '/home/m2s2/WildPose_v1.2-main/wildpose/build/lidar_control_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/m2s2/WildPose_v1.2-main/wildpose/install/motor_controller_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/m2s2/WildPose_v1.2-main/wildpose/build/lidar_control_package

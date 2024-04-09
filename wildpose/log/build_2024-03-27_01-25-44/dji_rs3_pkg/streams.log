@@ -1,0 +1,67 @@
+[0.527s] Invoking command in '/home/m2s2/WildPose_v1.2-main/wildpose/src/dji_rs3_pkg': AMENT_PREFIX_PATH=/home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces LD_LIBRARY_PATH=/home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/m2s2/WildPose_v1.2-main/wildpose/build/dji_rs3_pkg/prefix_override:/home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg/lib/python3.8/site-packages:/home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dji_rs3_pkg build --build-base /home/m2s2/WildPose_v1.2-main/wildpose/build/dji_rs3_pkg/build install --record /home/m2s2/WildPose_v1.2-main/wildpose/build/dji_rs3_pkg/install.log --install-scripts $base/lib/dji_rs3_pkg --single-version-externally-managed install_data
+[0.645s] running egg_info
+[0.645s] creating ../../build/dji_rs3_pkg/dji_rs3_pkg.egg-info
+[0.645s] writing ../../build/dji_rs3_pkg/dji_rs3_pkg.egg-info/PKG-INFO
+[0.645s] writing dependency_links to ../../build/dji_rs3_pkg/dji_rs3_pkg.egg-info/dependency_links.txt
+[0.645s] writing entry points to ../../build/dji_rs3_pkg/dji_rs3_pkg.egg-info/entry_points.txt
+[0.645s] writing requirements to ../../build/dji_rs3_pkg/dji_rs3_pkg.egg-info/requires.txt
+[0.645s] writing top-level names to ../../build/dji_rs3_pkg/dji_rs3_pkg.egg-info/top_level.txt
+[0.646s] writing manifest file '../../build/dji_rs3_pkg/dji_rs3_pkg.egg-info/SOURCES.txt'
+[0.666s] reading manifest file '../../build/dji_rs3_pkg/dji_rs3_pkg.egg-info/SOURCES.txt'
+[0.666s] writing manifest file '../../build/dji_rs3_pkg/dji_rs3_pkg.egg-info/SOURCES.txt'
+[0.666s] running build
+[0.666s] running build_py
+[0.666s] creating /home/m2s2/WildPose_v1.2-main/wildpose/build/dji_rs3_pkg/build
+[0.666s] creating /home/m2s2/WildPose_v1.2-main/wildpose/build/dji_rs3_pkg/build/lib
+[0.666s] creating /home/m2s2/WildPose_v1.2-main/wildpose/build/dji_rs3_pkg/build/lib/dji_rs3_pkg
+[0.666s] copying dji_rs3_pkg/__init__.py -> /home/m2s2/WildPose_v1.2-main/wildpose/build/dji_rs3_pkg/build/lib/dji_rs3_pkg
+[0.666s] copying dji_rs3_pkg/dji_rs3_node.py -> /home/m2s2/WildPose_v1.2-main/wildpose/build/dji_rs3_pkg/build/lib/dji_rs3_pkg
+[0.667s] creating /home/m2s2/WildPose_v1.2-main/wildpose/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol
+[0.667s] copying dji_rs3_pkg/protocol/__init__.py -> /home/m2s2/WildPose_v1.2-main/wildpose/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol
+[0.667s] creating /home/m2s2/WildPose_v1.2-main/wildpose/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol/connection
+[0.667s] copying dji_rs3_pkg/protocol/connection/__init__.py -> /home/m2s2/WildPose_v1.2-main/wildpose/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol/connection
+[0.667s] copying dji_rs3_pkg/protocol/connection/CANConnection.py -> /home/m2s2/WildPose_v1.2-main/wildpose/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol/connection
+[0.667s] creating /home/m2s2/WildPose_v1.2-main/wildpose/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol/sdk
+[0.667s] copying dji_rs3_pkg/protocol/sdk/__init__.py -> /home/m2s2/WildPose_v1.2-main/wildpose/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol/sdk
+[0.667s] copying dji_rs3_pkg/protocol/sdk/SDKCRC.py -> /home/m2s2/WildPose_v1.2-main/wildpose/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol/sdk
+[0.667s] copying dji_rs3_pkg/protocol/sdk/SDKHandle.py -> /home/m2s2/WildPose_v1.2-main/wildpose/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol/sdk
+[0.667s] copying dji_rs3_pkg/protocol/sdk/CmdCombine.py -> /home/m2s2/WildPose_v1.2-main/wildpose/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol/sdk
+[0.667s] copying dji_rs3_pkg/protocol/sdk/CmdHandler.py -> /home/m2s2/WildPose_v1.2-main/wildpose/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol/sdk
+[0.667s] running install
+[0.667s] running install_lib
+[0.668s] creating /home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg
+[0.668s] copying /home/m2s2/WildPose_v1.2-main/wildpose/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/__init__.py -> /home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg
+[0.668s] creating /home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol
+[0.668s] copying /home/m2s2/WildPose_v1.2-main/wildpose/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol/__init__.py -> /home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol
+[0.668s] creating /home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol/connection
+[0.668s] copying /home/m2s2/WildPose_v1.2-main/wildpose/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol/connection/__init__.py -> /home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol/connection
+[0.668s] copying /home/m2s2/WildPose_v1.2-main/wildpose/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol/connection/CANConnection.py -> /home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol/connection
+[0.669s] creating /home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol/sdk
+[0.669s] copying /home/m2s2/WildPose_v1.2-main/wildpose/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol/sdk/__init__.py -> /home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol/sdk
+[0.669s] copying /home/m2s2/WildPose_v1.2-main/wildpose/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol/sdk/SDKCRC.py -> /home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol/sdk
+[0.669s] copying /home/m2s2/WildPose_v1.2-main/wildpose/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol/sdk/SDKHandle.py -> /home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol/sdk
+[0.669s] copying /home/m2s2/WildPose_v1.2-main/wildpose/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol/sdk/CmdCombine.py -> /home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol/sdk
+[0.669s] copying /home/m2s2/WildPose_v1.2-main/wildpose/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol/sdk/CmdHandler.py -> /home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol/sdk
+[0.669s] copying /home/m2s2/WildPose_v1.2-main/wildpose/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/dji_rs3_node.py -> /home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg
+[0.669s] byte-compiling /home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/__init__.py to __init__.cpython-38.pyc
+[0.669s] byte-compiling /home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol/__init__.py to __init__.cpython-38.pyc
+[0.670s] byte-compiling /home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol/connection/__init__.py to __init__.cpython-38.pyc
+[0.670s] byte-compiling /home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol/connection/CANConnection.py to CANConnection.cpython-38.pyc
+[0.672s] byte-compiling /home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol/sdk/__init__.py to __init__.cpython-38.pyc
+[0.672s] byte-compiling /home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol/sdk/SDKCRC.py to SDKCRC.cpython-38.pyc
+[0.672s] byte-compiling /home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol/sdk/SDKHandle.py to SDKHandle.cpython-38.pyc
+[0.673s] byte-compiling /home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol/sdk/CmdCombine.py to CmdCombine.cpython-38.pyc
+[0.673s] byte-compiling /home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol/sdk/CmdHandler.py to CmdHandler.cpython-38.pyc
+[0.674s] byte-compiling /home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/dji_rs3_node.py to dji_rs3_node.cpython-38.pyc
+[0.675s] running install_data
+[0.675s] creating /home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg/share/ament_index
+[0.675s] creating /home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg/share/ament_index/resource_index
+[0.676s] creating /home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg/share/ament_index/resource_index/packages
+[0.676s] copying resource/dji_rs3_pkg -> /home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg/share/ament_index/resource_index/packages
+[0.676s] copying package.xml -> /home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg/share/dji_rs3_pkg
+[0.676s] running install_egg_info
+[0.677s] Copying ../../build/dji_rs3_pkg/dji_rs3_pkg.egg-info to /home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg-0.0.0-py3.8.egg-info
+[0.677s] running install_scripts
+[0.688s] Installing dji_rs3_node script to /home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg/lib/dji_rs3_pkg
+[0.688s] writing list of installed files to '/home/m2s2/WildPose_v1.2-main/wildpose/build/dji_rs3_pkg/install.log'
+[0.703s] Invoked command in '/home/m2s2/WildPose_v1.2-main/wildpose/src/dji_rs3_pkg' returned '0': AMENT_PREFIX_PATH=/home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces LD_LIBRARY_PATH=/home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/m2s2/WildPose_v1.2-main/wildpose/build/dji_rs3_pkg/prefix_override:/home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg/lib/python3.8/site-packages:/home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dji_rs3_pkg build --build-base /home/m2s2/WildPose_v1.2-main/wildpose/build/dji_rs3_pkg/build install --record /home/m2s2/WildPose_v1.2-main/wildpose/build/dji_rs3_pkg/install.log --install-scripts $base/lib/dji_rs3_pkg --single-version-externally-managed install_data

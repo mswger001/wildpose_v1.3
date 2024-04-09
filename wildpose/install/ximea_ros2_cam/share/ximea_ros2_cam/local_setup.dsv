@@ -1,0 +1,2 @@
+source;share/ximea_ros2_cam/environment/ament_prefix_path.sh
+source;share/ximea_ros2_cam/environment/path.sh

@@ -1,0 +1,8 @@
+source;share/ximea_ros2_cam/hook/cmake_prefix_path.ps1
+source;share/ximea_ros2_cam/hook/cmake_prefix_path.dsv
+source;share/ximea_ros2_cam/hook/cmake_prefix_path.sh
+source;share/ximea_ros2_cam/local_setup.bash
+source;share/ximea_ros2_cam/local_setup.dsv
+source;share/ximea_ros2_cam/local_setup.ps1
+source;share/ximea_ros2_cam/local_setup.sh
+source;share/ximea_ros2_cam/local_setup.zsh

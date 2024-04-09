@@ -1,0 +1,31 @@
+[0.053s] Invoking command in '/home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam -- -j16 -l16
+[0.223s] [35m[1mConsolidate compiler generated dependencies of target ximea_ros2_cam_node[0m
+[0.223s] [ 33%] [32mBuilding CXX object CMakeFiles/ximea_ros2_cam_node.dir/src/ximea_ros2_cam.cpp.o[0m
+[0.223s] [ 66%] [32mBuilding CXX object CMakeFiles/ximea_ros2_cam_node.dir/src/ximea_ros2_cam_node.cpp.o[0m
+[4.174s] [100%] [32m[1mLinking CXX executable ximea_ros2_cam_node[0m
+[4.549s] [100%] Built target ximea_ros2_cam_node
+[4.568s] Invoked command in '/home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam -- -j16 -l16
+[4.595s] Invoking command in '/home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam
+[4.603s] -- Install configuration: ""
+[4.603s] -- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/lib/ximea_ros2_cam/ximea_ros2_cam_node
+[4.604s] -- Set runtime path of "/home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/lib/ximea_ros2_cam/ximea_ros2_cam_node" to ""
+[4.604s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/config
+[4.604s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/config/xiCam_config.yaml
+[4.605s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/launch
+[4.605s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/launch/xiCam.launch.xml
+[4.605s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ament_index/resource_index/package_run_dependencies/ximea_ros2_cam
+[4.605s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ament_index/resource_index/parent_prefix_path/ximea_ros2_cam
+[4.605s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/environment/ament_prefix_path.sh
+[4.606s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/environment/ament_prefix_path.dsv
+[4.606s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/environment/path.sh
+[4.606s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/environment/path.dsv
+[4.606s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/local_setup.bash
+[4.607s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/local_setup.sh
+[4.607s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/local_setup.zsh
+[4.607s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/local_setup.dsv
+[4.607s] -- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/package.dsv
+[4.607s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ament_index/resource_index/packages/ximea_ros2_cam
+[4.608s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/cmake/ximea_ros2_camConfig.cmake
+[4.608s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/cmake/ximea_ros2_camConfig-version.cmake
+[4.609s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/package.xml
+[4.609s] Invoked command in '/home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam

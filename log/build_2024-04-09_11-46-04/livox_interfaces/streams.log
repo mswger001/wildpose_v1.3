@@ -1,0 +1,244 @@
+[0.563s] Invoking command in '/home/naoya/Wildpose_v1.3/build/livox_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake /home/naoya/Wildpose_v1.3/wildpose/src/livox_lidar_ROS2_driver/livox_interfaces -DCMAKE_INSTALL_PREFIX=/home/naoya/Wildpose_v1.3/install/livox_interfaces
+[0.886s] -- The C compiler identification is GNU 9.4.0
+[0.887s] -- The CXX compiler identification is GNU 9.4.0
+[0.887s] -- Check for working C compiler: /usr/bin/cc
+[0.887s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.887s] -- Detecting C compiler ABI info
+[0.887s] -- Detecting C compiler ABI info - done
+[0.887s] -- Detecting C compile features
+[0.887s] -- Detecting C compile features - done
+[0.888s] -- Check for working CXX compiler: /usr/bin/c++
+[0.913s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.914s] -- Detecting CXX compiler ABI info
+[0.971s] -- Detecting CXX compiler ABI info - done
+[0.985s] -- Detecting CXX compile features
+[0.986s] -- Detecting CXX compile features - done
+[0.988s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.016s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.016s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.151s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[1.172s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.176s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.232s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.260s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.313s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.347s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.374s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.494s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.613s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.653s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.675s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.677s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.704s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[1.705s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.705s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.705s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.724s] -- Found PythonExtra: .so  
+[1.772s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.788s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.789s] -- Added test 'lint_cmake' to check CMake code style
+[1.790s] -- Added test 'xmllint' to check XML markup files
+[1.792s] -- Configuring done
+[1.820s] -- Generating done
+[1.820s] -- Build files have been written to: /home/naoya/Wildpose_v1.3/build/livox_interfaces
+[1.825s] Invoked command in '/home/naoya/Wildpose_v1.3/build/livox_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake /home/naoya/Wildpose_v1.3/wildpose/src/livox_lidar_ROS2_driver/livox_interfaces -DCMAKE_INSTALL_PREFIX=/home/naoya/Wildpose_v1.3/install/livox_interfaces
+[1.826s] Invoking command in '/home/naoya/Wildpose_v1.3/build/livox_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/naoya/Wildpose_v1.3/build/livox_interfaces -- -j16 -l16
+[1.854s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.854s] [35m[1mScanning dependencies of target livox_interfaces__cpp[0m
+[1.861s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.114s] [35m[1mScanning dependencies of target livox_interfaces__rosidl_generator_c[0m
+[2.126s] [  7%] [32mBuilding C object CMakeFiles/livox_interfaces__rosidl_generator_c.dir/rosidl_generator_c/livox_interfaces/msg/detail/custom_msg__functions.c.o[0m
+[2.127s] [  7%] Built target livox_interfaces__cpp
+[2.127s] [ 10%] [32mBuilding C object CMakeFiles/livox_interfaces__rosidl_generator_c.dir/rosidl_generator_c/livox_interfaces/msg/detail/custom_point__functions.c.o[0m
+[2.136s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.139s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.139s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.160s] [ 20%] [32m[1mLinking C shared library liblivox_interfaces__rosidl_generator_c.so[0m
+[2.202s] [ 20%] Built target livox_interfaces__rosidl_generator_c
+[2.216s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.216s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.387s] [35m[1mScanning dependencies of target livox_interfaces__rosidl_typesupport_cpp[0m
+[2.421s] [ 28%] [32mBuilding CXX object CMakeFiles/livox_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_interfaces/msg/custom_msg__type_support.cpp.o[0m
+[2.438s] [35m[1mScanning dependencies of target livox_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[2.448s] [ 30%] [32mBuilding CXX object CMakeFiles/livox_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_interfaces/msg/custom_point__type_support.cpp.o[0m
+[2.456s] [ 33%] [32mBuilding CXX object CMakeFiles/livox_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_interfaces/msg/detail/dds_fastrtps/custom_point__type_support.cpp.o[0m
+[2.468s] [ 35%] [32mBuilding CXX object CMakeFiles/livox_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_interfaces/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.o[0m
+[2.667s] [35m[1mScanning dependencies of target livox_interfaces__rosidl_typesupport_introspection_cpp[0m
+[2.692s] [ 38%] [32mBuilding CXX object CMakeFiles/livox_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_interfaces/msg/detail/custom_msg__type_support.cpp.o[0m
+[2.698s] [35m[1mScanning dependencies of target livox_interfaces__rosidl_typesupport_c[0m
+[2.700s] [ 41%] [32mBuilding CXX object CMakeFiles/livox_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_interfaces/msg/detail/custom_point__type_support.cpp.o[0m
+[2.754s] [ 43%] [32mBuilding CXX object CMakeFiles/livox_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_interfaces/msg/custom_point__type_support.cpp.o[0m
+[2.782s] [ 46%] [32mBuilding CXX object CMakeFiles/livox_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_interfaces/msg/custom_msg__type_support.cpp.o[0m
+[2.806s] [35m[1mScanning dependencies of target livox_interfaces__rosidl_typesupport_introspection_c[0m
+[2.846s] [ 48%] [32mBuilding C object CMakeFiles/livox_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_interfaces/msg/detail/custom_point__type_support.c.o[0m
+[2.850s] [ 51%] [32mBuilding C object CMakeFiles/livox_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_interfaces/msg/detail/custom_msg__type_support.c.o[0m
+[2.858s] [ 53%] [32m[1mLinking CXX shared library liblivox_interfaces__rosidl_typesupport_c.so[0m
+[2.890s] [ 56%] [32m[1mLinking CXX shared library liblivox_interfaces__rosidl_typesupport_cpp.so[0m
+[2.892s] [ 58%] [32m[1mLinking C shared library liblivox_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.921s] [ 58%] Built target livox_interfaces__rosidl_typesupport_c
+[2.935s] [ 58%] Built target livox_interfaces__rosidl_typesupport_introspection_c
+[2.951s] [ 58%] Built target livox_interfaces__rosidl_typesupport_cpp
+[3.046s] [ 61%] [32m[1mLinking CXX shared library liblivox_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.097s] [ 64%] [32m[1mLinking CXX shared library liblivox_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.152s] [ 64%] Built target livox_interfaces__rosidl_typesupport_introspection_cpp
+[3.157s] [ 64%] Built target livox_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.165s] [ 66%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.414s] [35m[1mScanning dependencies of target livox_interfaces__rosidl_typesupport_fastrtps_c[0m
+[3.434s] [ 71%] [32mBuilding CXX object CMakeFiles/livox_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_interfaces/msg/detail/custom_point__type_support_c.cpp.o[0m
+[3.434s] [ 71%] [32mBuilding CXX object CMakeFiles/livox_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_interfaces/msg/detail/custom_msg__type_support_c.cpp.o[0m
+[3.788s] [ 74%] [32m[1mLinking CXX shared library liblivox_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.850s] [ 74%] Built target livox_interfaces__rosidl_typesupport_fastrtps_c
+[3.857s] [35m[1mScanning dependencies of target livox_interfaces[0m
+[3.865s] [ 74%] Built target livox_interfaces
+[3.872s] [35m[1mScanning dependencies of target livox_interfaces__py[0m
+[3.880s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.350s] [ 76%] Built target livox_interfaces__py
+[4.357s] [35m[1mScanning dependencies of target livox_interfaces__python[0m
+[4.370s] [ 79%] [32mBuilding C object CMakeFiles/livox_interfaces__python.dir/rosidl_generator_py/livox_interfaces/msg/_custom_point_s.c.o[0m
+[4.376s] [ 82%] [32mBuilding C object CMakeFiles/livox_interfaces__python.dir/rosidl_generator_py/livox_interfaces/msg/_custom_msg_s.c.o[0m
+[4.466s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/livox_interfaces/liblivox_interfaces__python.so[0m
+[4.497s] [ 84%] Built target livox_interfaces__python
+[4.515s] [35m[1mScanning dependencies of target livox_interfaces__rosidl_typesupport_c__pyext[0m
+[4.515s] [35m[1mScanning dependencies of target livox_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[4.515s] [35m[1mScanning dependencies of target livox_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[4.522s] [ 87%] [32mBuilding C object CMakeFiles/livox_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/livox_interfaces/_livox_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.529s] [ 89%] [32mBuilding C object CMakeFiles/livox_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/livox_interfaces/_livox_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.529s] [ 92%] [32mBuilding C object CMakeFiles/livox_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/livox_interfaces/_livox_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.578s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/livox_interfaces/livox_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.583s] [ 97%] [32m[1mLinking CXX shared library rosidl_generator_py/livox_interfaces/livox_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.600s] [100%] [32m[1mLinking C shared library rosidl_generator_py/livox_interfaces/livox_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.621s] [100%] Built target livox_interfaces__rosidl_typesupport_c__pyext
+[4.628s] [100%] Built target livox_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.641s] [100%] Built target livox_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[5.227s] Invoked command in '/home/naoya/Wildpose_v1.3/build/livox_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/naoya/Wildpose_v1.3/build/livox_interfaces -- -j16 -l16
+[6.032s] Invoking command in '/home/naoya/Wildpose_v1.3/build/livox_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/naoya/Wildpose_v1.3/build/livox_interfaces
+[6.039s] -- Install configuration: ""
+[6.040s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/ament_index/resource_index/rosidl_interfaces/livox_interfaces
+[6.040s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces
+[6.040s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg
+[6.040s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/detail
+[6.040s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__functions.c
+[6.040s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__functions.h
+[6.040s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__functions.c
+[6.040s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__type_support.h
+[6.040s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__functions.h
+[6.040s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__type_support.h
+[6.040s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__struct.h
+[6.040s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__struct.h
+[6.040s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/rosidl_generator_c__visibility_control.h
+[6.040s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/custom_point.h
+[6.040s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/custom_msg.h
+[6.040s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/environment/library_path.sh
+[6.040s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/environment/library_path.dsv
+[6.040s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/lib/liblivox_interfaces__rosidl_generator_c.so
+[6.040s] -- Set runtime path of "/home/naoya/Wildpose_v1.3/install/livox_interfaces/lib/liblivox_interfaces__rosidl_generator_c.so" to ""
+[6.041s] -- Up-to-date: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces
+[6.041s] -- Up-to-date: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg
+[6.041s] -- Up-to-date: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/detail
+[6.041s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__rosidl_typesupport_fastrtps_c.h
+[6.041s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h
+[6.041s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.041s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_fastrtps_c.so
+[6.041s] -- Set runtime path of "/home/naoya/Wildpose_v1.3/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[6.041s] -- Up-to-date: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces
+[6.041s] -- Up-to-date: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg
+[6.041s] -- Up-to-date: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/detail
+[6.041s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/detail/dds_fastrtps
+[6.041s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[6.041s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp
+[6.042s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.042s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[6.042s] -- Set runtime path of "/home/naoya/Wildpose_v1.3/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.042s] -- Up-to-date: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces
+[6.042s] -- Up-to-date: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg
+[6.042s] -- Up-to-date: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/detail
+[6.042s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__type_support.c
+[6.042s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h
+[6.042s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__type_support.c
+[6.042s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__rosidl_typesupport_introspection_c.h
+[6.042s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.042s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_introspection_c.so
+[6.042s] -- Set runtime path of "/home/naoya/Wildpose_v1.3/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[6.042s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_c.so
+[6.042s] -- Set runtime path of "/home/naoya/Wildpose_v1.3/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_c.so" to ""
+[6.042s] -- Up-to-date: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces
+[6.042s] -- Up-to-date: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg
+[6.042s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/custom_msg.hpp
+[6.042s] -- Up-to-date: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/detail
+[6.042s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__type_support.hpp
+[6.042s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__traits.hpp
+[6.043s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__struct.hpp
+[6.043s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__traits.hpp
+[6.043s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__struct.hpp
+[6.043s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__builder.hpp
+[6.043s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__type_support.hpp
+[6.043s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__builder.hpp
+[6.043s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.043s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/custom_point.hpp
+[6.044s] -- Up-to-date: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces
+[6.044s] -- Up-to-date: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg
+[6.044s] -- Up-to-date: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/detail
+[6.044s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__type_support.cpp
+[6.044s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__rosidl_typesupport_introspection_cpp.hpp
+[6.044s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__type_support.cpp
+[6.044s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp
+[6.044s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_introspection_cpp.so
+[6.044s] -- Set runtime path of "/home/naoya/Wildpose_v1.3/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[6.044s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_cpp.so
+[6.044s] -- Set runtime path of "/home/naoya/Wildpose_v1.3/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_cpp.so" to ""
+[6.045s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/environment/pythonpath.sh
+[6.045s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/environment/pythonpath.dsv
+[6.045s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/lib/python3.8/site-packages/livox_interfaces/__init__.py
+[6.065s] Compiling '/home/naoya/Wildpose_v1.3/install/livox_interfaces/lib/python3.8/site-packages/livox_interfaces/__init__.py'...
+[6.067s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/lib/python3.8/site-packages/livox_interfaces/msg
+[6.068s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/lib/python3.8/site-packages/livox_interfaces/msg/_custom_msg_s.c
+[6.068s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/lib/python3.8/site-packages/livox_interfaces/msg/_custom_msg.py
+[6.068s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/lib/python3.8/site-packages/livox_interfaces/msg/_custom_point_s.c
+[6.068s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/lib/python3.8/site-packages/livox_interfaces/msg/__init__.py
+[6.068s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/lib/python3.8/site-packages/livox_interfaces/msg/_custom_point.py
+[6.068s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/lib/python3.8/site-packages/livox_interfaces/livox_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[6.069s] -- Set runtime path of "/home/naoya/Wildpose_v1.3/install/livox_interfaces/lib/python3.8/site-packages/livox_interfaces/livox_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[6.069s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/lib/python3.8/site-packages/livox_interfaces/livox_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[6.069s] -- Set runtime path of "/home/naoya/Wildpose_v1.3/install/livox_interfaces/lib/python3.8/site-packages/livox_interfaces/livox_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[6.070s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/lib/python3.8/site-packages/livox_interfaces/livox_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[6.070s] -- Set runtime path of "/home/naoya/Wildpose_v1.3/install/livox_interfaces/lib/python3.8/site-packages/livox_interfaces/livox_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[6.070s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/lib/liblivox_interfaces__python.so
+[6.071s] -- Set runtime path of "/home/naoya/Wildpose_v1.3/install/livox_interfaces/lib/liblivox_interfaces__python.so" to ""
+[6.071s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/msg/CustomPoint.idl
+[6.071s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/msg/CustomMsg.idl
+[6.071s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/msg/CustomPoint.msg
+[6.071s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/msg/CustomMsg.msg
+[6.071s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/ament_index/resource_index/package_run_dependencies/livox_interfaces
+[6.071s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/ament_index/resource_index/parent_prefix_path/livox_interfaces
+[6.071s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/environment/ament_prefix_path.sh
+[6.072s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/environment/ament_prefix_path.dsv
+[6.072s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/environment/path.sh
+[6.072s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/environment/path.dsv
+[6.072s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/local_setup.bash
+[6.072s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/local_setup.sh
+[6.072s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/local_setup.zsh
+[6.072s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/local_setup.dsv
+[6.072s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/package.dsv
+[6.073s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/ament_index/resource_index/packages/livox_interfaces
+[6.073s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_generator_cExport.cmake
+[6.073s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_generator_cExport-noconfig.cmake
+[6.073s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[6.073s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.073s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_cExport.cmake
+[6.073s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[6.074s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_generator_cppExport.cmake
+[6.074s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[6.074s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.074s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_cppExport.cmake
+[6.074s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[6.074s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/cmake/rosidl_cmake-extras.cmake
+[6.075s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.075s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[6.075s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[6.075s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.075s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.075s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.075s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfacesConfig.cmake
+[6.075s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfacesConfig-version.cmake
+[6.076s] -- Installing: /home/naoya/Wildpose_v1.3/install/livox_interfaces/share/livox_interfaces/package.xml
+[6.079s] Invoked command in '/home/naoya/Wildpose_v1.3/build/livox_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/naoya/Wildpose_v1.3/build/livox_interfaces

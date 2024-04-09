@@ -1,0 +1,16 @@
+[0.057s] Invoking command in '/home/m2s2/WildPose_v1.2-main/wildpose/build/wildpose_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/m2s2/WildPose_v1.2-main/wildpose/build/wildpose_interfaces -- -j16 -l16
+[0.214s] [  2%] Built target wildpose_interfaces__cpp
+[0.215s] [ 12%] Built target wildpose_interfaces__rosidl_generator_c
+[0.216s] [ 34%] Built target wildpose_interfaces__rosidl_typesupport_cpp
+[0.216s] [ 34%] Built target wildpose_interfaces__rosidl_typesupport_introspection_c
+[0.216s] [ 44%] Built target wildpose_interfaces__rosidl_typesupport_c
+[0.216s] [ 55%] Built target wildpose_interfaces__rosidl_typesupport_introspection_cpp
+[0.217s] [ 65%] Built target wildpose_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.217s] [ 76%] Built target wildpose_interfaces__rosidl_typesupport_fastrtps_c
+[0.217s] [ 76%] Built target wildpose_interfaces
+[0.217s] [ 78%] Built target wildpose_interfaces__py
+[0.217s] [ 87%] Built target wildpose_interfaces__python
+[0.217s] [100%] Built target wildpose_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.217s] [100%] Built target wildpose_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.217s] [100%] Built target wildpose_interfaces__rosidl_typesupport_c__pyext
+[0.228s] Invoked command in '/home/m2s2/WildPose_v1.2-main/wildpose/build/wildpose_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/m2s2/WildPose_v1.2-main/wildpose/build/wildpose_interfaces -- -j16 -l16

@@ -1,0 +1,44 @@
+[0.042s] Invoking command in '/home/m2s2/WildPose_v1.2-main/wildpose/src/build/livox_sdk_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/m2s2/WildPose_v1.2-main/wildpose/install/motor_controller_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake /home/m2s2/WildPose_v1.2-main/wildpose/src/livox_lidar_ROS2_driver/livox_sdk_vendor -DCMAKE_INSTALL_PREFIX=/home/m2s2/WildPose_v1.2-main/wildpose/src/install/livox_sdk_vendor
+[0.205s] -- The C compiler identification is GNU 9.4.0
+[0.206s] -- The CXX compiler identification is GNU 9.4.0
+[0.206s] -- Detecting C compiler ABI info
+[0.206s] -- Detecting C compiler ABI info - done
+[0.206s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.207s] -- Detecting C compile features
+[0.207s] -- Detecting C compile features - done
+[0.207s] -- Detecting CXX compiler ABI info
+[0.259s] -- Detecting CXX compiler ABI info - done
+[0.264s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.265s] -- Detecting CXX compile features
+[0.265s] -- Detecting CXX compile features - done
+[0.266s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.293s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.293s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.491s] -- Configuring done
+[0.493s] -- Generating done
+[0.494s] -- Build files have been written to: /home/m2s2/WildPose_v1.2-main/wildpose/src/build/livox_sdk_vendor
+[0.500s] Invoked command in '/home/m2s2/WildPose_v1.2-main/wildpose/src/build/livox_sdk_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/m2s2/WildPose_v1.2-main/wildpose/install/motor_controller_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake /home/m2s2/WildPose_v1.2-main/wildpose/src/livox_lidar_ROS2_driver/livox_sdk_vendor -DCMAKE_INSTALL_PREFIX=/home/m2s2/WildPose_v1.2-main/wildpose/src/install/livox_sdk_vendor
+[0.503s] Invoking command in '/home/m2s2/WildPose_v1.2-main/wildpose/src/build/livox_sdk_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/m2s2/WildPose_v1.2-main/wildpose/install/motor_controller_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/m2s2/WildPose_v1.2-main/wildpose/src/build/livox_sdk_vendor -- -j16 -l16
+[0.530s] Invoked command in '/home/m2s2/WildPose_v1.2-main/wildpose/src/build/livox_sdk_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/m2s2/WildPose_v1.2-main/wildpose/install/motor_controller_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/m2s2/WildPose_v1.2-main/wildpose/src/build/livox_sdk_vendor -- -j16 -l16
+[0.554s] Invoking command in '/home/m2s2/WildPose_v1.2-main/wildpose/src/build/livox_sdk_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/m2s2/WildPose_v1.2-main/wildpose/install/motor_controller_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/m2s2/WildPose_v1.2-main/wildpose/src/build/livox_sdk_vendor
+[0.559s] -- Install configuration: ""
+[0.559s] -- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake
+[0.560s] -- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake/Modules
+[0.560s] -- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake/Modules/Findlivox_sdk.cmake
+[0.560s] -- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/livox_sdk_vendor/share/ament_index/resource_index/package_run_dependencies/livox_sdk_vendor
+[0.560s] -- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/livox_sdk_vendor/share/ament_index/resource_index/parent_prefix_path/livox_sdk_vendor
+[0.560s] -- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/livox_sdk_vendor/share/livox_sdk_vendor/environment/ament_prefix_path.sh
+[0.560s] -- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/livox_sdk_vendor/share/livox_sdk_vendor/environment/ament_prefix_path.dsv
+[0.560s] -- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/livox_sdk_vendor/share/livox_sdk_vendor/environment/path.sh
+[0.560s] -- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/livox_sdk_vendor/share/livox_sdk_vendor/environment/path.dsv
+[0.561s] -- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/livox_sdk_vendor/share/livox_sdk_vendor/local_setup.bash
+[0.561s] -- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/livox_sdk_vendor/share/livox_sdk_vendor/local_setup.sh
+[0.561s] -- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/livox_sdk_vendor/share/livox_sdk_vendor/local_setup.zsh
+[0.561s] -- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/livox_sdk_vendor/share/livox_sdk_vendor/local_setup.dsv
+[0.561s] -- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/livox_sdk_vendor/share/livox_sdk_vendor/package.dsv
+[0.561s] -- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/livox_sdk_vendor/share/ament_index/resource_index/packages/livox_sdk_vendor
+[0.561s] -- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake/livox_sdk_vendor-extras.cmake
+[0.561s] -- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake/livox_sdk_vendorConfig.cmake
+[0.562s] -- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake/livox_sdk_vendorConfig-version.cmake
+[0.562s] -- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/src/install/livox_sdk_vendor/share/livox_sdk_vendor/package.xml
+[0.562s] Invoked command in '/home/m2s2/WildPose_v1.2-main/wildpose/src/build/livox_sdk_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/m2s2/WildPose_v1.2-main/wildpose/install/motor_controller_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/m2s2/WildPose_v1.2-main/wildpose/src/build/livox_sdk_vendor

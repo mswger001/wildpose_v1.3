@@ -1,0 +1,6 @@
+msg/DjiRsStatus.idl
+msg/DjiRsStatus.msg
+msg/MotorPositions.idl
+msg/MotorPositions.msg
+msg/MotorStatus.idl
+msg/MotorStatus.msg

@@ -1,0 +1,3 @@
+/home/naoya/Wildpose_v1.3/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces:msg/DjiRsStatus.idl
+/home/naoya/Wildpose_v1.3/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces:msg/MotorStatus.idl
+/home/naoya/Wildpose_v1.3/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces:msg/MotorPositions.idl

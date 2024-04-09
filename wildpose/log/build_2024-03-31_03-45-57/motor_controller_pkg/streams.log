@@ -1,0 +1,21 @@
+[0.780s] Invoking command in '/home/m2s2/WildPose_v1.2-main/wildpose/src/motor_controller_pkg': AMENT_PREFIX_PATH=/home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces LD_LIBRARY_PATH=/home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/m2s2/WildPose_v1.2-main/wildpose/build/motor_controller_pkg/prefix_override:/home/m2s2/WildPose_v1.2-main/wildpose/install/motor_controller_pkg/lib/python3.8/site-packages:/home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_controller_pkg build --build-base /home/m2s2/WildPose_v1.2-main/wildpose/build/motor_controller_pkg/build install --record /home/m2s2/WildPose_v1.2-main/wildpose/build/motor_controller_pkg/install.log --install-scripts $base/lib/motor_controller_pkg --single-version-externally-managed install_data
+[0.914s] running egg_info
+[0.914s] writing ../../build/motor_controller_pkg/motor_controller_pkg.egg-info/PKG-INFO
+[0.914s] writing dependency_links to ../../build/motor_controller_pkg/motor_controller_pkg.egg-info/dependency_links.txt
+[0.915s] writing entry points to ../../build/motor_controller_pkg/motor_controller_pkg.egg-info/entry_points.txt
+[0.915s] writing requirements to ../../build/motor_controller_pkg/motor_controller_pkg.egg-info/requires.txt
+[0.915s] writing top-level names to ../../build/motor_controller_pkg/motor_controller_pkg.egg-info/top_level.txt
+[0.936s] reading manifest file '../../build/motor_controller_pkg/motor_controller_pkg.egg-info/SOURCES.txt'
+[0.937s] writing manifest file '../../build/motor_controller_pkg/motor_controller_pkg.egg-info/SOURCES.txt'
+[0.937s] running build
+[0.937s] running build_py
+[0.937s] running install
+[0.938s] running install_lib
+[0.939s] running install_data
+[0.939s] running install_egg_info
+[0.940s] removing '/home/m2s2/WildPose_v1.2-main/wildpose/install/motor_controller_pkg/lib/python3.8/site-packages/motor_controller_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.940s] Copying ../../build/motor_controller_pkg/motor_controller_pkg.egg-info to /home/m2s2/WildPose_v1.2-main/wildpose/install/motor_controller_pkg/lib/python3.8/site-packages/motor_controller_pkg-0.0.0-py3.8.egg-info
+[0.941s] running install_scripts
+[0.953s] Installing motor_control_node script to /home/m2s2/WildPose_v1.2-main/wildpose/install/motor_controller_pkg/lib/motor_controller_pkg
+[0.953s] writing list of installed files to '/home/m2s2/WildPose_v1.2-main/wildpose/build/motor_controller_pkg/install.log'
+[0.970s] Invoked command in '/home/m2s2/WildPose_v1.2-main/wildpose/src/motor_controller_pkg' returned '0': AMENT_PREFIX_PATH=/home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces LD_LIBRARY_PATH=/home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/m2s2/WildPose_v1.2-main/wildpose/build/motor_controller_pkg/prefix_override:/home/m2s2/WildPose_v1.2-main/wildpose/install/motor_controller_pkg/lib/python3.8/site-packages:/home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_controller_pkg build --build-base /home/m2s2/WildPose_v1.2-main/wildpose/build/motor_controller_pkg/build install --record /home/m2s2/WildPose_v1.2-main/wildpose/build/motor_controller_pkg/install.log --install-scripts $base/lib/motor_controller_pkg --single-version-externally-managed install_data

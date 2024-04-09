@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/lidar_control_package/lidar_control_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/lidar_control_package/lidar_control_package.egg-info/dependency_links.txt
+writing entry points to ../../build/lidar_control_package/lidar_control_package.egg-info/entry_points.txt
+writing requirements to ../../build/lidar_control_package/lidar_control_package.egg-info/requires.txt
+writing top-level names to ../../build/lidar_control_package/lidar_control_package.egg-info/top_level.txt
+file lidar_control_node.py (for module lidar_control_node) not found
+reading manifest file '../../build/lidar_control_package/lidar_control_package.egg-info/SOURCES.txt'
+writing manifest file '../../build/lidar_control_package/lidar_control_package.egg-info/SOURCES.txt'
+running build
+running build_py
+file lidar_control_node.py (for module lidar_control_node) not found
+file lidar_control_node.py (for module lidar_control_node) not found
+running install
+running install_lib
+running install_data
+warning: install_lib: '/home/m2s2/WildPose_v1.2-main/wildpose/build/lidar_control_package/build/lib' does not exist -- no Python modules to install
+
+error: can't copy 'resource/lidar_control_package': doesn't exist or not a regular file

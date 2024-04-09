@@ -1,0 +1,5 @@
+[0.064s] Invoking command in '/home/m2s2/WildPose_v1.2-main/wildpose/build/livox_sdk_vendor': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/m2s2/WildPose_v1.2-main/wildpose/build/livox_sdk_vendor -- -j16 -l16
+[0.214s] [0mCMake Error: The source directory "/home/m2s2/WildPose_v1.2-main/wildpose/src/livox_lidar_ROS2_driver/livox_sdk_vendor" does not exist.
+[0.215s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.216s] make: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.220s] Invoked command in '/home/m2s2/WildPose_v1.2-main/wildpose/build/livox_sdk_vendor' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/m2s2/WildPose_v1.2-main/wildpose/build/livox_sdk_vendor -- -j16 -l16

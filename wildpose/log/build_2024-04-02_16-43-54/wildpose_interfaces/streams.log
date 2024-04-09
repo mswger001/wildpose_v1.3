@@ -1,0 +1,155 @@
+[0.025s] Invoking command in '/home/m2s2/WildPose_v1.2-main/wildpose/build/wildpose_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/m2s2/WildPose_v1.2-main/wildpose/install/motor_controller_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/m2s2/WildPose_v1.2-main/wildpose/build/wildpose_interfaces -- -j16 -l16
+[0.204s] [ 10%] Built target wildpose_interfaces__rosidl_generator_c
+[0.205s] [ 12%] Built target wildpose_interfaces__cpp
+[0.206s] [ 23%] Built target wildpose_interfaces__rosidl_typesupport_introspection_c
+[0.206s] [ 34%] Built target wildpose_interfaces__rosidl_typesupport_cpp
+[0.206s] [ 44%] Built target wildpose_interfaces__rosidl_typesupport_c
+[0.206s] [ 55%] Built target wildpose_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.206s] [ 65%] Built target wildpose_interfaces__rosidl_typesupport_introspection_cpp
+[0.206s] [ 76%] Built target wildpose_interfaces__rosidl_typesupport_fastrtps_c
+[0.206s] [ 76%] Built target wildpose_interfaces
+[0.206s] [ 78%] Built target wildpose_interfaces__py
+[0.206s] [ 87%] Built target wildpose_interfaces__python
+[0.206s] [ 91%] Built target wildpose_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.206s] [ 95%] Built target wildpose_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.206s] [100%] Built target wildpose_interfaces__rosidl_typesupport_c__pyext
+[0.220s] Invoked command in '/home/m2s2/WildPose_v1.2-main/wildpose/build/wildpose_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/m2s2/WildPose_v1.2-main/wildpose/install/motor_controller_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/m2s2/WildPose_v1.2-main/wildpose/build/wildpose_interfaces -- -j16 -l16
+[0.260s] Invoking command in '/home/m2s2/WildPose_v1.2-main/wildpose/build/wildpose_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/m2s2/WildPose_v1.2-main/wildpose/install/motor_controller_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/m2s2/WildPose_v1.2-main/wildpose/build/wildpose_interfaces
+[0.265s] -- Install configuration: ""
+[0.266s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/ament_index/resource_index/rosidl_interfaces/wildpose_interfaces
+[0.266s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces
+[0.266s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg
+[0.266s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.266s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/dji_rs_status.h
+[0.266s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail
+[0.267s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__functions.h
+[0.267s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__type_support.h
+[0.267s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__functions.c
+[0.268s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__functions.c
+[0.268s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__functions.c
+[0.268s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__struct.h
+[0.268s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__struct.h
+[0.269s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__type_support.h
+[0.269s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__type_support.h
+[0.270s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__struct.h
+[0.270s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__functions.h
+[0.270s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__functions.h
+[0.270s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/motor_status.h
+[0.271s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/motor_positions.h
+[0.271s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/environment/library_path.sh
+[0.271s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/environment/library_path.dsv
+[0.271s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/lib/libwildpose_interfaces__rosidl_generator_c.so
+[0.272s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces
+[0.273s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg
+[0.274s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail
+[0.275s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__rosidl_typesupport_fastrtps_c.h
+[0.276s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__rosidl_typesupport_fastrtps_c.h
+[0.276s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__rosidl_typesupport_fastrtps_c.h
+[0.276s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.276s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/lib/libwildpose_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.276s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces
+[0.276s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg
+[0.277s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.277s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail
+[0.277s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__rosidl_typesupport_fastrtps_cpp.hpp
+[0.278s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dds_fastrtps
+[0.278s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__rosidl_typesupport_fastrtps_cpp.hpp
+[0.278s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__rosidl_typesupport_fastrtps_cpp.hpp
+[0.278s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/lib/libwildpose_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.279s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces
+[0.279s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg
+[0.279s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail
+[0.279s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__type_support.c
+[0.280s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__rosidl_typesupport_introspection_c.h
+[0.280s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__rosidl_typesupport_introspection_c.h
+[0.281s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__type_support.c
+[0.281s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__rosidl_typesupport_introspection_c.h
+[0.282s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__type_support.c
+[0.282s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.282s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/lib/libwildpose_interfaces__rosidl_typesupport_introspection_c.so
+[0.282s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/lib/libwildpose_interfaces__rosidl_typesupport_c.so
+[0.282s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces
+[0.282s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg
+[0.282s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail
+[0.283s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__type_support.hpp
+[0.283s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__struct.hpp
+[0.283s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__struct.hpp
+[0.283s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__struct.hpp
+[0.284s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__traits.hpp
+[0.284s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__traits.hpp
+[0.284s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__type_support.hpp
+[0.284s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__builder.hpp
+[0.285s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__traits.hpp
+[0.285s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__type_support.hpp
+[0.285s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__builder.hpp
+[0.285s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__builder.hpp
+[0.285s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/motor_status.hpp
+[0.286s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/motor_positions.hpp
+[0.286s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/dji_rs_status.hpp
+[0.286s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.286s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces
+[0.287s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg
+[0.287s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail
+[0.288s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__rosidl_typesupport_introspection_cpp.hpp
+[0.288s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__rosidl_typesupport_introspection_cpp.hpp
+[0.288s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__rosidl_typesupport_introspection_cpp.hpp
+[0.288s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__type_support.cpp
+[0.288s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__type_support.cpp
+[0.288s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__type_support.cpp
+[0.288s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/lib/libwildpose_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.289s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/lib/libwildpose_interfaces__rosidl_typesupport_cpp.so
+[0.289s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/environment/pythonpath.sh
+[0.289s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/environment/pythonpath.dsv
+[0.289s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/__init__.py
+[0.304s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/msg
+[0.305s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/msg/__init__.py
+[0.305s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/msg/_motor_positions_s.c
+[0.305s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/msg/_motor_status_s.c
+[0.305s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/msg/_motor_positions.py
+[0.305s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/msg/_dji_rs_status_s.c
+[0.305s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/msg/_motor_status.py
+[0.305s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/msg/_dji_rs_status.py
+[0.305s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/wildpose_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.305s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/wildpose_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.305s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/wildpose_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.305s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/lib/libwildpose_interfaces__python.so
+[0.305s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/msg/DjiRsStatus.idl
+[0.305s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/msg/MotorStatus.idl
+[0.305s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/msg/MotorPositions.idl
+[0.306s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/msg/DjiRsStatus.msg
+[0.306s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/msg/MotorStatus.msg
+[0.306s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/msg/MotorPositions.msg
+[0.306s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/ament_index/resource_index/package_run_dependencies/wildpose_interfaces
+[0.306s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/ament_index/resource_index/parent_prefix_path/wildpose_interfaces
+[0.306s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/environment/ament_prefix_path.sh
+[0.306s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/environment/ament_prefix_path.dsv
+[0.306s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/environment/path.sh
+[0.306s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/environment/path.dsv
+[0.306s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/local_setup.bash
+[0.306s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/local_setup.sh
+[0.306s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/local_setup.zsh
+[0.306s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/local_setup.dsv
+[0.306s] -- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/package.dsv
+[0.307s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/ament_index/resource_index/packages/wildpose_interfaces
+[0.307s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfaces__rosidl_generator_cExport.cmake
+[0.307s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.308s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.308s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.308s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfaces__rosidl_typesupport_cExport.cmake
+[0.308s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.308s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfaces__rosidl_generator_cppExport.cmake
+[0.308s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.308s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.308s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfaces__rosidl_typesupport_cppExport.cmake
+[0.308s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.308s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.308s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.308s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.308s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.308s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.308s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.308s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.308s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfacesConfig.cmake
+[0.308s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfacesConfig-version.cmake
+[0.308s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/package.xml
+[0.309s] Invoked command in '/home/m2s2/WildPose_v1.2-main/wildpose/build/wildpose_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/m2s2/WildPose_v1.2-main/wildpose/install/motor_controller_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/m2s2/WildPose_v1.2-main/wildpose/build/wildpose_interfaces

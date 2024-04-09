@@ -1,0 +1,24 @@
+[0.579s] Invoking command in '/home/m2s2/WildPose_v1.2-main/wildpose/src/motor_controller_pkg': CMAKE_PREFIX_PATH=/home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces:/home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_bringup PYTHONPATH=/home/m2s2/WildPose_v1.2-main/wildpose/build/motor_controller_pkg/prefix_override:/home/m2s2/WildPose_v1.2-main/wildpose/install/motor_controller_pkg/lib/python3.8/site-packages:/home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages:/home/m2s2/WildPose_v1.2-main/wildpose/install/motor_controller_pkg/lib/python3.8/site-packages:/home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg/lib/python3.8/site-packages:/home/m2s2/WildPose_v1.2-main/wildpose/install/gamepad_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_controller_pkg build --build-base /home/m2s2/WildPose_v1.2-main/wildpose/build/motor_controller_pkg/build install --record /home/m2s2/WildPose_v1.2-main/wildpose/build/motor_controller_pkg/install.log --install-scripts $base/lib/motor_controller_pkg --single-version-externally-managed install_data
+[0.708s] running egg_info
+[0.708s] writing ../../build/motor_controller_pkg/motor_controller_pkg.egg-info/PKG-INFO
+[0.709s] writing dependency_links to ../../build/motor_controller_pkg/motor_controller_pkg.egg-info/dependency_links.txt
+[0.709s] writing entry points to ../../build/motor_controller_pkg/motor_controller_pkg.egg-info/entry_points.txt
+[0.709s] writing requirements to ../../build/motor_controller_pkg/motor_controller_pkg.egg-info/requires.txt
+[0.709s] writing top-level names to ../../build/motor_controller_pkg/motor_controller_pkg.egg-info/top_level.txt
+[0.730s] reading manifest file '../../build/motor_controller_pkg/motor_controller_pkg.egg-info/SOURCES.txt'
+[0.731s] writing manifest file '../../build/motor_controller_pkg/motor_controller_pkg.egg-info/SOURCES.txt'
+[0.731s] running build
+[0.731s] running build_py
+[0.732s] copying motor_controller_pkg/motor_control_node.py -> /home/m2s2/WildPose_v1.2-main/wildpose/build/motor_controller_pkg/build/lib/motor_controller_pkg
+[0.732s] running install
+[0.732s] running install_lib
+[0.732s] copying /home/m2s2/WildPose_v1.2-main/wildpose/build/motor_controller_pkg/build/lib/motor_controller_pkg/motor_control_node.py -> /home/m2s2/WildPose_v1.2-main/wildpose/install/motor_controller_pkg/lib/python3.8/site-packages/motor_controller_pkg
+[0.733s] byte-compiling /home/m2s2/WildPose_v1.2-main/wildpose/install/motor_controller_pkg/lib/python3.8/site-packages/motor_controller_pkg/motor_control_node.py to motor_control_node.cpython-38.pyc
+[0.734s] running install_data
+[0.734s] running install_egg_info
+[0.735s] removing '/home/m2s2/WildPose_v1.2-main/wildpose/install/motor_controller_pkg/lib/python3.8/site-packages/motor_controller_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.735s] Copying ../../build/motor_controller_pkg/motor_controller_pkg.egg-info to /home/m2s2/WildPose_v1.2-main/wildpose/install/motor_controller_pkg/lib/python3.8/site-packages/motor_controller_pkg-0.0.0-py3.8.egg-info
+[0.736s] running install_scripts
+[0.747s] Installing motor_control_node script to /home/m2s2/WildPose_v1.2-main/wildpose/install/motor_controller_pkg/lib/motor_controller_pkg
+[0.748s] writing list of installed files to '/home/m2s2/WildPose_v1.2-main/wildpose/build/motor_controller_pkg/install.log'
+[0.770s] Invoked command in '/home/m2s2/WildPose_v1.2-main/wildpose/src/motor_controller_pkg' returned '0': CMAKE_PREFIX_PATH=/home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces:/home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_bringup PYTHONPATH=/home/m2s2/WildPose_v1.2-main/wildpose/build/motor_controller_pkg/prefix_override:/home/m2s2/WildPose_v1.2-main/wildpose/install/motor_controller_pkg/lib/python3.8/site-packages:/home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages:/home/m2s2/WildPose_v1.2-main/wildpose/install/motor_controller_pkg/lib/python3.8/site-packages:/home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg/lib/python3.8/site-packages:/home/m2s2/WildPose_v1.2-main/wildpose/install/gamepad_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_controller_pkg build --build-base /home/m2s2/WildPose_v1.2-main/wildpose/build/motor_controller_pkg/build install --record /home/m2s2/WildPose_v1.2-main/wildpose/build/motor_controller_pkg/install.log --install-scripts $base/lib/motor_controller_pkg --single-version-externally-managed install_data

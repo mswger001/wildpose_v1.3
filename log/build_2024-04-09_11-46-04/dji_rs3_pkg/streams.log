@@ -1,0 +1,67 @@
+[1.771s] Invoking command in '/home/naoya/Wildpose_v1.3/wildpose/src/dji_rs3_pkg': AMENT_PREFIX_PATH=/home/naoya/Wildpose_v1.3/install/wildpose_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naoya/Wildpose_v1.3/install/wildpose_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/naoya/Wildpose_v1.3/install/wildpose_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/naoya/Wildpose_v1.3/build/dji_rs3_pkg/prefix_override:/home/naoya/Wildpose_v1.3/install/dji_rs3_pkg/lib/python3.8/site-packages:/home/naoya/Wildpose_v1.3/install/wildpose_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/dji_rs3_pkg build --build-base /home/naoya/Wildpose_v1.3/build/dji_rs3_pkg/build install --record /home/naoya/Wildpose_v1.3/build/dji_rs3_pkg/install.log --install-scripts $base/lib/dji_rs3_pkg --single-version-externally-managed
+[1.893s] running egg_info
+[1.894s] creating ../../../build/dji_rs3_pkg/dji_rs3_pkg.egg-info
+[1.894s] writing ../../../build/dji_rs3_pkg/dji_rs3_pkg.egg-info/PKG-INFO
+[1.894s] writing dependency_links to ../../../build/dji_rs3_pkg/dji_rs3_pkg.egg-info/dependency_links.txt
+[1.894s] writing entry points to ../../../build/dji_rs3_pkg/dji_rs3_pkg.egg-info/entry_points.txt
+[1.894s] writing requirements to ../../../build/dji_rs3_pkg/dji_rs3_pkg.egg-info/requires.txt
+[1.894s] writing top-level names to ../../../build/dji_rs3_pkg/dji_rs3_pkg.egg-info/top_level.txt
+[1.895s] writing manifest file '../../../build/dji_rs3_pkg/dji_rs3_pkg.egg-info/SOURCES.txt'
+[1.916s] reading manifest file '../../../build/dji_rs3_pkg/dji_rs3_pkg.egg-info/SOURCES.txt'
+[1.917s] writing manifest file '../../../build/dji_rs3_pkg/dji_rs3_pkg.egg-info/SOURCES.txt'
+[1.917s] running build
+[1.917s] running build_py
+[1.917s] creating /home/naoya/Wildpose_v1.3/build/dji_rs3_pkg/build
+[1.917s] creating /home/naoya/Wildpose_v1.3/build/dji_rs3_pkg/build/lib
+[1.917s] creating /home/naoya/Wildpose_v1.3/build/dji_rs3_pkg/build/lib/dji_rs3_pkg
+[1.917s] copying dji_rs3_pkg/dji_rs3_node.py -> /home/naoya/Wildpose_v1.3/build/dji_rs3_pkg/build/lib/dji_rs3_pkg
+[1.917s] copying dji_rs3_pkg/__init__.py -> /home/naoya/Wildpose_v1.3/build/dji_rs3_pkg/build/lib/dji_rs3_pkg
+[1.918s] creating /home/naoya/Wildpose_v1.3/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol
+[1.918s] copying dji_rs3_pkg/protocol/__init__.py -> /home/naoya/Wildpose_v1.3/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol
+[1.918s] creating /home/naoya/Wildpose_v1.3/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol/connection
+[1.918s] copying dji_rs3_pkg/protocol/connection/__init__.py -> /home/naoya/Wildpose_v1.3/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol/connection
+[1.918s] copying dji_rs3_pkg/protocol/connection/CANConnection.py -> /home/naoya/Wildpose_v1.3/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol/connection
+[1.918s] creating /home/naoya/Wildpose_v1.3/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol/sdk
+[1.918s] copying dji_rs3_pkg/protocol/sdk/CmdCombine.py -> /home/naoya/Wildpose_v1.3/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol/sdk
+[1.918s] copying dji_rs3_pkg/protocol/sdk/SDKHandle.py -> /home/naoya/Wildpose_v1.3/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol/sdk
+[1.918s] copying dji_rs3_pkg/protocol/sdk/SDKCRC.py -> /home/naoya/Wildpose_v1.3/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol/sdk
+[1.918s] copying dji_rs3_pkg/protocol/sdk/CmdHandler.py -> /home/naoya/Wildpose_v1.3/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol/sdk
+[1.918s] copying dji_rs3_pkg/protocol/sdk/__init__.py -> /home/naoya/Wildpose_v1.3/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol/sdk
+[1.918s] running install
+[1.919s] running install_lib
+[1.919s] creating /home/naoya/Wildpose_v1.3/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg
+[1.919s] copying /home/naoya/Wildpose_v1.3/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/dji_rs3_node.py -> /home/naoya/Wildpose_v1.3/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg
+[1.919s] creating /home/naoya/Wildpose_v1.3/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol
+[1.919s] creating /home/naoya/Wildpose_v1.3/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol/connection
+[1.919s] copying /home/naoya/Wildpose_v1.3/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol/connection/__init__.py -> /home/naoya/Wildpose_v1.3/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol/connection
+[1.919s] copying /home/naoya/Wildpose_v1.3/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol/connection/CANConnection.py -> /home/naoya/Wildpose_v1.3/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol/connection
+[1.919s] copying /home/naoya/Wildpose_v1.3/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol/__init__.py -> /home/naoya/Wildpose_v1.3/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol
+[1.920s] creating /home/naoya/Wildpose_v1.3/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol/sdk
+[1.920s] copying /home/naoya/Wildpose_v1.3/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol/sdk/CmdCombine.py -> /home/naoya/Wildpose_v1.3/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol/sdk
+[1.920s] copying /home/naoya/Wildpose_v1.3/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol/sdk/SDKHandle.py -> /home/naoya/Wildpose_v1.3/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol/sdk
+[1.920s] copying /home/naoya/Wildpose_v1.3/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol/sdk/SDKCRC.py -> /home/naoya/Wildpose_v1.3/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol/sdk
+[1.920s] copying /home/naoya/Wildpose_v1.3/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol/sdk/CmdHandler.py -> /home/naoya/Wildpose_v1.3/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol/sdk
+[1.920s] copying /home/naoya/Wildpose_v1.3/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/protocol/sdk/__init__.py -> /home/naoya/Wildpose_v1.3/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol/sdk
+[1.920s] copying /home/naoya/Wildpose_v1.3/build/dji_rs3_pkg/build/lib/dji_rs3_pkg/__init__.py -> /home/naoya/Wildpose_v1.3/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg
+[1.921s] byte-compiling /home/naoya/Wildpose_v1.3/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/dji_rs3_node.py to dji_rs3_node.cpython-38.pyc
+[1.922s] byte-compiling /home/naoya/Wildpose_v1.3/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol/connection/__init__.py to __init__.cpython-38.pyc
+[1.922s] byte-compiling /home/naoya/Wildpose_v1.3/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol/connection/CANConnection.py to CANConnection.cpython-38.pyc
+[1.924s] byte-compiling /home/naoya/Wildpose_v1.3/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol/__init__.py to __init__.cpython-38.pyc
+[1.924s] byte-compiling /home/naoya/Wildpose_v1.3/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol/sdk/CmdCombine.py to CmdCombine.cpython-38.pyc
+[1.924s] byte-compiling /home/naoya/Wildpose_v1.3/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol/sdk/SDKHandle.py to SDKHandle.cpython-38.pyc
+[1.925s] byte-compiling /home/naoya/Wildpose_v1.3/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol/sdk/SDKCRC.py to SDKCRC.cpython-38.pyc
+[1.926s] byte-compiling /home/naoya/Wildpose_v1.3/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol/sdk/CmdHandler.py to CmdHandler.cpython-38.pyc
+[1.926s] byte-compiling /home/naoya/Wildpose_v1.3/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/protocol/sdk/__init__.py to __init__.cpython-38.pyc
+[1.926s] byte-compiling /home/naoya/Wildpose_v1.3/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg/__init__.py to __init__.cpython-38.pyc
+[1.926s] running install_data
+[1.927s] creating /home/naoya/Wildpose_v1.3/install/dji_rs3_pkg/share/ament_index
+[1.927s] creating /home/naoya/Wildpose_v1.3/install/dji_rs3_pkg/share/ament_index/resource_index
+[1.927s] creating /home/naoya/Wildpose_v1.3/install/dji_rs3_pkg/share/ament_index/resource_index/packages
+[1.927s] copying resource/dji_rs3_pkg -> /home/naoya/Wildpose_v1.3/install/dji_rs3_pkg/share/ament_index/resource_index/packages
+[1.927s] copying package.xml -> /home/naoya/Wildpose_v1.3/install/dji_rs3_pkg/share/dji_rs3_pkg
+[1.927s] running install_egg_info
+[1.928s] Copying ../../../build/dji_rs3_pkg/dji_rs3_pkg.egg-info to /home/naoya/Wildpose_v1.3/install/dji_rs3_pkg/lib/python3.8/site-packages/dji_rs3_pkg-0.0.0-py3.8.egg-info
+[1.928s] running install_scripts
+[1.940s] Installing dji_rs3_node script to /home/naoya/Wildpose_v1.3/install/dji_rs3_pkg/lib/dji_rs3_pkg
+[1.941s] writing list of installed files to '/home/naoya/Wildpose_v1.3/build/dji_rs3_pkg/install.log'
+[2.107s] Invoked command in '/home/naoya/Wildpose_v1.3/wildpose/src/dji_rs3_pkg' returned '0': AMENT_PREFIX_PATH=/home/naoya/Wildpose_v1.3/install/wildpose_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naoya/Wildpose_v1.3/install/wildpose_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/naoya/Wildpose_v1.3/install/wildpose_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/naoya/Wildpose_v1.3/build/dji_rs3_pkg/prefix_override:/home/naoya/Wildpose_v1.3/install/dji_rs3_pkg/lib/python3.8/site-packages:/home/naoya/Wildpose_v1.3/install/wildpose_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/dji_rs3_pkg build --build-base /home/naoya/Wildpose_v1.3/build/dji_rs3_pkg/build install --record /home/naoya/Wildpose_v1.3/build/dji_rs3_pkg/install.log --install-scripts $base/lib/dji_rs3_pkg --single-version-externally-managed

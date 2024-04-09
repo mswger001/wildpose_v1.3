@@ -1,0 +1,4 @@
+Invoking command in '/home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam -- -j16 -l16
+Invoked command in '/home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam -- -j16 -l16
+Invoking command in '/home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam
+Invoked command in '/home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam

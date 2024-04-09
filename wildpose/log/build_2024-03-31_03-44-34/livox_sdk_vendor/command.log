@@ -1,0 +1,2 @@
+Invoking command in '/home/m2s2/WildPose_v1.2-main/wildpose/build/livox_sdk_vendor': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/m2s2/WildPose_v1.2-main/wildpose/build/livox_sdk_vendor -- -j16 -l16
+Invoked command in '/home/m2s2/WildPose_v1.2-main/wildpose/build/livox_sdk_vendor' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/m2s2/WildPose_v1.2-main/wildpose/build/livox_sdk_vendor -- -j16 -l16

@@ -1,0 +1,5 @@
+[0.059s] Invoking command in '/home/m2s2/WildPose_v1.2-main/wildpose/build/livox_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/m2s2/WildPose_v1.2-main/wildpose/build/livox_interfaces -- -j16 -l16
+[0.213s] [0mCMake Error: The source directory "/home/m2s2/WildPose_v1.2-main/wildpose/src/livox_lidar_ROS2_driver/livox_interfaces" does not exist.
+[0.214s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.217s] make: *** [Makefile:935: cmake_check_build_system] Error 1
+[0.221s] Invoked command in '/home/m2s2/WildPose_v1.2-main/wildpose/build/livox_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/m2s2/WildPose_v1.2-main/wildpose/build/livox_interfaces -- -j16 -l16

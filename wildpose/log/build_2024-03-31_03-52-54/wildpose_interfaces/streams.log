@@ -1,0 +1,16 @@
+[0.030s] Invoking command in '/home/m2s2/WildPose_v1.2-main/wildpose/build/wildpose_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/m2s2/WildPose_v1.2-main/wildpose/install/motor_controller_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/m2s2/WildPose_v1.2-main/wildpose/build/wildpose_interfaces -- -j16 -l16
+[0.212s] [  2%] Built target wildpose_interfaces__cpp
+[0.212s] [ 12%] Built target wildpose_interfaces__rosidl_generator_c
+[0.213s] [ 23%] Built target wildpose_interfaces__rosidl_typesupport_introspection_cpp
+[0.214s] [ 34%] Built target wildpose_interfaces__rosidl_typesupport_cpp
+[0.214s] [ 44%] Built target wildpose_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.214s] [ 55%] Built target wildpose_interfaces__rosidl_typesupport_c
+[0.216s] [ 65%] Built target wildpose_interfaces__rosidl_typesupport_introspection_c
+[0.216s] [ 76%] Built target wildpose_interfaces__rosidl_typesupport_fastrtps_c
+[0.218s] [ 76%] Built target wildpose_interfaces
+[0.219s] [ 78%] Built target wildpose_interfaces__py
+[0.219s] [ 87%] Built target wildpose_interfaces__python
+[0.219s] [ 95%] Built target wildpose_interfaces__rosidl_typesupport_c__pyext
+[0.219s] [ 95%] Built target wildpose_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.221s] [100%] Built target wildpose_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.229s] Invoked command in '/home/m2s2/WildPose_v1.2-main/wildpose/build/wildpose_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/m2s2/WildPose_v1.2-main/wildpose/install/motor_controller_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/m2s2/WildPose_v1.2-main/wildpose/build/wildpose_interfaces -- -j16 -l16

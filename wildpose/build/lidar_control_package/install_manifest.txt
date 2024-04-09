@@ -1,0 +1,15 @@
+/home/m2s2/WildPose_v1.2-main/wildpose/install/lidar_control_package/share/ament_index/resource_index/package_run_dependencies/lidar_control_package
+/home/m2s2/WildPose_v1.2-main/wildpose/install/lidar_control_package/share/ament_index/resource_index/parent_prefix_path/lidar_control_package
+/home/m2s2/WildPose_v1.2-main/wildpose/install/lidar_control_package/share/lidar_control_package/environment/ament_prefix_path.sh
+/home/m2s2/WildPose_v1.2-main/wildpose/install/lidar_control_package/share/lidar_control_package/environment/ament_prefix_path.dsv
+/home/m2s2/WildPose_v1.2-main/wildpose/install/lidar_control_package/share/lidar_control_package/environment/path.sh
+/home/m2s2/WildPose_v1.2-main/wildpose/install/lidar_control_package/share/lidar_control_package/environment/path.dsv
+/home/m2s2/WildPose_v1.2-main/wildpose/install/lidar_control_package/share/lidar_control_package/local_setup.bash
+/home/m2s2/WildPose_v1.2-main/wildpose/install/lidar_control_package/share/lidar_control_package/local_setup.sh
+/home/m2s2/WildPose_v1.2-main/wildpose/install/lidar_control_package/share/lidar_control_package/local_setup.zsh
+/home/m2s2/WildPose_v1.2-main/wildpose/install/lidar_control_package/share/lidar_control_package/local_setup.dsv
+/home/m2s2/WildPose_v1.2-main/wildpose/install/lidar_control_package/share/lidar_control_package/package.dsv
+/home/m2s2/WildPose_v1.2-main/wildpose/install/lidar_control_package/share/ament_index/resource_index/packages/lidar_control_package
+/home/m2s2/WildPose_v1.2-main/wildpose/install/lidar_control_package/share/lidar_control_package/cmake/lidar_control_packageConfig.cmake
+/home/m2s2/WildPose_v1.2-main/wildpose/install/lidar_control_package/share/lidar_control_package/cmake/lidar_control_packageConfig-version.cmake
+/home/m2s2/WildPose_v1.2-main/wildpose/install/lidar_control_package/share/lidar_control_package/package.xml

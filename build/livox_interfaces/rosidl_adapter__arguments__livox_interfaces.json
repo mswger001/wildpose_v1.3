@@ -1,0 +1,7 @@
+{
+  "package_name": "livox_interfaces",
+  "non_idl_tuples": [
+    "/home/naoya/Wildpose_v1.3/wildpose/src/livox_lidar_ROS2_driver/livox_interfaces:msg/CustomPoint.msg",
+    "/home/naoya/Wildpose_v1.3/wildpose/src/livox_lidar_ROS2_driver/livox_interfaces:msg/CustomMsg.msg"
+  ]
+}

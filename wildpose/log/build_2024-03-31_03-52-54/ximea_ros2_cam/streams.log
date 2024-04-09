@@ -1,0 +1,5 @@
+[0.033s] Invoking command in '/home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/m2s2/WildPose_v1.2-main/wildpose/install/motor_controller_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam -- -j16 -l16
+[0.215s] [0mCMake Error: The source directory "/home/m2s2/WildPose_v1.2-main/wildpose/src/ximea_ROS2_driver-main/ximea_ros2_cam" does not exist.
+[0.215s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.215s] make: *** [Makefile:294: cmake_check_build_system] Error 1
+[0.222s] Invoked command in '/home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/m2s2/WildPose_v1.2-main/wildpose/install/motor_controller_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam -- -j16 -l16

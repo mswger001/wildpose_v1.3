@@ -1,0 +1,26 @@
+[0.026s] Invoking command in '/home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/m2s2/WildPose_v1.2-main/wildpose/install/motor_controller_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam -- -j16 -l16
+[0.073s] [100%] Built target ximea_ros2_cam_node
+[0.206s] Invoked command in '/home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/m2s2/WildPose_v1.2-main/wildpose/install/motor_controller_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam -- -j16 -l16
+[0.235s] Invoking command in '/home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/m2s2/WildPose_v1.2-main/wildpose/install/motor_controller_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam
+[0.244s] -- Install configuration: ""
+[0.244s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/lib/ximea_ros2_cam/ximea_ros2_cam_node
+[0.244s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/config
+[0.244s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/config/xiCam_config.yaml
+[0.244s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/launch
+[0.244s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/launch/xiCam.launch.xml
+[0.244s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ament_index/resource_index/package_run_dependencies/ximea_ros2_cam
+[0.244s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ament_index/resource_index/parent_prefix_path/ximea_ros2_cam
+[0.244s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/environment/ament_prefix_path.sh
+[0.244s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/environment/ament_prefix_path.dsv
+[0.244s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/environment/path.sh
+[0.244s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/environment/path.dsv
+[0.245s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/local_setup.bash
+[0.245s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/local_setup.sh
+[0.245s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/local_setup.zsh
+[0.245s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/local_setup.dsv
+[0.245s] -- Installing: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/package.dsv
+[0.245s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ament_index/resource_index/packages/ximea_ros2_cam
+[0.247s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/cmake/ximea_ros2_camConfig.cmake
+[0.247s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/cmake/ximea_ros2_camConfig-version.cmake
+[0.247s] -- Up-to-date: /home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/package.xml
+[0.248s] Invoked command in '/home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/m2s2/WildPose_v1.2-main/wildpose/install/motor_controller_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/dji_rs3_pkg:/home/m2s2/WildPose_v1.2-main/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam

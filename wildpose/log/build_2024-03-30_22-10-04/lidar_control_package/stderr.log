@@ -1,0 +1,6 @@
+file lidar_control_node.py (for module lidar_control_node) not found
+file lidar_control_node.py (for module lidar_control_node) not found
+file lidar_control_node.py (for module lidar_control_node) not found
+warning: install_lib: '/home/m2s2/WildPose_v1.2-main/wildpose/build/lidar_control_package/build/lib' does not exist -- no Python modules to install
+
+error: can't copy 'resource/lidar_control_package': doesn't exist or not a regular file

@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/lidar_control_package/lidar_control_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/lidar_control_package/lidar_control_package.egg-info/dependency_links.txt
+writing entry points to ../../build/lidar_control_package/lidar_control_package.egg-info/entry_points.txt
+writing requirements to ../../build/lidar_control_package/lidar_control_package.egg-info/requires.txt
+writing top-level names to ../../build/lidar_control_package/lidar_control_package.egg-info/top_level.txt
+reading manifest file '../../build/lidar_control_package/lidar_control_package.egg-info/SOURCES.txt'
+writing manifest file '../../build/lidar_control_package/lidar_control_package.egg-info/SOURCES.txt'
+running build
+running build_py
+copying lidar_control_package/lidar_control_node.py -> /home/m2s2/WildPose_v1.2-main/wildpose/build/lidar_control_package/build/lib/lidar_control_package
+running install
+running install_lib
+copying /home/m2s2/WildPose_v1.2-main/wildpose/build/lidar_control_package/build/lib/lidar_control_package/lidar_control_node.py -> /home/m2s2/WildPose_v1.2-main/wildpose/install/lidar_control_package/lib/python3.8/site-packages/lidar_control_package
+byte-compiling /home/m2s2/WildPose_v1.2-main/wildpose/install/lidar_control_package/lib/python3.8/site-packages/lidar_control_package/lidar_control_node.py to lidar_control_node.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/m2s2/WildPose_v1.2-main/wildpose/install/lidar_control_package/lib/python3.8/site-packages/lidar_control_package-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/lidar_control_package/lidar_control_package.egg-info to /home/m2s2/WildPose_v1.2-main/wildpose/install/lidar_control_package/lib/python3.8/site-packages/lidar_control_package-0.0.0-py3.8.egg-info
+running install_scripts
+Installing lidar_control_node script to /home/m2s2/WildPose_v1.2-main/wildpose/install/lidar_control_package/lib/lidar_control_package
+writing list of installed files to '/home/m2s2/WildPose_v1.2-main/wildpose/build/lidar_control_package/install.log'
