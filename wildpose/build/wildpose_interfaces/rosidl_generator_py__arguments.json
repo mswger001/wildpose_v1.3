@@ -1,11 +1,11 @@
 {
   "package_name": "wildpose_interfaces",
-  "output_dir": "/home/m2s2/WildPose_v1.2-main/wildpose/build/wildpose_interfaces/rosidl_generator_py/wildpose_interfaces",
+  "output_dir": "/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/rosidl_generator_py/wildpose_interfaces",
   "template_dir": "/opt/ros/foxy/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/m2s2/WildPose_v1.2-main/wildpose/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces:msg/DjiRsStatus.idl",
-    "/home/m2s2/WildPose_v1.2-main/wildpose/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces:msg/MotorStatus.idl",
-    "/home/m2s2/WildPose_v1.2-main/wildpose/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces:msg/MotorPositions.idl"
+    "/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces:msg/DjiRsStatus.idl",
+    "/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces:msg/MotorStatus.idl",
+    "/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces:msg/MotorPositions.idl"
   ],
   "ros_interface_dependencies": [
     "builtin_interfaces:/opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl",
@@ -55,9 +55,9 @@
     "/opt/ros/foxy/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/foxy/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/foxy/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
-    "/home/m2s2/WildPose_v1.2-main/wildpose/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces/msg/DjiRsStatus.idl",
-    "/home/m2s2/WildPose_v1.2-main/wildpose/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces/msg/MotorStatus.idl",
-    "/home/m2s2/WildPose_v1.2-main/wildpose/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces/msg/MotorPositions.idl",
+    "/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces/msg/DjiRsStatus.idl",
+    "/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces/msg/MotorStatus.idl",
+    "/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces/msg/MotorPositions.idl",
     "/opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/foxy/share/builtin_interfaces/msg/Time.idl",
     "/opt/ros/foxy/share/std_msgs/msg/Bool.idl",

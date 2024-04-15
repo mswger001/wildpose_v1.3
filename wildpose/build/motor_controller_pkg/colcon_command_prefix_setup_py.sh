@@ -1,2 +1,2 @@
 # generated from colcon_core/shell/template/command_prefix.sh.em
-. "/home/m2s2/WildPose_v1.2-main/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/package.sh"
+. "/home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/package.sh"

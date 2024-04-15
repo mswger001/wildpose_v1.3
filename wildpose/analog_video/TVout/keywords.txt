@@ -1,0 +1,7 @@
+TVout	KEYWORD1
+start_render	KEYWORD2
+clear_screen	KEYWORD2
+set_pixel	KEYWORD2
+draw_line	KEYWORD2
+print_char	KEYWORD2
+print_str	KEYWORD2

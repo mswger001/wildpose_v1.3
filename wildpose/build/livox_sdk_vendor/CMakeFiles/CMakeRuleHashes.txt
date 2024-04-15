@@ -1,2 +1,2 @@
 # Hashes of file build rules.
-411eed3dcb1125511a0fc3a83c8d636d CMakeFiles/livox_sdk_vendor_uninstall
+bcb456028197e39264d77a4c202c6c03 CMakeFiles/livox_sdk_vendor_uninstall

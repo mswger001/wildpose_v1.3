@@ -1,10 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/wildpose_interfaces__rosidl_generator_c.dir/rosidl_generator_c/wildpose_interfaces/msg/detail/dji_rs_status__functions.c.o"
-  "CMakeFiles/wildpose_interfaces__rosidl_generator_c.dir/rosidl_generator_c/wildpose_interfaces/msg/detail/dji_rs_status__functions.c.o.d"
   "CMakeFiles/wildpose_interfaces__rosidl_generator_c.dir/rosidl_generator_c/wildpose_interfaces/msg/detail/motor_positions__functions.c.o"
-  "CMakeFiles/wildpose_interfaces__rosidl_generator_c.dir/rosidl_generator_c/wildpose_interfaces/msg/detail/motor_positions__functions.c.o.d"
   "CMakeFiles/wildpose_interfaces__rosidl_generator_c.dir/rosidl_generator_c/wildpose_interfaces/msg/detail/motor_status__functions.c.o"
-  "CMakeFiles/wildpose_interfaces__rosidl_generator_c.dir/rosidl_generator_c/wildpose_interfaces/msg/detail/motor_status__functions.c.o.d"
   "libwildpose_interfaces__rosidl_generator_c.pdb"
   "libwildpose_interfaces__rosidl_generator_c.so"
   "rosidl_generator_c/wildpose_interfaces/msg/detail/dji_rs_status__functions.c"

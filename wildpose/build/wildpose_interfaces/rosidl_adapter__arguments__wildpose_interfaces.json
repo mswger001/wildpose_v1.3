@@ -1,8 +1,8 @@
 {
   "package_name": "wildpose_interfaces",
   "non_idl_tuples": [
-    "/home/m2s2/WildPose_v1.2-main/wildpose/src/wildpose_interfaces:msg/DjiRsStatus.msg",
-    "/home/m2s2/WildPose_v1.2-main/wildpose/src/wildpose_interfaces:msg/MotorStatus.msg",
-    "/home/m2s2/WildPose_v1.2-main/wildpose/src/wildpose_interfaces:msg/MotorPositions.msg"
+    "/home/naoya/wildpose_v1.3/wildpose/src/wildpose_interfaces:msg/DjiRsStatus.msg",
+    "/home/naoya/wildpose_v1.3/wildpose/src/wildpose_interfaces:msg/MotorStatus.msg",
+    "/home/naoya/wildpose_v1.3/wildpose/src/wildpose_interfaces:msg/MotorPositions.msg"
   ]
 }

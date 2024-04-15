@@ -1,10 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/wildpose_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wildpose_interfaces/msg/detail/dds_fastrtps/dji_rs_status__type_support.cpp.o"
-  "CMakeFiles/wildpose_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wildpose_interfaces/msg/detail/dds_fastrtps/dji_rs_status__type_support.cpp.o.d"
   "CMakeFiles/wildpose_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wildpose_interfaces/msg/detail/dds_fastrtps/motor_positions__type_support.cpp.o"
-  "CMakeFiles/wildpose_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wildpose_interfaces/msg/detail/dds_fastrtps/motor_positions__type_support.cpp.o.d"
   "CMakeFiles/wildpose_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wildpose_interfaces/msg/detail/dds_fastrtps/motor_status__type_support.cpp.o"
-  "CMakeFiles/wildpose_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wildpose_interfaces/msg/detail/dds_fastrtps/motor_status__type_support.cpp.o.d"
   "libwildpose_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
   "libwildpose_interfaces__rosidl_typesupport_fastrtps_cpp.so"
   "rosidl_typesupport_fastrtps_cpp/wildpose_interfaces/msg/detail/dds_fastrtps/dji_rs_status__type_support.cpp"

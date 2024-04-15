@@ -1,8 +1,8 @@
-# Install script for directory: /home/m2s2/WildPose_v1.2-main/wildpose/src/ximea_ROS2_driver-main/ximea_ros2_cam
+# Install script for directory: /home/naoya/wildpose_v1.3/wildpose/src/ximea_ROS2_driver-main/ximea_ros2_cam
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/m2s2/WildPose_v1.2-main/wildpose/install/ximea_ros2_cam")
+  set(CMAKE_INSTALL_PREFIX "/home/naoya/wildpose_v1.3/wildpose/install/ximea_ros2_cam")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -37,11 +37,6 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set default install directory permissions.
-if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
-endif()
-
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ximea_ros2_cam/ximea_ros2_cam_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ximea_ros2_cam/ximea_ros2_cam_node")
@@ -49,7 +44,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ximea_ros2_cam/ximea_ros2_cam_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ximea_ros2_cam" TYPE EXECUTABLE FILES "/home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam/ximea_ros2_cam_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ximea_ros2_cam" TYPE EXECUTABLE FILES "/home/naoya/wildpose_v1.3/wildpose/build/ximea_ros2_cam/ximea_ros2_cam_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ximea_ros2_cam/ximea_ros2_cam_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ximea_ros2_cam/ximea_ros2_cam_node")
     file(RPATH_CHANGE
@@ -64,17 +59,17 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ximea_ros2_cam" TYPE DIRECTORY FILES
-    "/home/m2s2/WildPose_v1.2-main/wildpose/src/ximea_ROS2_driver-main/ximea_ros2_cam/config"
-    "/home/m2s2/WildPose_v1.2-main/wildpose/src/ximea_ROS2_driver-main/ximea_ros2_cam/launch"
+    "/home/naoya/wildpose_v1.3/wildpose/src/ximea_ROS2_driver-main/ximea_ros2_cam/config"
+    "/home/naoya/wildpose_v1.3/wildpose/src/ximea_ROS2_driver-main/ximea_ros2_cam/launch"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ximea_ros2_cam")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/build/ximea_ros2_cam/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ximea_ros2_cam")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ximea_ros2_cam")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/build/ximea_ros2_cam/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ximea_ros2_cam")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -82,7 +77,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ximea_ros2_cam/environment" TYPE FILE FILES "/home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ximea_ros2_cam/environment" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/build/ximea_ros2_cam/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -90,42 +85,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ximea_ros2_cam/environment" TYPE FILE FILES "/home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ximea_ros2_cam/environment" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/build/ximea_ros2_cam/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ximea_ros2_cam" TYPE FILE FILES "/home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ximea_ros2_cam" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/build/ximea_ros2_cam/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ximea_ros2_cam" TYPE FILE FILES "/home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ximea_ros2_cam" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/build/ximea_ros2_cam/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ximea_ros2_cam" TYPE FILE FILES "/home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ximea_ros2_cam" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/build/ximea_ros2_cam/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ximea_ros2_cam" TYPE FILE FILES "/home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ximea_ros2_cam" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/build/ximea_ros2_cam/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ximea_ros2_cam" TYPE FILE FILES "/home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ximea_ros2_cam" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/build/ximea_ros2_cam/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam/ament_cmake_index/share/ament_index/resource_index/packages/ximea_ros2_cam")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/build/ximea_ros2_cam/ament_cmake_index/share/ament_index/resource_index/packages/ximea_ros2_cam")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ximea_ros2_cam/cmake" TYPE FILE FILES
-    "/home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam/ament_cmake_core/ximea_ros2_camConfig.cmake"
-    "/home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam/ament_cmake_core/ximea_ros2_camConfig-version.cmake"
+    "/home/naoya/wildpose_v1.3/wildpose/build/ximea_ros2_cam/ament_cmake_core/ximea_ros2_camConfig.cmake"
+    "/home/naoya/wildpose_v1.3/wildpose/build/ximea_ros2_cam/ament_cmake_core/ximea_ros2_camConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ximea_ros2_cam" TYPE FILE FILES "/home/m2s2/WildPose_v1.2-main/wildpose/src/ximea_ROS2_driver-main/ximea_ros2_cam/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ximea_ros2_cam" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/src/ximea_ROS2_driver-main/ximea_ros2_cam/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -136,5 +131,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/m2s2/WildPose_v1.2-main/wildpose/build/ximea_ros2_cam/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/naoya/wildpose_v1.3/wildpose/build/ximea_ros2_cam/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
