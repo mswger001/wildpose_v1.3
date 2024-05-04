@@ -57,9 +57,22 @@ include CMakeFiles/wildpose_interfaces__python.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/wildpose_interfaces__python.dir/flags.make
 
+CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_lens_aperture_s.c.o: CMakeFiles/wildpose_interfaces__python.dir/flags.make
+CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_lens_aperture_s.c.o: rosidl_generator_py/wildpose_interfaces/msg/_lens_aperture_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_lens_aperture_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_lens_aperture_s.c.o   -c /home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/rosidl_generator_py/wildpose_interfaces/msg/_lens_aperture_s.c
+
+CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_lens_aperture_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_lens_aperture_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/rosidl_generator_py/wildpose_interfaces/msg/_lens_aperture_s.c > CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_lens_aperture_s.c.i
+
+CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_lens_aperture_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_lens_aperture_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/rosidl_generator_py/wildpose_interfaces/msg/_lens_aperture_s.c -o CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_lens_aperture_s.c.s
+
 CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_dji_rs_status_s.c.o: CMakeFiles/wildpose_interfaces__python.dir/flags.make
 CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_dji_rs_status_s.c.o: rosidl_generator_py/wildpose_interfaces/msg/_dji_rs_status_s.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_dji_rs_status_s.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_dji_rs_status_s.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_dji_rs_status_s.c.o   -c /home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/rosidl_generator_py/wildpose_interfaces/msg/_dji_rs_status_s.c
 
 CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_dji_rs_status_s.c.i: cmake_force
@@ -72,7 +85,7 @@ CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfac
 
 CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_motor_status_s.c.o: CMakeFiles/wildpose_interfaces__python.dir/flags.make
 CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_motor_status_s.c.o: rosidl_generator_py/wildpose_interfaces/msg/_motor_status_s.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_motor_status_s.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_motor_status_s.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_motor_status_s.c.o   -c /home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/rosidl_generator_py/wildpose_interfaces/msg/_motor_status_s.c
 
 CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_motor_status_s.c.i: cmake_force
@@ -85,7 +98,7 @@ CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfac
 
 CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_motor_positions_s.c.o: CMakeFiles/wildpose_interfaces__python.dir/flags.make
 CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_motor_positions_s.c.o: rosidl_generator_py/wildpose_interfaces/msg/_motor_positions_s.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_motor_positions_s.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_motor_positions_s.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_motor_positions_s.c.o   -c /home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/rosidl_generator_py/wildpose_interfaces/msg/_motor_positions_s.c
 
 CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_motor_positions_s.c.i: cmake_force
@@ -96,18 +109,35 @@ CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfac
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_motor_positions_s.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/rosidl_generator_py/wildpose_interfaces/msg/_motor_positions_s.c -o CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_motor_positions_s.c.s
 
+CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_frame_brightness_s.c.o: CMakeFiles/wildpose_interfaces__python.dir/flags.make
+CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_frame_brightness_s.c.o: rosidl_generator_py/wildpose_interfaces/msg/_frame_brightness_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_frame_brightness_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_frame_brightness_s.c.o   -c /home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/rosidl_generator_py/wildpose_interfaces/msg/_frame_brightness_s.c
+
+CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_frame_brightness_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_frame_brightness_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/rosidl_generator_py/wildpose_interfaces/msg/_frame_brightness_s.c > CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_frame_brightness_s.c.i
+
+CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_frame_brightness_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_frame_brightness_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/rosidl_generator_py/wildpose_interfaces/msg/_frame_brightness_s.c -o CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_frame_brightness_s.c.s
+
 # Object files for target wildpose_interfaces__python
 wildpose_interfaces__python_OBJECTS = \
+"CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_lens_aperture_s.c.o" \
 "CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_dji_rs_status_s.c.o" \
 "CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_motor_status_s.c.o" \
-"CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_motor_positions_s.c.o"
+"CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_motor_positions_s.c.o" \
+"CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_frame_brightness_s.c.o"
 
 # External object files for target wildpose_interfaces__python
 wildpose_interfaces__python_EXTERNAL_OBJECTS =
 
+rosidl_generator_py/wildpose_interfaces/libwildpose_interfaces__python.so: CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_lens_aperture_s.c.o
 rosidl_generator_py/wildpose_interfaces/libwildpose_interfaces__python.so: CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_dji_rs_status_s.c.o
 rosidl_generator_py/wildpose_interfaces/libwildpose_interfaces__python.so: CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_motor_status_s.c.o
 rosidl_generator_py/wildpose_interfaces/libwildpose_interfaces__python.so: CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_motor_positions_s.c.o
+rosidl_generator_py/wildpose_interfaces/libwildpose_interfaces__python.so: CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_frame_brightness_s.c.o
 rosidl_generator_py/wildpose_interfaces/libwildpose_interfaces__python.so: CMakeFiles/wildpose_interfaces__python.dir/build.make
 rosidl_generator_py/wildpose_interfaces/libwildpose_interfaces__python.so: libwildpose_interfaces__rosidl_generator_c.so
 rosidl_generator_py/wildpose_interfaces/libwildpose_interfaces__python.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
@@ -132,7 +162,7 @@ rosidl_generator_py/wildpose_interfaces/libwildpose_interfaces__python.so: /opt/
 rosidl_generator_py/wildpose_interfaces/libwildpose_interfaces__python.so: /opt/ros/foxy/lib/librcpputils.so
 rosidl_generator_py/wildpose_interfaces/libwildpose_interfaces__python.so: /opt/ros/foxy/lib/librcutils.so
 rosidl_generator_py/wildpose_interfaces/libwildpose_interfaces__python.so: CMakeFiles/wildpose_interfaces__python.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library rosidl_generator_py/wildpose_interfaces/libwildpose_interfaces__python.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C shared library rosidl_generator_py/wildpose_interfaces/libwildpose_interfaces__python.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/wildpose_interfaces__python.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

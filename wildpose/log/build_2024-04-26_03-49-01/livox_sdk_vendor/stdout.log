@@ -1,0 +1,25 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/naoya/wildpose_v1.3/wildpose/build/livox_sdk_vendor
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake/Modules/Findlivox_sdk.cmake
+-- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/ament_index/resource_index/package_run_dependencies/livox_sdk_vendor
+-- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/ament_index/resource_index/parent_prefix_path/livox_sdk_vendor
+-- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/environment/ament_prefix_path.sh
+-- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/environment/ament_prefix_path.dsv
+-- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/environment/path.sh
+-- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/environment/path.dsv
+-- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/local_setup.bash
+-- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/local_setup.sh
+-- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/local_setup.zsh
+-- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/local_setup.dsv
+-- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/package.dsv
+-- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/ament_index/resource_index/packages/livox_sdk_vendor
+-- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake/livox_sdk_vendor-extras.cmake
+-- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake/livox_sdk_vendorConfig.cmake
+-- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake/livox_sdk_vendorConfig-version.cmake
+-- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/package.xml

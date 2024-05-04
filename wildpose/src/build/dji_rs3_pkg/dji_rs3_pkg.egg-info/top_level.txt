@@ -1,4 +1,0 @@
-dji_rs3_pkg
-dji_rs3_pkg/protocol
-dji_rs3_pkg/protocol/connection
-dji_rs3_pkg/protocol/sdk

@@ -1,0 +1,5 @@
+[0.611s] Invoking command in '/home/naoya/wildpose_v1.3/wildpose/build/livox_sdk_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/naoya/wildpose_v1.3/wildpose/build/livox_sdk_vendor -- -j16 -l16
+[0.924s] CMake Error: The source directory "/home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_sdk_vendor" does not exist.
+[0.924s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.924s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.932s] Invoked command in '/home/naoya/wildpose_v1.3/wildpose/build/livox_sdk_vendor' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/naoya/wildpose_v1.3/wildpose/build/livox_sdk_vendor -- -j16 -l16

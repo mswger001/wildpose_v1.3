@@ -53,6 +53,11 @@ CMAKE_BINARY_DIR = /home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces
 # Include the progress variables for this target.
 include CMakeFiles/wildpose_interfaces__cpp.dir/progress.make
 
+CMakeFiles/wildpose_interfaces__cpp: rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp
+CMakeFiles/wildpose_interfaces__cpp: rosidl_generator_cpp/wildpose_interfaces/msg/detail/lens_aperture__builder.hpp
+CMakeFiles/wildpose_interfaces__cpp: rosidl_generator_cpp/wildpose_interfaces/msg/detail/lens_aperture__struct.hpp
+CMakeFiles/wildpose_interfaces__cpp: rosidl_generator_cpp/wildpose_interfaces/msg/detail/lens_aperture__traits.hpp
+CMakeFiles/wildpose_interfaces__cpp: rosidl_generator_cpp/wildpose_interfaces/msg/detail/lens_aperture__type_support.hpp
 CMakeFiles/wildpose_interfaces__cpp: rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp
 CMakeFiles/wildpose_interfaces__cpp: rosidl_generator_cpp/wildpose_interfaces/msg/detail/dji_rs_status__builder.hpp
 CMakeFiles/wildpose_interfaces__cpp: rosidl_generator_cpp/wildpose_interfaces/msg/detail/dji_rs_status__struct.hpp
@@ -68,109 +73,151 @@ CMakeFiles/wildpose_interfaces__cpp: rosidl_generator_cpp/wildpose_interfaces/ms
 CMakeFiles/wildpose_interfaces__cpp: rosidl_generator_cpp/wildpose_interfaces/msg/detail/motor_positions__struct.hpp
 CMakeFiles/wildpose_interfaces__cpp: rosidl_generator_cpp/wildpose_interfaces/msg/detail/motor_positions__traits.hpp
 CMakeFiles/wildpose_interfaces__cpp: rosidl_generator_cpp/wildpose_interfaces/msg/detail/motor_positions__type_support.hpp
+CMakeFiles/wildpose_interfaces__cpp: rosidl_generator_cpp/wildpose_interfaces/msg/frame_brightness.hpp
+CMakeFiles/wildpose_interfaces__cpp: rosidl_generator_cpp/wildpose_interfaces/msg/detail/frame_brightness__builder.hpp
+CMakeFiles/wildpose_interfaces__cpp: rosidl_generator_cpp/wildpose_interfaces/msg/detail/frame_brightness__struct.hpp
+CMakeFiles/wildpose_interfaces__cpp: rosidl_generator_cpp/wildpose_interfaces/msg/detail/frame_brightness__traits.hpp
+CMakeFiles/wildpose_interfaces__cpp: rosidl_generator_cpp/wildpose_interfaces/msg/detail/frame_brightness__type_support.hpp
 CMakeFiles/wildpose_interfaces__cpp: rosidl_generator_cpp/wildpose_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/lib/rosidl_generator_cpp/rosidl_generator_cpp
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/lib/python3.8/site-packages/rosidl_generator_cpp/__init__.py
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/action__builder.hpp.em
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/action__struct.hpp.em
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/action__traits.hpp.em
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/action__type_support.hpp.em
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/idl.hpp.em
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/idl__builder.hpp.em
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/idl__struct.hpp.em
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/idl__traits.hpp.em
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/idl__type_support.hpp.em
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/msg__builder.hpp.em
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/msg__struct.hpp.em
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/msg__traits.hpp.em
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/msg__type_support.hpp.em
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__builder.hpp.em
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__type_support.hpp.em
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: rosidl_adapter/wildpose_interfaces/msg/DjiRsStatus.idl
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: rosidl_adapter/wildpose_interfaces/msg/MotorStatus.idl
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: rosidl_adapter/wildpose_interfaces/msg/MotorPositions.idl
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/builtin_interfaces/msg/Time.idl
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/std_msgs/msg/Bool.idl
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/std_msgs/msg/Byte.idl
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/std_msgs/msg/ByteMultiArray.idl
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/std_msgs/msg/Char.idl
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/std_msgs/msg/ColorRGBA.idl
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/std_msgs/msg/Empty.idl
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/std_msgs/msg/Float32.idl
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/std_msgs/msg/Float32MultiArray.idl
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/std_msgs/msg/Float64.idl
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/std_msgs/msg/Float64MultiArray.idl
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/std_msgs/msg/Header.idl
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/std_msgs/msg/Int16.idl
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/std_msgs/msg/Int16MultiArray.idl
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/std_msgs/msg/Int32.idl
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/std_msgs/msg/Int32MultiArray.idl
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/std_msgs/msg/Int64.idl
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/std_msgs/msg/Int64MultiArray.idl
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/std_msgs/msg/Int8.idl
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/std_msgs/msg/Int8MultiArray.idl
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/std_msgs/msg/MultiArrayDimension.idl
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/std_msgs/msg/MultiArrayLayout.idl
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/std_msgs/msg/String.idl
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/std_msgs/msg/UInt16.idl
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/std_msgs/msg/UInt16MultiArray.idl
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/std_msgs/msg/UInt32.idl
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/std_msgs/msg/UInt32MultiArray.idl
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/std_msgs/msg/UInt64.idl
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/std_msgs/msg/UInt64MultiArray.idl
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/std_msgs/msg/UInt8.idl
-rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: /opt/ros/foxy/share/std_msgs/msg/UInt8MultiArray.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/lib/rosidl_generator_cpp/rosidl_generator_cpp
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/lib/python3.8/site-packages/rosidl_generator_cpp/__init__.py
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/action__builder.hpp.em
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/action__struct.hpp.em
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/action__traits.hpp.em
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/action__type_support.hpp.em
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/idl.hpp.em
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/idl__builder.hpp.em
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/idl__struct.hpp.em
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/idl__traits.hpp.em
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/idl__type_support.hpp.em
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/msg__builder.hpp.em
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/msg__struct.hpp.em
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/msg__traits.hpp.em
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/msg__type_support.hpp.em
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__builder.hpp.em
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__type_support.hpp.em
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: rosidl_adapter/wildpose_interfaces/msg/LensAperture.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: rosidl_adapter/wildpose_interfaces/msg/DjiRsStatus.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: rosidl_adapter/wildpose_interfaces/msg/MotorStatus.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: rosidl_adapter/wildpose_interfaces/msg/MotorPositions.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: rosidl_adapter/wildpose_interfaces/msg/FrameBrightness.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/std_msgs/msg/Bool.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/std_msgs/msg/Byte.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/std_msgs/msg/ByteMultiArray.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/std_msgs/msg/Char.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/std_msgs/msg/ColorRGBA.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/std_msgs/msg/Empty.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/std_msgs/msg/Float32.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/std_msgs/msg/Float32MultiArray.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/std_msgs/msg/Float64.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/std_msgs/msg/Float64MultiArray.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/std_msgs/msg/Header.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/std_msgs/msg/Int16.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/std_msgs/msg/Int16MultiArray.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/std_msgs/msg/Int32.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/std_msgs/msg/Int32MultiArray.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/std_msgs/msg/Int64.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/std_msgs/msg/Int64MultiArray.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/std_msgs/msg/Int8.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/std_msgs/msg/Int8MultiArray.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/std_msgs/msg/MultiArrayDimension.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/std_msgs/msg/MultiArrayLayout.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/std_msgs/msg/String.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/std_msgs/msg/UInt16.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/std_msgs/msg/UInt16MultiArray.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/std_msgs/msg/UInt32.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/std_msgs/msg/UInt32MultiArray.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/std_msgs/msg/UInt64.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/std_msgs/msg/UInt64MultiArray.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/std_msgs/msg/UInt8.idl
+rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp: /opt/ros/foxy/share/std_msgs/msg/UInt8MultiArray.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/rosidl_generator_cpp__arguments.json
 
-rosidl_generator_cpp/wildpose_interfaces/msg/detail/dji_rs_status__builder.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp
+rosidl_generator_cpp/wildpose_interfaces/msg/detail/lens_aperture__builder.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/wildpose_interfaces/msg/detail/lens_aperture__builder.hpp
+
+rosidl_generator_cpp/wildpose_interfaces/msg/detail/lens_aperture__struct.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/wildpose_interfaces/msg/detail/lens_aperture__struct.hpp
+
+rosidl_generator_cpp/wildpose_interfaces/msg/detail/lens_aperture__traits.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/wildpose_interfaces/msg/detail/lens_aperture__traits.hpp
+
+rosidl_generator_cpp/wildpose_interfaces/msg/detail/lens_aperture__type_support.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/wildpose_interfaces/msg/detail/lens_aperture__type_support.hpp
+
+rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp
+
+rosidl_generator_cpp/wildpose_interfaces/msg/detail/dji_rs_status__builder.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/wildpose_interfaces/msg/detail/dji_rs_status__builder.hpp
 
-rosidl_generator_cpp/wildpose_interfaces/msg/detail/dji_rs_status__struct.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp
+rosidl_generator_cpp/wildpose_interfaces/msg/detail/dji_rs_status__struct.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/wildpose_interfaces/msg/detail/dji_rs_status__struct.hpp
 
-rosidl_generator_cpp/wildpose_interfaces/msg/detail/dji_rs_status__traits.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp
+rosidl_generator_cpp/wildpose_interfaces/msg/detail/dji_rs_status__traits.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/wildpose_interfaces/msg/detail/dji_rs_status__traits.hpp
 
-rosidl_generator_cpp/wildpose_interfaces/msg/detail/dji_rs_status__type_support.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp
+rosidl_generator_cpp/wildpose_interfaces/msg/detail/dji_rs_status__type_support.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/wildpose_interfaces/msg/detail/dji_rs_status__type_support.hpp
 
-rosidl_generator_cpp/wildpose_interfaces/msg/motor_status.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp
+rosidl_generator_cpp/wildpose_interfaces/msg/motor_status.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/wildpose_interfaces/msg/motor_status.hpp
 
-rosidl_generator_cpp/wildpose_interfaces/msg/detail/motor_status__builder.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp
+rosidl_generator_cpp/wildpose_interfaces/msg/detail/motor_status__builder.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/wildpose_interfaces/msg/detail/motor_status__builder.hpp
 
-rosidl_generator_cpp/wildpose_interfaces/msg/detail/motor_status__struct.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp
+rosidl_generator_cpp/wildpose_interfaces/msg/detail/motor_status__struct.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/wildpose_interfaces/msg/detail/motor_status__struct.hpp
 
-rosidl_generator_cpp/wildpose_interfaces/msg/detail/motor_status__traits.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp
+rosidl_generator_cpp/wildpose_interfaces/msg/detail/motor_status__traits.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/wildpose_interfaces/msg/detail/motor_status__traits.hpp
 
-rosidl_generator_cpp/wildpose_interfaces/msg/detail/motor_status__type_support.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp
+rosidl_generator_cpp/wildpose_interfaces/msg/detail/motor_status__type_support.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/wildpose_interfaces/msg/detail/motor_status__type_support.hpp
 
-rosidl_generator_cpp/wildpose_interfaces/msg/motor_positions.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp
+rosidl_generator_cpp/wildpose_interfaces/msg/motor_positions.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/wildpose_interfaces/msg/motor_positions.hpp
 
-rosidl_generator_cpp/wildpose_interfaces/msg/detail/motor_positions__builder.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp
+rosidl_generator_cpp/wildpose_interfaces/msg/detail/motor_positions__builder.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/wildpose_interfaces/msg/detail/motor_positions__builder.hpp
 
-rosidl_generator_cpp/wildpose_interfaces/msg/detail/motor_positions__struct.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp
+rosidl_generator_cpp/wildpose_interfaces/msg/detail/motor_positions__struct.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/wildpose_interfaces/msg/detail/motor_positions__struct.hpp
 
-rosidl_generator_cpp/wildpose_interfaces/msg/detail/motor_positions__traits.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp
+rosidl_generator_cpp/wildpose_interfaces/msg/detail/motor_positions__traits.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/wildpose_interfaces/msg/detail/motor_positions__traits.hpp
 
-rosidl_generator_cpp/wildpose_interfaces/msg/detail/motor_positions__type_support.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp
+rosidl_generator_cpp/wildpose_interfaces/msg/detail/motor_positions__type_support.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/wildpose_interfaces/msg/detail/motor_positions__type_support.hpp
 
+rosidl_generator_cpp/wildpose_interfaces/msg/frame_brightness.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/wildpose_interfaces/msg/frame_brightness.hpp
+
+rosidl_generator_cpp/wildpose_interfaces/msg/detail/frame_brightness__builder.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/wildpose_interfaces/msg/detail/frame_brightness__builder.hpp
+
+rosidl_generator_cpp/wildpose_interfaces/msg/detail/frame_brightness__struct.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/wildpose_interfaces/msg/detail/frame_brightness__struct.hpp
+
+rosidl_generator_cpp/wildpose_interfaces/msg/detail/frame_brightness__traits.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/wildpose_interfaces/msg/detail/frame_brightness__traits.hpp
+
+rosidl_generator_cpp/wildpose_interfaces/msg/detail/frame_brightness__type_support.hpp: rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/wildpose_interfaces/msg/detail/frame_brightness__type_support.hpp
+
 wildpose_interfaces__cpp: CMakeFiles/wildpose_interfaces__cpp
+wildpose_interfaces__cpp: rosidl_generator_cpp/wildpose_interfaces/msg/lens_aperture.hpp
+wildpose_interfaces__cpp: rosidl_generator_cpp/wildpose_interfaces/msg/detail/lens_aperture__builder.hpp
+wildpose_interfaces__cpp: rosidl_generator_cpp/wildpose_interfaces/msg/detail/lens_aperture__struct.hpp
+wildpose_interfaces__cpp: rosidl_generator_cpp/wildpose_interfaces/msg/detail/lens_aperture__traits.hpp
+wildpose_interfaces__cpp: rosidl_generator_cpp/wildpose_interfaces/msg/detail/lens_aperture__type_support.hpp
 wildpose_interfaces__cpp: rosidl_generator_cpp/wildpose_interfaces/msg/dji_rs_status.hpp
 wildpose_interfaces__cpp: rosidl_generator_cpp/wildpose_interfaces/msg/detail/dji_rs_status__builder.hpp
 wildpose_interfaces__cpp: rosidl_generator_cpp/wildpose_interfaces/msg/detail/dji_rs_status__struct.hpp
@@ -186,6 +233,11 @@ wildpose_interfaces__cpp: rosidl_generator_cpp/wildpose_interfaces/msg/detail/mo
 wildpose_interfaces__cpp: rosidl_generator_cpp/wildpose_interfaces/msg/detail/motor_positions__struct.hpp
 wildpose_interfaces__cpp: rosidl_generator_cpp/wildpose_interfaces/msg/detail/motor_positions__traits.hpp
 wildpose_interfaces__cpp: rosidl_generator_cpp/wildpose_interfaces/msg/detail/motor_positions__type_support.hpp
+wildpose_interfaces__cpp: rosidl_generator_cpp/wildpose_interfaces/msg/frame_brightness.hpp
+wildpose_interfaces__cpp: rosidl_generator_cpp/wildpose_interfaces/msg/detail/frame_brightness__builder.hpp
+wildpose_interfaces__cpp: rosidl_generator_cpp/wildpose_interfaces/msg/detail/frame_brightness__struct.hpp
+wildpose_interfaces__cpp: rosidl_generator_cpp/wildpose_interfaces/msg/detail/frame_brightness__traits.hpp
+wildpose_interfaces__cpp: rosidl_generator_cpp/wildpose_interfaces/msg/detail/frame_brightness__type_support.hpp
 wildpose_interfaces__cpp: CMakeFiles/wildpose_interfaces__cpp.dir/build.make
 
 .PHONY : wildpose_interfaces__cpp

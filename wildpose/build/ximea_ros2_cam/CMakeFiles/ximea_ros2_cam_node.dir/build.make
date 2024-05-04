@@ -158,7 +158,7 @@ ximea_ros2_cam_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_intr
 ximea_ros2_cam_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so
 ximea_ros2_cam_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
 ximea_ros2_cam_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
-ximea_ros2_cam_node: /opt/ros/foxy/lib/libcv_bridge.so
+ximea_ros2_cam_node: /home/naoya/wildpose_v1.3/wildpose/install/cv_bridge/lib/libcv_bridge.so
 ximea_ros2_cam_node: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.2.0
 ximea_ros2_cam_node: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.2.0
 ximea_ros2_cam_node: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.4.2.0

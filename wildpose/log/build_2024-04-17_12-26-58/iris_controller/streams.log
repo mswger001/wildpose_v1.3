@@ -1,0 +1,48 @@
+[0.581s] Invoking command in '/home/naoya/wildpose_v1.3/wildpose/build/iris_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/wildpose_v1.3/wildpose/install/motor_controller_pkg:/home/naoya/wildpose_v1.3/wildpose/install/lidar_control_package:/home/naoya/wildpose_v1.3/wildpose/install/dji_rs3_pkg:/home/naoya/wildpose_v1.3/wildpose/install/gamepad_pkg:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake /home/naoya/wildpose_v1.3/wildpose/src/iris_controller -DCMAKE_INSTALL_PREFIX=/home/naoya/wildpose_v1.3/wildpose/install/iris_controller
+[0.704s] -- The C compiler identification is GNU 9.4.0
+[0.800s] -- The CXX compiler identification is GNU 9.4.0
+[0.817s] -- Check for working C compiler: /usr/bin/cc
+[0.867s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.869s] -- Detecting C compiler ABI info
+[0.944s] -- Detecting C compiler ABI info - done
+[0.957s] -- Detecting C compile features
+[0.958s] -- Detecting C compile features - done
+[0.960s] -- Check for working CXX compiler: /usr/bin/c++
+[1.037s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.037s] -- Detecting CXX compiler ABI info
+[1.121s] -- Detecting CXX compiler ABI info - done
+[1.131s] -- Detecting CXX compile features
+[1.131s] -- Detecting CXX compile features - done
+[1.136s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.180s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.181s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.343s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.431s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.434s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.434s] -- Added test 'lint_cmake' to check CMake code style
+[1.434s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.436s] -- Added test 'xmllint' to check XML markup files
+[1.439s] -- Configuring done
+[1.442s] -- Generating done
+[1.444s] -- Build files have been written to: /home/naoya/wildpose_v1.3/wildpose/build/iris_controller
+[2.638s] Invoked command in '/home/naoya/wildpose_v1.3/wildpose/build/iris_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/wildpose_v1.3/wildpose/install/motor_controller_pkg:/home/naoya/wildpose_v1.3/wildpose/install/lidar_control_package:/home/naoya/wildpose_v1.3/wildpose/install/dji_rs3_pkg:/home/naoya/wildpose_v1.3/wildpose/install/gamepad_pkg:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake /home/naoya/wildpose_v1.3/wildpose/src/iris_controller -DCMAKE_INSTALL_PREFIX=/home/naoya/wildpose_v1.3/wildpose/install/iris_controller
+[2.641s] Invoking command in '/home/naoya/wildpose_v1.3/wildpose/build/iris_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/wildpose_v1.3/wildpose/install/motor_controller_pkg:/home/naoya/wildpose_v1.3/wildpose/install/lidar_control_package:/home/naoya/wildpose_v1.3/wildpose/install/dji_rs3_pkg:/home/naoya/wildpose_v1.3/wildpose/install/gamepad_pkg:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/naoya/wildpose_v1.3/wildpose/build/iris_controller -- -j16 -l16
+[3.797s] Invoked command in '/home/naoya/wildpose_v1.3/wildpose/build/iris_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/wildpose_v1.3/wildpose/install/motor_controller_pkg:/home/naoya/wildpose_v1.3/wildpose/install/lidar_control_package:/home/naoya/wildpose_v1.3/wildpose/install/dji_rs3_pkg:/home/naoya/wildpose_v1.3/wildpose/install/gamepad_pkg:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/naoya/wildpose_v1.3/wildpose/build/iris_controller -- -j16 -l16
+[3.818s] Invoking command in '/home/naoya/wildpose_v1.3/wildpose/build/iris_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/wildpose_v1.3/wildpose/install/motor_controller_pkg:/home/naoya/wildpose_v1.3/wildpose/install/lidar_control_package:/home/naoya/wildpose_v1.3/wildpose/install/dji_rs3_pkg:/home/naoya/wildpose_v1.3/wildpose/install/gamepad_pkg:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/naoya/wildpose_v1.3/wildpose/build/iris_controller
+[3.827s] -- Install configuration: ""
+[3.827s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/ament_index/resource_index/package_run_dependencies/iris_controller
+[3.828s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/ament_index/resource_index/parent_prefix_path/iris_controller
+[3.828s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/iris_controller/environment/ament_prefix_path.sh
+[3.828s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/iris_controller/environment/ament_prefix_path.dsv
+[3.828s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/iris_controller/environment/path.sh
+[3.828s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/iris_controller/environment/path.dsv
+[3.828s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/iris_controller/local_setup.bash
+[3.828s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/iris_controller/local_setup.sh
+[3.828s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/iris_controller/local_setup.zsh
+[3.828s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/iris_controller/local_setup.dsv
+[3.829s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/iris_controller/package.dsv
+[3.829s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/ament_index/resource_index/packages/iris_controller
+[3.829s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/iris_controller/cmake/iris_controllerConfig.cmake
+[3.829s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/iris_controller/cmake/iris_controllerConfig-version.cmake
+[3.829s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/iris_controller/package.xml
+[3.831s] Invoked command in '/home/naoya/wildpose_v1.3/wildpose/build/iris_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/wildpose_v1.3/wildpose/install/motor_controller_pkg:/home/naoya/wildpose_v1.3/wildpose/install/lidar_control_package:/home/naoya/wildpose_v1.3/wildpose/install/dji_rs3_pkg:/home/naoya/wildpose_v1.3/wildpose/install/gamepad_pkg:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/naoya/wildpose_v1.3/wildpose/build/iris_controller

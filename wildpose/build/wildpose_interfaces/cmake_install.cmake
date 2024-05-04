@@ -351,6 +351,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wildpose_interfaces/msg" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces/msg/LensAperture.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wildpose_interfaces/msg" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces/msg/DjiRsStatus.idl")
 endif()
 
@@ -363,6 +367,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wildpose_interfaces/msg" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces/msg/FrameBrightness.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wildpose_interfaces/msg" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/src/wildpose_interfaces/msg/LensAperture.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wildpose_interfaces/msg" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/src/wildpose_interfaces/msg/DjiRsStatus.msg")
 endif()
 
@@ -372,6 +384,10 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wildpose_interfaces/msg" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/src/wildpose_interfaces/msg/MotorPositions.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wildpose_interfaces/msg" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/src/wildpose_interfaces/msg/FrameBrightness.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

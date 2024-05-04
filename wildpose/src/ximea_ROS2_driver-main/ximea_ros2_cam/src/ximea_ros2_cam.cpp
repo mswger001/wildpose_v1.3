@@ -37,7 +37,7 @@ std::map<int, int> XimeaROSCam::CamMaxPixelWidth = { {0, 2048} };
 std::map<int, int> XimeaROSCam::CamMaxPixelHeight = { {0, 1088} };
 
 // Constructor
-XimeaROSCam::XimeaROSCam() : 
+XimeaROSCam::XimeaROSCam() :
     Node("ximea_cam_node"),
     img_count_(0),
     cam_info_loaded_(false),
@@ -64,26 +64,26 @@ XimeaROSCam::~XimeaROSCam() {
     // Stop acquisition and close device if handle is available
     if (this->xi_h_ != NULL) {
 
-            
+
         //Save Camera context
         char* cam_context=NULL;
 	    #define SIZE_OF_CONTEXT_BUFFER (10*1024*1024) // 10MiB
 	    cam_context = (char*)malloc(SIZE_OF_CONTEXT_BUFFER);
 	    xi_stat= xiGetParamString(this->xi_h_, XI_PRM_API_CONTEXT_LIST, cam_context, SIZE_OF_CONTEXT_BUFFER);
 
-        std::ofstream file("/home/m2s2/ecal_meas/cam_context.bin", std::ios::out | std::ios::binary);
+        std::ofstream file("/home/naoya/cam_context_output.bin", std::ios::out | std::ios::binary);
         file.write(cam_context, SIZE_OF_CONTEXT_BUFFER);
         file.close();
 
         RCLCPP_INFO_STREAM(this->get_logger(), "Done Writing camera context file");
         std::string s(cam_context);
         RCLCPP_INFO_STREAM(this->get_logger(), "Cam Context: " << s);
-        
-            
+
+
         // Stop image acquisition
         this->is_active_ = false;
         xi_stat = xiStopAcquisition(this->xi_h_);
-        
+
         // Close camera device
         xiCloseDevice(this->xi_h_);
         this->xi_h_ = NULL;
@@ -153,7 +153,7 @@ void XimeaROSCam::initCam() {
 } // initCam
 
 void XimeaROSCam::openCam() {
-    
+
     XI_RETURN xi_stat;
 
     // leave if there isn't a valid handle
@@ -189,7 +189,7 @@ void XimeaROSCam::openCam() {
     } else {
         RCLCPP_WARN_STREAM(this->get_logger(),  "WHITE BALANCE MODE IS NOT 0 TO 2!");
     }
-    
+
     if (this->cam_trigger_mode_ == 2) {
         // Select hardware triggering
         if (this->cam_hw_trigger_edge_ == 0) {
@@ -352,27 +352,27 @@ void XimeaROSCam::openCam() {
     // // For high frame rate performance
     // src: https://www.ximea.com/support/wiki/usb3/...
     //      ...How_to_optimize_software_performance_on_high_frame_rates
-    
+
     // set maximum number of queue
     int number_of_field_buffers = 0;
     xiGetParamInt(this->xi_h_, XI_PRM_BUFFERS_QUEUE_SIZE XI_PRM_INFO_MAX, &number_of_field_buffers);
     xiSetParamInt(this->xi_h_, XI_PRM_BUFFERS_QUEUE_SIZE, number_of_field_buffers);
-    
+
     int payload=0;
     xi_stat = xiGetParamInt(this->xi_h_, XI_PRM_IMAGE_PAYLOAD_SIZE, &payload);
-    
+
     // ---------------------------------------------------
-    //select transport buffer size depending on payload 
+    //select transport buffer size depending on payload
     int transport_buffer_size_default = 0;
     int transport_buffer_size_increment = 0;
     int transport_buffer_size_minimum = 0;
-        
+
     xi_stat = xiGetParamInt(this->xi_h_, XI_PRM_ACQ_TRANSPORT_BUFFER_SIZE, &transport_buffer_size_default);
     xi_stat = xiGetParamInt(this->xi_h_, XI_PRM_ACQ_TRANSPORT_BUFFER_SIZE XI_PRM_INFO_INCREMENT, &transport_buffer_size_increment);
     xi_stat = xiGetParamInt(this->xi_h_, XI_PRM_ACQ_TRANSPORT_BUFFER_SIZE XI_PRM_INFO_MIN, &transport_buffer_size_minimum);
-    
+
     if(payload < transport_buffer_size_default + transport_buffer_size_increment){
-        
+
         int transport_buffer_size = payload;
         if (transport_buffer_size_increment){
             int remainder = transport_buffer_size % transport_buffer_size_increment;
@@ -382,8 +382,8 @@ void XimeaROSCam::openCam() {
         if (transport_buffer_size < transport_buffer_size_minimum)
             transport_buffer_size = transport_buffer_size_minimum;
         xi_stat = xiSetParamInt(this->xi_h_, XI_PRM_ACQ_TRANSPORT_BUFFER_SIZE, transport_buffer_size);
-        
-        
+
+
     }
 
     //      -- Start camera acquisition --
@@ -447,7 +447,7 @@ void XimeaROSCam::frameCaptureCb() {
 
             // Setup image
             img_buffer = reinterpret_cast<char *>(xi_img.bp);
-	
+
             // Populate ROS message
             sensor_msgs::msg::Image img;
             sensor_msgs::fillImage(img,
@@ -458,10 +458,10 @@ void XimeaROSCam::frameCaptureCb() {
                                     img_buffer);
             img.header.frame_id = std::to_string(this->img_count_);
             img.header.stamp = timestamp;
-            
+
             //Publish image
             sensor_msgs::msg::CameraInfo cam_info =
-                    this->cam_info_manager_->getCameraInfo();      
+                    this->cam_info_manager_->getCameraInfo();
             this->cam_pub_.publish(img, cam_info);
             RCLCPP_INFO(this->get_logger(), "Image published: [%i]", this->img_count_);
 
@@ -493,8 +493,8 @@ void XimeaROSCam::frameCaptureCb() {
 
             ++this->img_count_;
         }
-    
-    } 
+
+    }
     // To avoid warnings
     (void)xi_stat;
 } // frame_capture_cb
@@ -503,7 +503,7 @@ void XimeaROSCam::publishOpenCVResized(char* img_buffer,
                                     XI_IMG xi_img,
                                     rclcpp::Time timestamp)
 {
-    //create publisher for resized image 
+    //create publisher for resized image
     this->image_resized_pub_ = image_transport::create_camera_publisher(this, "ximea/image_resized_raw");
 
     // add frame count to frame_id
@@ -511,17 +511,17 @@ void XimeaROSCam::publishOpenCVResized(char* img_buffer,
     this->resized_header.frame_id = this->cam_frameid_;
     this->resized_header.stamp = timestamp;
 
-    
-    sensor_msgs::msg::Image img_small; 
+
+    sensor_msgs::msg::Image img_small;
     cv_bridge::CvImage cv_img_resize;
 
-    //resize image by converting to cv image 
+    //resize image by converting to cv image
     this->img_mat_resize = cv::Mat(xi_img.height, xi_img.width, CV_8UC3, img_buffer);
     resize(this->img_mat_resize, this->img_resized, Size(this->cv_width, this->cv_height), cv::INTER_LINEAR);
     cv_img_resize = cv_bridge::CvImage(this->resized_header, this->cam_encoding_, this->img_resized);
     cv_img_resize.toImageMsg(img_small); // from cv_bridge to sensor_msgs::Image
 
-    //publish image 
+    //publish image
     sensor_msgs::msg::CameraInfo cam_resized_info = this->cam_info_manager_->getCameraInfo();
     cam_resized_info.height = this->cv_height;
     cam_resized_info.width = this->cv_width;
@@ -535,8 +535,8 @@ void XimeaROSCam::publishOpenCVInverted(char* img_buffer,
                                     XI_IMG xi_img,
                                     rclcpp::Time timestamp)
 {
-    
-    //create publisher for inverted image 
+
+    //create publisher for inverted image
     this->image_inverted_pub_ = image_transport::create_camera_publisher(this, "ximea/image_inverted_raw");
 
     // add frame count to frame_id
@@ -544,17 +544,17 @@ void XimeaROSCam::publishOpenCVInverted(char* img_buffer,
     this->inverted_header.frame_id = this->cam_frameid_;
     this->inverted_header.stamp = timestamp;
 
-    
-    sensor_msgs::msg::Image img_inverted; 
+
+    sensor_msgs::msg::Image img_inverted;
     cv_bridge::CvImage cv_img_invert;
 
-    //invert image by converting to cv image 
+    //invert image by converting to cv image
     this->img_mat_invert = cv::Mat(xi_img.height, xi_img.width, CV_8UC3, img_buffer);
     cv::bitwise_not(this->img_mat_invert, this->img_inverted);
     cv_img_invert = cv_bridge::CvImage(this->inverted_header, this->cam_encoding_, this->img_inverted);
     cv_img_invert.toImageMsg(img_inverted); // from cv_bridge to sensor_msgs::Image
 
-    //publish image 
+    //publish image
     sensor_msgs::msg::CameraInfo cam_inverted_info = this->cam_info_manager_->getCameraInfo();
     cam_inverted_info.height = this->cv_height;
     cam_inverted_info.width = this->cv_width;
@@ -567,7 +567,7 @@ void XimeaROSCam::publishOpenCVInverted(char* img_buffer,
 
 //-------------------------------------------------------------------------------------
 // ALL PARAMS
-//------------------------------------------------------------------------------------- 
+//-------------------------------------------------------------------------------------
 void XimeaROSCam::initParams(){
     // Assume that all of the config is embedded in the camera private namespace
     // Load all parameters and store them into their corresponding vars
@@ -594,7 +594,7 @@ void XimeaROSCam::initParams(){
     this->declare_parameter("cam_name", std::string("INVALID"));
     this->get_parameter("cam_name", this->cam_name_);
     RCLCPP_INFO_STREAM(this->get_logger(), "cam_name: " << this->cam_name_);
-    
+
     //      -- apply camera specific parameters --
     this->declare_parameter( "serial_no", std::string("INVALID"));
     this->get_parameter("serial_no", this->cam_serialno_);

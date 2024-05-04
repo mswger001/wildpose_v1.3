@@ -1,0 +1,137 @@
+[0.369s] Invoking command in '/home/naoya/wildpose_v1.3/wildpose/build/livox_ros2_driver': AMENT_PREFIX_PATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor:/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor:/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces:/home/naoya/WildPose_v1.2/wildpose/install/wildpose_bringup:/home/naoya/WildPose_v1.2/wildpose/install/wildpose_interfaces:/home/naoya/ros2_ws/livox_ros2_driver/install/livox_ros2_driver:/home/naoya/ros2_ws/livox_ros2_driver/install/livox_sdk_vendor:/home/naoya/ros2_ws/livox_ros2_driver/install/livox_interfaces:/home/naoya/ros2_ws/ximea_ros2_cam/install/ximea_ros2_cam:/home/naoya/ros2_ws/rmw_ecal/install/rmw_ecal_dynamic_cpp:/home/naoya/ros2_ws/rmw_ecal/install/rmw_ecal_shared_cpp:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver
+[0.389s] -- livox_ros2_driver version: 0.0.1
+[0.389s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[0.411s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.677s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.791s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.795s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.973s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.044s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.046s] -- Using RMW implementation 'rmw_ecal_dynamic_cpp' as default
+[1.554s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.646s] -- The imported target "vtkParseOGLExt" references the file
+[1.647s]    "/usr/bin/vtkParseOGLExt-7.1"
+[1.647s] but this file does not exist.  Possible reasons include:
+[1.648s] * The file was deleted, renamed, or moved to another location.
+[1.648s] * An install or uninstall procedure did not complete successfully.
+[1.649s] * The installation package was faulty and contained
+[1.649s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.649s] but not all the files it references.
+[1.649s] 
+[1.649s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[1.650s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[1.651s] but this file does not exist.  Possible reasons include:
+[1.652s] * The file was deleted, renamed, or moved to another location.
+[1.652s] * An install or uninstall procedure did not complete successfully.
+[1.652s] * The installation package was faulty and contained
+[1.652s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.653s] but not all the files it references.
+[1.653s] 
+[1.653s] -- The imported target "vtk" references the file
+[1.653s]    "/usr/bin/vtk"
+[1.653s] but this file does not exist.  Possible reasons include:
+[1.653s] * The file was deleted, renamed, or moved to another location.
+[1.653s] * An install or uninstall procedure did not complete successfully.
+[1.653s] * The installation package was faulty and contained
+[1.654s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.654s] but not all the files it references.
+[1.654s] 
+[1.654s] -- The imported target "pvtk" references the file
+[1.654s]    "/usr/bin/pvtk"
+[1.654s] but this file does not exist.  Possible reasons include:
+[1.654s] * The file was deleted, renamed, or moved to another location.
+[1.655s] * An install or uninstall procedure did not complete successfully.
+[1.655s] * The installation package was faulty and contained
+[1.655s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.655s] but not all the files it references.
+[1.655s] 
+[1.698s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.707s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so;libusb::libusb)
+[1.713s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[1.713s] ** WARNING ** io features related to pcap will be disabled
+[1.825s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.834s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so;libusb::libusb)
+[1.877s] -- QHULL found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libqhull_r.so)
+[1.900s] -- looking for PCL_COMMON
+[1.900s] -- looking for PCL_KDTREE
+[1.901s] -- looking for PCL_OCTREE
+[1.901s] -- looking for PCL_SEARCH
+[1.902s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.903s] -- looking for PCL_FILTERS
+[1.903s] -- looking for PCL_2D
+[1.904s] -- looking for PCL_GEOMETRY
+[1.905s] -- looking for PCL_IO
+[1.905s] -- looking for PCL_FEATURES
+[1.907s] -- looking for PCL_ML
+[1.907s] -- looking for PCL_SEGMENTATION
+[1.908s] -- looking for PCL_VISUALIZATION
+[1.908s] -- looking for PCL_SURFACE
+[1.909s] -- looking for PCL_REGISTRATION
+[1.909s] -- looking for PCL_KEYPOINTS
+[1.910s] -- looking for PCL_TRACKING
+[1.910s] -- looking for PCL_RECOGNITION
+[1.912s] -- looking for PCL_STEREO
+[1.913s] -- looking for PCL_OUTOFCORE
+[1.913s] -- looking for PCL_PEOPLE
+[1.926s] -- Checking for module 'apr-1'
+[1.933s] --   No package 'apr-1' found
+[1.996s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.016s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.022s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.025s] -- Configured cppcheck include dirs: /home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_ros2_driver/common;/home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_ros2_driver/common/rapidjson;/home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_ros2_driver/comon/rapdidxml;/home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_ros2_driver/common/comm;/home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_ros2_driver/timesync;/home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_ros2_driver/timesync/user_uart;/home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver
+[2.025s] -- Configured cppcheck exclude dirs and/or files: 
+[2.028s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.028s] -- Configured cpplint exclude dirs and/or files: 
+[2.030s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.030s] -- Added test 'lint_cmake' to check CMake code style
+[2.030s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.034s] -- Added test 'uncrustify' to check C / C++ code style
+[2.034s] -- Configured uncrustify additional arguments: 
+[2.034s] -- Added test 'xmllint' to check XML markup files
+[2.042s] -- Configuring done
+[2.146s] -- Generating done
+[2.146s] -- Build files have been written to: /home/naoya/wildpose_v1.3/wildpose/build/livox_ros2_driver
+[3.120s] Invoked command in '/home/naoya/wildpose_v1.3/wildpose/build/livox_ros2_driver' returned '0': AMENT_PREFIX_PATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor:/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor:/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces:/home/naoya/WildPose_v1.2/wildpose/install/wildpose_bringup:/home/naoya/WildPose_v1.2/wildpose/install/wildpose_interfaces:/home/naoya/ros2_ws/livox_ros2_driver/install/livox_ros2_driver:/home/naoya/ros2_ws/livox_ros2_driver/install/livox_sdk_vendor:/home/naoya/ros2_ws/livox_ros2_driver/install/livox_interfaces:/home/naoya/ros2_ws/ximea_ros2_cam/install/ximea_ros2_cam:/home/naoya/ros2_ws/rmw_ecal/install/rmw_ecal_dynamic_cpp:/home/naoya/ros2_ws/rmw_ecal/install/rmw_ecal_shared_cpp:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver
+[3.123s] Invoking command in '/home/naoya/wildpose_v1.3/wildpose/build/livox_ros2_driver': AMENT_PREFIX_PATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor:/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor:/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces:/home/naoya/WildPose_v1.2/wildpose/install/wildpose_bringup:/home/naoya/WildPose_v1.2/wildpose/install/wildpose_interfaces:/home/naoya/ros2_ws/livox_ros2_driver/install/livox_ros2_driver:/home/naoya/ros2_ws/livox_ros2_driver/install/livox_sdk_vendor:/home/naoya/ros2_ws/livox_ros2_driver/install/livox_interfaces:/home/naoya/ros2_ws/ximea_ros2_cam/install/ximea_ros2_cam:/home/naoya/ros2_ws/rmw_ecal/install/rmw_ecal_dynamic_cpp:/home/naoya/ros2_ws/rmw_ecal/install/rmw_ecal_shared_cpp:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/naoya/wildpose_v1.3/wildpose/build/livox_ros2_driver -- -j16 -l16
+[3.222s] [  6%] [32m[1mLinking CXX executable livox_ros2_driver_node[0m
+[3.224s] [ 12%] [32m[1mLinking CXX shared library liblivox_ros2_driver.so[0m
+[3.438s] [ 18%] Built target livox_ros2_driver_node
+[5.040s] [100%] Built target livox_ros2_driver
+[5.061s] Invoked command in '/home/naoya/wildpose_v1.3/wildpose/build/livox_ros2_driver' returned '0': AMENT_PREFIX_PATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor:/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor:/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces:/home/naoya/WildPose_v1.2/wildpose/install/wildpose_bringup:/home/naoya/WildPose_v1.2/wildpose/install/wildpose_interfaces:/home/naoya/ros2_ws/livox_ros2_driver/install/livox_ros2_driver:/home/naoya/ros2_ws/livox_ros2_driver/install/livox_sdk_vendor:/home/naoya/ros2_ws/livox_ros2_driver/install/livox_interfaces:/home/naoya/ros2_ws/ximea_ros2_cam/install/ximea_ros2_cam:/home/naoya/ros2_ws/rmw_ecal/install/rmw_ecal_dynamic_cpp:/home/naoya/ros2_ws/rmw_ecal/install/rmw_ecal_shared_cpp:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/naoya/wildpose_v1.3/wildpose/build/livox_ros2_driver -- -j16 -l16
+[5.118s] Invoking command in '/home/naoya/wildpose_v1.3/wildpose/build/livox_ros2_driver': AMENT_PREFIX_PATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor:/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor:/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces:/home/naoya/WildPose_v1.2/wildpose/install/wildpose_bringup:/home/naoya/WildPose_v1.2/wildpose/install/wildpose_interfaces:/home/naoya/ros2_ws/livox_ros2_driver/install/livox_ros2_driver:/home/naoya/ros2_ws/livox_ros2_driver/install/livox_sdk_vendor:/home/naoya/ros2_ws/livox_ros2_driver/install/livox_interfaces:/home/naoya/ros2_ws/ximea_ros2_cam/install/ximea_ros2_cam:/home/naoya/ros2_ws/rmw_ecal/install/rmw_ecal_dynamic_cpp:/home/naoya/ros2_ws/rmw_ecal/install/rmw_ecal_shared_cpp:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/naoya/wildpose_v1.3/wildpose/build/livox_ros2_driver
+[5.137s] -- Install configuration: ""
+[5.137s] -- Execute custom install script
+[5.137s] -- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/lib/livox_ros2_driver/livox_ros2_driver_node
+[5.150s] -- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/environment/library_path.sh
+[5.165s] -- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/environment/library_path.dsv
+[5.181s] -- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/lib/liblivox_ros2_driver.so
+[5.199s] -- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/config/livox_hub.rviz
+[5.217s] -- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/config/livox_hub_config.json
+[5.234s] -- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/config/livox_lidar.rviz
+[5.249s] -- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/config/livox_lidar_config.json
+[5.268s] -- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_hub_launch.py
+[5.285s] -- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_hub_msg_launch .py
+[5.298s] -- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_hub_rviz_launch.py
+[5.319s] -- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_lidar_launch.py
+[5.334s] -- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_lidar_msg_launch.py
+[5.349s] -- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_lidar_rviz_launch.py
+[5.365s] -- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_template_launch.py
+[5.383s] -- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/ament_index/resource_index/package_run_dependencies/livox_ros2_driver
+[5.399s] -- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/ament_index/resource_index/parent_prefix_path/livox_ros2_driver
+[5.417s] -- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/environment/ament_prefix_path.sh
+[5.432s] -- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/environment/ament_prefix_path.dsv
+[5.453s] -- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/environment/path.sh
+[5.467s] -- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/environment/path.dsv
+[5.484s] -- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/local_setup.bash
+[5.499s] -- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/local_setup.sh
+[5.518s] -- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/local_setup.zsh
+[5.533s] -- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/local_setup.dsv
+[5.552s] -- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/package.dsv
+[5.570s] -- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/ament_index/resource_index/packages/livox_ros2_driver
+[5.585s] -- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/ament_index/resource_index/rclcpp_components/livox_ros2_driver
+[5.594s] -- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.618s] -- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[5.626s] -- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/cmake/livox_ros2_driverConfig.cmake
+[5.637s] -- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/cmake/livox_ros2_driverConfig-version.cmake
+[5.654s] -- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/package.xml
+[5.673s] Invoked command in '/home/naoya/wildpose_v1.3/wildpose/build/livox_ros2_driver' returned '0': AMENT_PREFIX_PATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor:/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor:/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces:/home/naoya/WildPose_v1.2/wildpose/install/wildpose_bringup:/home/naoya/WildPose_v1.2/wildpose/install/wildpose_interfaces:/home/naoya/ros2_ws/livox_ros2_driver/install/livox_ros2_driver:/home/naoya/ros2_ws/livox_ros2_driver/install/livox_sdk_vendor:/home/naoya/ros2_ws/livox_ros2_driver/install/livox_interfaces:/home/naoya/ros2_ws/ximea_ros2_cam/install/ximea_ros2_cam:/home/naoya/ros2_ws/rmw_ecal/install/rmw_ecal_dynamic_cpp:/home/naoya/ros2_ws/rmw_ecal/install/rmw_ecal_shared_cpp:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/naoya/wildpose_v1.3/wildpose/build/livox_ros2_driver

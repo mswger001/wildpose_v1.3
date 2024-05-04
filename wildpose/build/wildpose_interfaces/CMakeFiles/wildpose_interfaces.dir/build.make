@@ -53,9 +53,11 @@ CMAKE_BINARY_DIR = /home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces
 # Include the progress variables for this target.
 include CMakeFiles/wildpose_interfaces.dir/progress.make
 
+CMakeFiles/wildpose_interfaces: /home/naoya/wildpose_v1.3/wildpose/src/wildpose_interfaces/msg/LensAperture.msg
 CMakeFiles/wildpose_interfaces: /home/naoya/wildpose_v1.3/wildpose/src/wildpose_interfaces/msg/DjiRsStatus.msg
 CMakeFiles/wildpose_interfaces: /home/naoya/wildpose_v1.3/wildpose/src/wildpose_interfaces/msg/MotorStatus.msg
 CMakeFiles/wildpose_interfaces: /home/naoya/wildpose_v1.3/wildpose/src/wildpose_interfaces/msg/MotorPositions.msg
+CMakeFiles/wildpose_interfaces: /home/naoya/wildpose_v1.3/wildpose/src/wildpose_interfaces/msg/FrameBrightness.msg
 CMakeFiles/wildpose_interfaces: /opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl
 CMakeFiles/wildpose_interfaces: /opt/ros/foxy/share/builtin_interfaces/msg/Time.idl
 CMakeFiles/wildpose_interfaces: /opt/ros/foxy/share/std_msgs/msg/Bool.idl

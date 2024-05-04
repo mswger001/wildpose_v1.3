@@ -1,5 +1,5 @@
 <launch>
-    <arg name="cam_context" default="/home/m2s2/Nutramax_Data/test/cam_context_files/test.bin" />
+    <arg name="cam_context" default="/home/naoya/cam_context.bin" />
 
     <group>
         <node pkg="ximea_ros2_cam" name="ximea_cam_node" exec="ximea_ros2_cam_node" output="screen">
@@ -16,14 +16,14 @@
             <param name= "cam_context_path" value="$(var cam_context)" />
 
 
-            
+
         </node>
     </group>
 
 
-    
 
- 
+
+
 
 
 

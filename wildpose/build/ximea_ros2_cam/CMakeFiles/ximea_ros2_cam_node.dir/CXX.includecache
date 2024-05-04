@@ -6,6 +6,32 @@
 
 #IncludeRegexTransform: 
 
+/home/naoya/wildpose_v1.3/wildpose/install/cv_bridge/include/cv_bridge/cv_bridge.h
+sensor_msgs/msg/image.hpp
+-
+sensor_msgs/msg/compressed_image.hpp
+-
+sensor_msgs/image_encodings.hpp
+-
+opencv2/core/core.hpp
+-
+opencv2/imgproc/imgproc.hpp
+-
+opencv2/imgproc/types_c.h
+-
+cv_bridge/cv_bridge_export.h
+-
+memory
+-
+ostream
+-
+stdexcept
+-
+string
+-
+
+/home/naoya/wildpose_v1.3/wildpose/install/cv_bridge/include/cv_bridge/cv_bridge_export.h
+
 /home/naoya/wildpose_v1.3/wildpose/src/ximea_ROS2_driver-main/ximea_ros2_cam/include/ximea_ros2_cam/ximea_ros2_cam.hpp
 rclcpp/rclcpp.hpp
 /home/naoya/wildpose_v1.3/wildpose/src/ximea_ROS2_driver-main/ximea_ros2_cam/include/ximea_ros2_cam/rclcpp/rclcpp.hpp
@@ -191,32 +217,6 @@ camera_info_manager/visibility_control.h
 /opt/ros/foxy/include/camera_info_manager/camera_info_manager/visibility_control.h
 
 /opt/ros/foxy/include/camera_info_manager/visibility_control.h
-
-/opt/ros/foxy/include/cv_bridge/cv_bridge.h
-sensor_msgs/msg/image.hpp
--
-sensor_msgs/msg/compressed_image.hpp
--
-sensor_msgs/image_encodings.hpp
--
-opencv2/core/core.hpp
--
-opencv2/imgproc/imgproc.hpp
--
-opencv2/imgproc/types_c.h
--
-cv_bridge/cv_bridge_export.h
--
-memory
--
-ostream
--
-stdexcept
--
-string
--
-
-/opt/ros/foxy/include/cv_bridge/cv_bridge_export.h
 
 /opt/ros/foxy/include/image_transport/camera_publisher.hpp
 rclcpp/macros.hpp

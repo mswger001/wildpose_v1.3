@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing motor_controller_pkg.egg-info/PKG-INFO
+writing dependency_links to motor_controller_pkg.egg-info/dependency_links.txt
+writing entry points to motor_controller_pkg.egg-info/entry_points.txt
+writing requirements to motor_controller_pkg.egg-info/requires.txt
+writing top-level names to motor_controller_pkg.egg-info/top_level.txt
+reading manifest file 'motor_controller_pkg.egg-info/SOURCES.txt'
+writing manifest file 'motor_controller_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/naoya/wildpose_v1.3/wildpose/install/motor_controller_pkg/lib/python3.8/site-packages/motor-controller-pkg.egg-link (link to .)
+Installing motor_control_node script to /home/naoya/wildpose_v1.3/wildpose/install/motor_controller_pkg/lib/motor_controller_pkg
+
+Installed /home/naoya/wildpose_v1.3/wildpose/build/motor_controller_pkg
+running install_data

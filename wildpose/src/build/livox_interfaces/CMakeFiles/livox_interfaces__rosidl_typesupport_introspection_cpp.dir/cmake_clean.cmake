@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/livox_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_interfaces/msg/detail/custom_msg__type_support.cpp.o"
-  "CMakeFiles/livox_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_interfaces/msg/detail/custom_msg__type_support.cpp.o.d"
   "CMakeFiles/livox_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_interfaces/msg/detail/custom_point__type_support.cpp.o"
-  "CMakeFiles/livox_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_interfaces/msg/detail/custom_point__type_support.cpp.o.d"
   "liblivox_interfaces__rosidl_typesupport_introspection_cpp.pdb"
   "liblivox_interfaces__rosidl_typesupport_introspection_cpp.so"
   "rosidl_typesupport_introspection_cpp/livox_interfaces/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp"

@@ -1,0 +1,21 @@
+[1.698s] Invoking command in '/home/naoya/wildpose_v1.3/wildpose/src/motor_controller_pkg': AMENT_PREFIX_PATH=/home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/naoya/wildpose_v1.3/wildpose/build/motor_controller_pkg/prefix_override:/home/naoya/wildpose_v1.3/wildpose/install/motor_controller_pkg/lib/python3.8/site-packages:/home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/motor_controller_pkg build --build-base /home/naoya/wildpose_v1.3/wildpose/build/motor_controller_pkg/build install --record /home/naoya/wildpose_v1.3/wildpose/build/motor_controller_pkg/install.log --install-scripts $base/lib/motor_controller_pkg --single-version-externally-managed
+[1.819s] running egg_info
+[1.819s] writing ../../build/motor_controller_pkg/motor_controller_pkg.egg-info/PKG-INFO
+[1.819s] writing dependency_links to ../../build/motor_controller_pkg/motor_controller_pkg.egg-info/dependency_links.txt
+[1.820s] writing entry points to ../../build/motor_controller_pkg/motor_controller_pkg.egg-info/entry_points.txt
+[1.820s] writing requirements to ../../build/motor_controller_pkg/motor_controller_pkg.egg-info/requires.txt
+[1.820s] writing top-level names to ../../build/motor_controller_pkg/motor_controller_pkg.egg-info/top_level.txt
+[1.841s] reading manifest file '../../build/motor_controller_pkg/motor_controller_pkg.egg-info/SOURCES.txt'
+[1.842s] writing manifest file '../../build/motor_controller_pkg/motor_controller_pkg.egg-info/SOURCES.txt'
+[1.842s] running build
+[1.842s] running build_py
+[1.842s] running install
+[1.842s] running install_lib
+[1.842s] running install_data
+[1.843s] running install_egg_info
+[1.843s] removing '/home/naoya/wildpose_v1.3/wildpose/install/motor_controller_pkg/lib/python3.8/site-packages/motor_controller_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.844s] Copying ../../build/motor_controller_pkg/motor_controller_pkg.egg-info to /home/naoya/wildpose_v1.3/wildpose/install/motor_controller_pkg/lib/python3.8/site-packages/motor_controller_pkg-0.0.0-py3.8.egg-info
+[1.844s] running install_scripts
+[1.857s] Installing motor_control_node script to /home/naoya/wildpose_v1.3/wildpose/install/motor_controller_pkg/lib/motor_controller_pkg
+[1.857s] writing list of installed files to '/home/naoya/wildpose_v1.3/wildpose/build/motor_controller_pkg/install.log'
+[2.017s] Invoked command in '/home/naoya/wildpose_v1.3/wildpose/src/motor_controller_pkg' returned '0': AMENT_PREFIX_PATH=/home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/naoya/wildpose_v1.3/wildpose/build/motor_controller_pkg/prefix_override:/home/naoya/wildpose_v1.3/wildpose/install/motor_controller_pkg/lib/python3.8/site-packages:/home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/motor_controller_pkg build --build-base /home/naoya/wildpose_v1.3/wildpose/build/motor_controller_pkg/build install --record /home/naoya/wildpose_v1.3/wildpose/build/motor_controller_pkg/install.log --install-scripts $base/lib/motor_controller_pkg --single-version-externally-managed

@@ -1,8 +1,8 @@
-# Install script for directory: /home/m2s2/WildPose_v1.2-main/wildpose/src/livox_lidar_ROS2_driver/livox_sdk_vendor
+# Install script for directory: /home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_sdk_vendor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/m2s2/WildPose_v1.2-main/wildpose/src/install/livox_sdk_vendor")
+  set(CMAKE_INSTALL_PREFIX "/home/naoya/wildpose_v1.3/wildpose/src/install/livox_sdk_vendor")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -37,21 +37,16 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set default install directory permissions.
-if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_sdk_vendor" TYPE DIRECTORY FILES "/home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_sdk_vendor/cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_sdk_vendor" TYPE DIRECTORY FILES "/home/m2s2/WildPose_v1.2-main/wildpose/src/livox_lidar_ROS2_driver/livox_sdk_vendor/cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/src/build/livox_sdk_vendor/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/livox_sdk_vendor")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/m2s2/WildPose_v1.2-main/wildpose/src/build/livox_sdk_vendor/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/livox_sdk_vendor")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/m2s2/WildPose_v1.2-main/wildpose/src/build/livox_sdk_vendor/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/livox_sdk_vendor")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/src/build/livox_sdk_vendor/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/livox_sdk_vendor")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -59,7 +54,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_sdk_vendor/environment" TYPE FILE FILES "/home/m2s2/WildPose_v1.2-main/wildpose/src/build/livox_sdk_vendor/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_sdk_vendor/environment" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/src/build/livox_sdk_vendor/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -67,46 +62,46 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_sdk_vendor/environment" TYPE FILE FILES "/home/m2s2/WildPose_v1.2-main/wildpose/src/build/livox_sdk_vendor/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_sdk_vendor/environment" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/src/build/livox_sdk_vendor/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_sdk_vendor" TYPE FILE FILES "/home/m2s2/WildPose_v1.2-main/wildpose/src/build/livox_sdk_vendor/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_sdk_vendor" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/src/build/livox_sdk_vendor/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_sdk_vendor" TYPE FILE FILES "/home/m2s2/WildPose_v1.2-main/wildpose/src/build/livox_sdk_vendor/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_sdk_vendor" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/src/build/livox_sdk_vendor/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_sdk_vendor" TYPE FILE FILES "/home/m2s2/WildPose_v1.2-main/wildpose/src/build/livox_sdk_vendor/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_sdk_vendor" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/src/build/livox_sdk_vendor/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_sdk_vendor" TYPE FILE FILES "/home/m2s2/WildPose_v1.2-main/wildpose/src/build/livox_sdk_vendor/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_sdk_vendor" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/src/build/livox_sdk_vendor/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_sdk_vendor" TYPE FILE FILES "/home/m2s2/WildPose_v1.2-main/wildpose/src/build/livox_sdk_vendor/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_sdk_vendor" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/src/build/livox_sdk_vendor/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/m2s2/WildPose_v1.2-main/wildpose/src/build/livox_sdk_vendor/ament_cmake_index/share/ament_index/resource_index/packages/livox_sdk_vendor")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/src/build/livox_sdk_vendor/ament_cmake_index/share/ament_index/resource_index/packages/livox_sdk_vendor")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_sdk_vendor/cmake" TYPE FILE FILES "/home/m2s2/WildPose_v1.2-main/wildpose/src/livox_lidar_ROS2_driver/livox_sdk_vendor/livox_sdk_vendor-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_sdk_vendor/cmake" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_sdk_vendor/livox_sdk_vendor-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_sdk_vendor/cmake" TYPE FILE FILES
-    "/home/m2s2/WildPose_v1.2-main/wildpose/src/build/livox_sdk_vendor/ament_cmake_core/livox_sdk_vendorConfig.cmake"
-    "/home/m2s2/WildPose_v1.2-main/wildpose/src/build/livox_sdk_vendor/ament_cmake_core/livox_sdk_vendorConfig-version.cmake"
+    "/home/naoya/wildpose_v1.3/wildpose/src/build/livox_sdk_vendor/ament_cmake_core/livox_sdk_vendorConfig.cmake"
+    "/home/naoya/wildpose_v1.3/wildpose/src/build/livox_sdk_vendor/ament_cmake_core/livox_sdk_vendorConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_sdk_vendor" TYPE FILE FILES "/home/m2s2/WildPose_v1.2-main/wildpose/src/livox_lidar_ROS2_driver/livox_sdk_vendor/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_sdk_vendor" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_sdk_vendor/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -117,5 +112,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/m2s2/WildPose_v1.2-main/wildpose/src/build/livox_sdk_vendor/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/naoya/wildpose_v1.3/wildpose/src/build/livox_sdk_vendor/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -11,10 +11,10 @@ WILDPOSE_HOME = '/home/naoya/WildPose_v1.3/wildpose'
 
 
 ################### Livox TELE-15 user-defined parameters start ###################
-xfer_format   = 0    # 0-Pointcloud2(PointXYZRTL), 1-customized pointcloud format
+xfer_format   = 1    # 0-Pointcloud2(PointXYZRTL), 1-customized pointcloud format
 multi_topic   = 0    # 0-All LiDARs share the same topic, 1-One LiDAR one topic
 data_src      = 0    # 0-lidar,1-hub
-publish_freq  = 10.0 # freqency of publish,1.0,2.0,5.0,10.0,etc
+publish_freq  = 100.0 # freqency of publish,1.0,2.0,5.0,10.0,etc
 return_mode = 2 # 2-dual return
 output_type   = 0
 frame_id      = 'livox_frame'
@@ -40,7 +40,7 @@ livox_ros2_params = [
 ]
 
 
-camera_fps = 50
+camera_fps = 100
 ximea_cam_parameters = {
     ################### XIMEA camera user-defined parameters start ###################
     ####################
@@ -214,13 +214,13 @@ def generate_launch_description():
 
 
     return LaunchDescription([
-        #ximea_cam_driver,
+        ximea_cam_driver,
        #image_viewer,
        # dji_rs3_node,
         gamepad_node,
         motor_control_node,
-        lidar_control_node,
-        #livox_driver,
+        #lidar_control_node,
+        livox_driver,
         livox_rviz,
         rqt_gui_node,
         # rosbag,

@@ -1,0 +1,30 @@
+[0.529s] Invoking command in '/home/naoya/wildpose_v1.3/wildpose/build/ximea_ros2_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/wildpose_v1.3/wildpose/install/motor_controller_pkg:/home/naoya/wildpose_v1.3/wildpose/install/lidar_control_package:/home/naoya/wildpose_v1.3/wildpose/install/dji_rs3_pkg:/home/naoya/wildpose_v1.3/wildpose/install/gamepad_pkg:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/naoya/wildpose_v1.3/wildpose/build/ximea_ros2_cam -- -j16 -l16
+[0.852s] [35m[1mScanning dependencies of target ximea_ros2_cam_node[0m
+[0.853s] [ 33%] [32mBuilding CXX object CMakeFiles/ximea_ros2_cam_node.dir/src/ximea_ros2_cam.cpp.o[0m
+[4.226s] [ 66%] [32m[1mLinking CXX executable ximea_ros2_cam_node[0m
+[4.564s] [100%] Built target ximea_ros2_cam_node
+[4.575s] Invoked command in '/home/naoya/wildpose_v1.3/wildpose/build/ximea_ros2_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/wildpose_v1.3/wildpose/install/motor_controller_pkg:/home/naoya/wildpose_v1.3/wildpose/install/lidar_control_package:/home/naoya/wildpose_v1.3/wildpose/install/dji_rs3_pkg:/home/naoya/wildpose_v1.3/wildpose/install/gamepad_pkg:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/naoya/wildpose_v1.3/wildpose/build/ximea_ros2_cam -- -j16 -l16
+[4.603s] Invoking command in '/home/naoya/wildpose_v1.3/wildpose/build/ximea_ros2_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/wildpose_v1.3/wildpose/install/motor_controller_pkg:/home/naoya/wildpose_v1.3/wildpose/install/lidar_control_package:/home/naoya/wildpose_v1.3/wildpose/install/dji_rs3_pkg:/home/naoya/wildpose_v1.3/wildpose/install/gamepad_pkg:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/naoya/wildpose_v1.3/wildpose/build/ximea_ros2_cam
+[4.614s] -- Install configuration: ""
+[4.614s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/ximea_ros2_cam/lib/ximea_ros2_cam/ximea_ros2_cam_node
+[4.616s] -- Set runtime path of "/home/naoya/wildpose_v1.3/wildpose/install/ximea_ros2_cam/lib/ximea_ros2_cam/ximea_ros2_cam_node" to ""
+[4.616s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/config
+[4.616s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/config/xiCam_config.yaml
+[4.617s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/launch
+[4.617s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/launch/xiCam.launch.xml
+[4.617s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/ximea_ros2_cam/share/ament_index/resource_index/package_run_dependencies/ximea_ros2_cam
+[4.617s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/ximea_ros2_cam/share/ament_index/resource_index/parent_prefix_path/ximea_ros2_cam
+[4.617s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/environment/ament_prefix_path.sh
+[4.617s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/environment/ament_prefix_path.dsv
+[4.617s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/environment/path.sh
+[4.617s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/environment/path.dsv
+[4.617s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/local_setup.bash
+[4.617s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/local_setup.sh
+[4.617s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/local_setup.zsh
+[4.617s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/local_setup.dsv
+[4.617s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/package.dsv
+[4.618s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/ximea_ros2_cam/share/ament_index/resource_index/packages/ximea_ros2_cam
+[4.618s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/cmake/ximea_ros2_camConfig.cmake
+[4.618s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/cmake/ximea_ros2_camConfig-version.cmake
+[4.618s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/ximea_ros2_cam/share/ximea_ros2_cam/package.xml
+[4.619s] Invoked command in '/home/naoya/wildpose_v1.3/wildpose/build/ximea_ros2_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/wildpose_v1.3/wildpose/install/motor_controller_pkg:/home/naoya/wildpose_v1.3/wildpose/install/lidar_control_package:/home/naoya/wildpose_v1.3/wildpose/install/dji_rs3_pkg:/home/naoya/wildpose_v1.3/wildpose/install/gamepad_pkg:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/naoya/wildpose_v1.3/wildpose/build/ximea_ros2_cam

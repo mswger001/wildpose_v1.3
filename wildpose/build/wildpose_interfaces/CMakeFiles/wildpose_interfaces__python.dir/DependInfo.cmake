@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/rosidl_generator_py/wildpose_interfaces/msg/_dji_rs_status_s.c" "/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_dji_rs_status_s.c.o"
+  "/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/rosidl_generator_py/wildpose_interfaces/msg/_frame_brightness_s.c" "/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_frame_brightness_s.c.o"
+  "/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/rosidl_generator_py/wildpose_interfaces/msg/_lens_aperture_s.c" "/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_lens_aperture_s.c.o"
   "/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/rosidl_generator_py/wildpose_interfaces/msg/_motor_positions_s.c" "/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_motor_positions_s.c.o"
   "/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/rosidl_generator_py/wildpose_interfaces/msg/_motor_status_s.c" "/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_motor_status_s.c.o"
   )

@@ -1,0 +1,1 @@
+/usr/bin/cc  -fopenmp -v    CMakeFiles/cmTC_b7a0f.dir/OpenMPTryFlag.c.o  -o cmTC_b7a0f  -v 

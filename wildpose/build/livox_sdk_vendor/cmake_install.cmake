@@ -1,4 +1,4 @@
-# Install script for directory: /home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_sdk_vendor
+# Install script for directory: /home/naoya/wildpose_v1.3/wildpose/src/livox_lidar_ROS2_driver/livox_sdk_vendor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_sdk_vendor" TYPE DIRECTORY FILES "/home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_sdk_vendor/cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_sdk_vendor" TYPE DIRECTORY FILES "/home/naoya/wildpose_v1.3/wildpose/src/livox_lidar_ROS2_driver/livox_sdk_vendor/cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -90,7 +90,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_sdk_vendor/cmake" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_sdk_vendor/livox_sdk_vendor-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_sdk_vendor/cmake" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/src/livox_lidar_ROS2_driver/livox_sdk_vendor/livox_sdk_vendor-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -101,7 +101,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_sdk_vendor" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_sdk_vendor/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_sdk_vendor" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/src/livox_lidar_ROS2_driver/livox_sdk_vendor/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

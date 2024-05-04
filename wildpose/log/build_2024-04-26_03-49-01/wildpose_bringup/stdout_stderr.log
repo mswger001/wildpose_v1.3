@@ -1,0 +1,24 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/naoya/wildpose_v1.3/wildpose/build/wildpose_bringup
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_bringup/share/wildpose_bringup/launch/wildpose_launch.py
+-- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_bringup/share/ament_index/resource_index/package_run_dependencies/wildpose_bringup
+-- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_bringup/share/ament_index/resource_index/parent_prefix_path/wildpose_bringup
+-- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_bringup/share/wildpose_bringup/environment/ament_prefix_path.sh
+-- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_bringup/share/wildpose_bringup/environment/ament_prefix_path.dsv
+-- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_bringup/share/wildpose_bringup/environment/path.sh
+-- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_bringup/share/wildpose_bringup/environment/path.dsv
+-- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_bringup/share/wildpose_bringup/local_setup.bash
+-- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_bringup/share/wildpose_bringup/local_setup.sh
+-- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_bringup/share/wildpose_bringup/local_setup.zsh
+-- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_bringup/share/wildpose_bringup/local_setup.dsv
+-- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_bringup/share/wildpose_bringup/package.dsv
+-- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_bringup/share/ament_index/resource_index/packages/wildpose_bringup
+-- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_bringup/share/wildpose_bringup/cmake/wildpose_bringupConfig.cmake
+-- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_bringup/share/wildpose_bringup/cmake/wildpose_bringupConfig-version.cmake
+-- Symlinking: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_bringup/share/wildpose_bringup/package.xml

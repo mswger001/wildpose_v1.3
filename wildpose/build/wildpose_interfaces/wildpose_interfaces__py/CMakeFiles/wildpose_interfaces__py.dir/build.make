@@ -56,13 +56,17 @@ include wildpose_interfaces__py/CMakeFiles/wildpose_interfaces__py.dir/progress.
 wildpose_interfaces__py/CMakeFiles/wildpose_interfaces__py: rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 wildpose_interfaces__py/CMakeFiles/wildpose_interfaces__py: rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 wildpose_interfaces__py/CMakeFiles/wildpose_interfaces__py: rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesupport_c.c
+wildpose_interfaces__py/CMakeFiles/wildpose_interfaces__py: rosidl_generator_py/wildpose_interfaces/msg/_lens_aperture.py
 wildpose_interfaces__py/CMakeFiles/wildpose_interfaces__py: rosidl_generator_py/wildpose_interfaces/msg/_dji_rs_status.py
 wildpose_interfaces__py/CMakeFiles/wildpose_interfaces__py: rosidl_generator_py/wildpose_interfaces/msg/_motor_status.py
 wildpose_interfaces__py/CMakeFiles/wildpose_interfaces__py: rosidl_generator_py/wildpose_interfaces/msg/_motor_positions.py
+wildpose_interfaces__py/CMakeFiles/wildpose_interfaces__py: rosidl_generator_py/wildpose_interfaces/msg/_frame_brightness.py
 wildpose_interfaces__py/CMakeFiles/wildpose_interfaces__py: rosidl_generator_py/wildpose_interfaces/msg/__init__.py
+wildpose_interfaces__py/CMakeFiles/wildpose_interfaces__py: rosidl_generator_py/wildpose_interfaces/msg/_lens_aperture_s.c
 wildpose_interfaces__py/CMakeFiles/wildpose_interfaces__py: rosidl_generator_py/wildpose_interfaces/msg/_dji_rs_status_s.c
 wildpose_interfaces__py/CMakeFiles/wildpose_interfaces__py: rosidl_generator_py/wildpose_interfaces/msg/_motor_status_s.c
 wildpose_interfaces__py/CMakeFiles/wildpose_interfaces__py: rosidl_generator_py/wildpose_interfaces/msg/_motor_positions_s.c
+wildpose_interfaces__py/CMakeFiles/wildpose_interfaces__py: rosidl_generator_py/wildpose_interfaces/msg/_frame_brightness_s.c
 
 
 rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/lib/rosidl_generator_py/rosidl_generator_py
@@ -78,9 +82,11 @@ rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesup
 rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_msg.py.em
 rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_srv.py.em
+rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/wildpose_interfaces/msg/LensAperture.idl
 rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/wildpose_interfaces/msg/DjiRsStatus.idl
 rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/wildpose_interfaces/msg/MotorStatus.idl
 rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/wildpose_interfaces/msg/MotorPositions.idl
+rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/wildpose_interfaces/msg/FrameBrightness.idl
 rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/builtin_interfaces/msg/Time.idl
 rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/std_msgs/msg/Bool.idl
@@ -122,6 +128,9 @@ rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesup
 rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesupport_c.c: rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesupport_c.c
 
+rosidl_generator_py/wildpose_interfaces/msg/_lens_aperture.py: rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/wildpose_interfaces/msg/_lens_aperture.py
+
 rosidl_generator_py/wildpose_interfaces/msg/_dji_rs_status.py: rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/wildpose_interfaces/msg/_dji_rs_status.py
 
@@ -131,8 +140,14 @@ rosidl_generator_py/wildpose_interfaces/msg/_motor_status.py: rosidl_generator_p
 rosidl_generator_py/wildpose_interfaces/msg/_motor_positions.py: rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/wildpose_interfaces/msg/_motor_positions.py
 
+rosidl_generator_py/wildpose_interfaces/msg/_frame_brightness.py: rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/wildpose_interfaces/msg/_frame_brightness.py
+
 rosidl_generator_py/wildpose_interfaces/msg/__init__.py: rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/wildpose_interfaces/msg/__init__.py
+
+rosidl_generator_py/wildpose_interfaces/msg/_lens_aperture_s.c: rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/wildpose_interfaces/msg/_lens_aperture_s.c
 
 rosidl_generator_py/wildpose_interfaces/msg/_dji_rs_status_s.c: rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/wildpose_interfaces/msg/_dji_rs_status_s.c
@@ -143,17 +158,24 @@ rosidl_generator_py/wildpose_interfaces/msg/_motor_status_s.c: rosidl_generator_
 rosidl_generator_py/wildpose_interfaces/msg/_motor_positions_s.c: rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/wildpose_interfaces/msg/_motor_positions_s.c
 
+rosidl_generator_py/wildpose_interfaces/msg/_frame_brightness_s.c: rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/wildpose_interfaces/msg/_frame_brightness_s.c
+
 wildpose_interfaces__py: wildpose_interfaces__py/CMakeFiles/wildpose_interfaces__py
 wildpose_interfaces__py: rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 wildpose_interfaces__py: rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 wildpose_interfaces__py: rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesupport_c.c
+wildpose_interfaces__py: rosidl_generator_py/wildpose_interfaces/msg/_lens_aperture.py
 wildpose_interfaces__py: rosidl_generator_py/wildpose_interfaces/msg/_dji_rs_status.py
 wildpose_interfaces__py: rosidl_generator_py/wildpose_interfaces/msg/_motor_status.py
 wildpose_interfaces__py: rosidl_generator_py/wildpose_interfaces/msg/_motor_positions.py
+wildpose_interfaces__py: rosidl_generator_py/wildpose_interfaces/msg/_frame_brightness.py
 wildpose_interfaces__py: rosidl_generator_py/wildpose_interfaces/msg/__init__.py
+wildpose_interfaces__py: rosidl_generator_py/wildpose_interfaces/msg/_lens_aperture_s.c
 wildpose_interfaces__py: rosidl_generator_py/wildpose_interfaces/msg/_dji_rs_status_s.c
 wildpose_interfaces__py: rosidl_generator_py/wildpose_interfaces/msg/_motor_status_s.c
 wildpose_interfaces__py: rosidl_generator_py/wildpose_interfaces/msg/_motor_positions_s.c
+wildpose_interfaces__py: rosidl_generator_py/wildpose_interfaces/msg/_frame_brightness_s.c
 wildpose_interfaces__py: wildpose_interfaces__py/CMakeFiles/wildpose_interfaces__py.dir/build.make
 
 .PHONY : wildpose_interfaces__py

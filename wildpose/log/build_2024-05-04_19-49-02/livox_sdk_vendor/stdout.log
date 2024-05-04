@@ -1,0 +1,25 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/naoya/wildpose_v1.3/wildpose/build/livox_sdk_vendor
+-- Install configuration: ""
+-- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake
+-- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake/Modules
+-- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake/Modules/Findlivox_sdk.cmake
+-- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/ament_index/resource_index/package_run_dependencies/livox_sdk_vendor
+-- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/ament_index/resource_index/parent_prefix_path/livox_sdk_vendor
+-- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/environment/ament_prefix_path.sh
+-- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/environment/path.sh
+-- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/environment/path.dsv
+-- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/local_setup.bash
+-- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/local_setup.sh
+-- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/local_setup.zsh
+-- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/local_setup.dsv
+-- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/package.dsv
+-- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/ament_index/resource_index/packages/livox_sdk_vendor
+-- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake/livox_sdk_vendor-extras.cmake
+-- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake/livox_sdk_vendorConfig.cmake
+-- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake/livox_sdk_vendorConfig-version.cmake
+-- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/package.xml

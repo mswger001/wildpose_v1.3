@@ -1,4 +1,4 @@
-# Install script for directory: /home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_interfaces
+# Install script for directory: /home/naoya/wildpose_v1.3/wildpose/src/livox_lidar_ROS2_driver/livox_interfaces
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -359,11 +359,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_interfaces/msg" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_interfaces/msg/CustomPoint.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_interfaces/msg" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/src/livox_lidar_ROS2_driver/livox_interfaces/msg/CustomPoint.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_interfaces/msg" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_interfaces/msg/CustomMsg.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_interfaces/msg" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/src/livox_lidar_ROS2_driver/livox_interfaces/msg/CustomMsg.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -561,7 +561,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_interfaces" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_interfaces/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_interfaces" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/src/livox_lidar_ROS2_driver/livox_interfaces/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

@@ -47,7 +47,7 @@ class MotorControlNode(Node):
         # Motor parameters
         self.n_motor_ = n_motor
         self.motor_speed_ = 500
-        self.revolutions_ = [0.0] * self.n_motor_   # the revolution of the gearmotor output 
+        self.revolutions_ = [0.0] * self.n_motor_   # the revolution of the gearmotor output
         self.pluse_counters_ = [0] * self.n_motor_
         self.motor_speeds_ = [0] * self.n_motor_
         self._update_motor_flag = False
@@ -67,7 +67,7 @@ class MotorControlNode(Node):
             parity=serial.PARITY_NONE,
             stopbits=serial.STOPBITS_ONE,
             timeout=0.1,    # read timeout
-            write_timeout=0.1,  
+            write_timeout=0.1,
         )
         self.serial_port_.flushInput()
         self.reset_motor()
@@ -82,21 +82,21 @@ class MotorControlNode(Node):
 
         # timer
         self.motor_state_timer_ = self.create_timer(0.1, self.check_motor_state)
-        
+
     def joy_callback(self, msg):
         buttons, axes = joymsg2f510(msg)
-        
+
         # motor 1
-        if axes['dpad'][0] != 0:    
+        if axes['dpad'][0] != 0:
             self.motor_speeds_[0] = int(math.copysign(self.motor_speed_, axes['dpad'][0]))
             self._update_motor_flag = True
-            
+
         else:
             self.motor_speeds_[0] = 0
             self._update_motor_flag = True
 
         # motor 2
-        if axes['dpad'][1] != 0:    
+        if axes['dpad'][1] != 0:
             self.motor_speeds_[1] = int(math.copysign(self.motor_speed_, axes['dpad'][1]))
             self._update_motor_flag = True
         else:
@@ -104,34 +104,34 @@ class MotorControlNode(Node):
             self._update_motor_flag = True
 
         # motor 3
-        if axes['joy_left'][1] != 0:    
+        if axes['joy_left'][1] != 0:
             self.motor_speeds_[2] = int(math.copysign(self.motor_speed_, axes['joy_left'][1]))
             self._update_motor_flag = True
         else:
             self.motor_speeds_[2] = 0
             self._update_motor_flag = True
-            
+
         # reset
         if buttons['Logitech'] == 1:
             self._reset_motor_flag = True
-            
+
     def reset_motor(self):
         self.serial_port_.write('reset\n'.encode())
         self.get_logger().info(f'Reset the motor status.')
 
     def check_motor_state(self):
- 
+
 
         if self._update_motor_flag:
             for i in range(self.n_motor_):
                 self.serial_port_.write(f't{i}{self.motor_speeds_[i]}\n'.encode())
             self.get_logger().debug(f'set motor speed: {self.motor_speeds_}')
             self._update_motor_flag = False
-            
+
         if self._reset_motor_flag:
             self.reset_motor()
             self._reset_motor_flag = False
-            
+
         # Send commands to request zoom, focus, and aperture positions
         self.serial_port_.write(b'g\n')  # Command to get zoom position
 
@@ -155,7 +155,7 @@ class MotorControlNode(Node):
             else:
                 self.get_logger().error(f'Undefined command: {data}')
                 return None
-            
+
 
         # Create a MotorPositions message
         msg = MotorPositions()

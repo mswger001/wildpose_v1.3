@@ -1,11 +1,13 @@
 {
   "package_name": "wildpose_interfaces",
-  "output_dir": "/home/m2s2/WildPose_v1.2-main/wildpose/src/build/wildpose_interfaces/rosidl_typesupport_fastrtps_c/wildpose_interfaces",
+  "output_dir": "/home/naoya/wildpose_v1.3/wildpose/src/build/wildpose_interfaces/rosidl_typesupport_fastrtps_c/wildpose_interfaces",
   "template_dir": "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_c/resource",
   "idl_tuples": [
-    "/home/m2s2/WildPose_v1.2-main/wildpose/src/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces:msg/DjiRsStatus.idl",
-    "/home/m2s2/WildPose_v1.2-main/wildpose/src/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces:msg/MotorStatus.idl",
-    "/home/m2s2/WildPose_v1.2-main/wildpose/src/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces:msg/MotorPositions.idl"
+    "/home/naoya/wildpose_v1.3/wildpose/src/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces:msg/LensAperture.idl",
+    "/home/naoya/wildpose_v1.3/wildpose/src/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces:msg/DjiRsStatus.idl",
+    "/home/naoya/wildpose_v1.3/wildpose/src/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces:msg/MotorStatus.idl",
+    "/home/naoya/wildpose_v1.3/wildpose/src/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces:msg/MotorPositions.idl",
+    "/home/naoya/wildpose_v1.3/wildpose/src/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces:msg/FrameBrightness.idl"
   ],
   "ros_interface_dependencies": [
     "builtin_interfaces:/opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl",
@@ -50,9 +52,11 @@
     "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
     "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
     "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
-    "/home/m2s2/WildPose_v1.2-main/wildpose/src/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces/msg/DjiRsStatus.idl",
-    "/home/m2s2/WildPose_v1.2-main/wildpose/src/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces/msg/MotorStatus.idl",
-    "/home/m2s2/WildPose_v1.2-main/wildpose/src/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces/msg/MotorPositions.idl",
+    "/home/naoya/wildpose_v1.3/wildpose/src/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces/msg/LensAperture.idl",
+    "/home/naoya/wildpose_v1.3/wildpose/src/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces/msg/DjiRsStatus.idl",
+    "/home/naoya/wildpose_v1.3/wildpose/src/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces/msg/MotorStatus.idl",
+    "/home/naoya/wildpose_v1.3/wildpose/src/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces/msg/MotorPositions.idl",
+    "/home/naoya/wildpose_v1.3/wildpose/src/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces/msg/FrameBrightness.idl",
     "/opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/foxy/share/builtin_interfaces/msg/Time.idl",
     "/opt/ros/foxy/share/std_msgs/msg/Bool.idl",

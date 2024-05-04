@@ -1,0 +1,50 @@
+[35m[1mScanning dependencies of target livox_ros2_driver[0m
+[ 12%] Built target livox_ros2_driver_node
+[ 18%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lddc.cpp.o[0m
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.h:32[m[K,
+                 from [01m[K/home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.cpp:25[m[K:
+[01m[K/home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.cpp:[m[K In member function ‘[01m[Kuint32_t livox_ros::Lddc::PublishCustomPointcloud(livox_ros::LidarDataQueue*, uint32_t, uint8_t)[m[K’:
+[01m[K/home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.cpp:408:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass livox_ros::Lddc[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+  408 |       RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Lidar[%d] packet time interval is %ldns", handle,
+      |                         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.cpp:408:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass livox_ros::Lddc[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[01m[K/home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.cpp:408:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  408 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Lidar[%d] packet time interval is %ldns", handle,
+      |       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.cpp:408:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  408 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Lidar[%d] packet time interval is %ldns", handle,
+      |       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.cpp:408:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  408 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Lidar[%d] packet time interval is %ldns", handle,
+      |       [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.h:32[m[K,
+                 from [01m[K/home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.cpp:25[m[K:
+[01m[K/home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.cpp:408:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass livox_ros::Lddc[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+  408 |       RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Lidar[%d] packet time interval is %ldns", handle,
+      |                         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.cpp:408:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass livox_ros::Lddc[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+  408 |       RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Lidar[%d] packet time interval is %ldns", handle,
+      |                         [01;31m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/livox_ros2_driver.dir/build.make:141: CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lddc.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/livox_ros2_driver.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

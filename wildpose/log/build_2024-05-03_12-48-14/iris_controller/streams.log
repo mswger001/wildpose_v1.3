@@ -1,0 +1,55 @@
+[0.456s] Invoking command in '/home/naoya/wildpose_v1.3/wildpose/build/iris_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake /home/naoya/wildpose_v1.3/wildpose/src/iris_controller -DCMAKE_INSTALL_PREFIX=/home/naoya/wildpose_v1.3/wildpose/install/iris_controller
+[0.494s] -- The C compiler identification is GNU 9.4.0
+[0.539s] -- The CXX compiler identification is GNU 9.4.0
+[0.545s] -- Check for working C compiler: /usr/bin/cc
+[0.615s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.616s] -- Detecting C compiler ABI info
+[0.680s] -- Detecting C compiler ABI info - done
+[0.693s] -- Detecting C compile features
+[0.694s] -- Detecting C compile features - done
+[0.696s] -- Check for working CXX compiler: /usr/bin/c++
+[0.755s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.756s] -- Detecting CXX compiler ABI info
+[0.826s] -- Detecting CXX compiler ABI info - done
+[0.840s] -- Detecting CXX compile features
+[0.841s] -- Detecting CXX compile features - done
+[0.844s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.884s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.884s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.025s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.089s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.091s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.091s] -- Configured cppcheck include dirs: 
+[1.091s] -- Configured cppcheck exclude dirs and/or files: 
+[1.093s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.093s] -- Configured cpplint exclude dirs and/or files: 
+[1.093s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.094s] -- Added test 'lint_cmake' to check CMake code style
+[1.094s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.097s] -- Added test 'uncrustify' to check C / C++ code style
+[1.098s] -- Configured uncrustify additional arguments: 
+[1.098s] -- Added test 'xmllint' to check XML markup files
+[1.099s] -- Configuring done
+[1.099s] -- Generating done
+[1.100s] -- Build files have been written to: /home/naoya/wildpose_v1.3/wildpose/build/iris_controller
+[1.139s] Invoked command in '/home/naoya/wildpose_v1.3/wildpose/build/iris_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake /home/naoya/wildpose_v1.3/wildpose/src/iris_controller -DCMAKE_INSTALL_PREFIX=/home/naoya/wildpose_v1.3/wildpose/install/iris_controller
+[1.142s] Invoking command in '/home/naoya/wildpose_v1.3/wildpose/build/iris_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/naoya/wildpose_v1.3/wildpose/build/iris_controller -- -j16 -l16
+[1.218s] Invoked command in '/home/naoya/wildpose_v1.3/wildpose/build/iris_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/naoya/wildpose_v1.3/wildpose/build/iris_controller -- -j16 -l16
+[1.233s] Invoking command in '/home/naoya/wildpose_v1.3/wildpose/build/iris_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/naoya/wildpose_v1.3/wildpose/build/iris_controller
+[1.238s] -- Install configuration: ""
+[1.239s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/ament_index/resource_index/package_run_dependencies/iris_controller
+[1.239s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/ament_index/resource_index/parent_prefix_path/iris_controller
+[1.239s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/iris_controller/environment/ament_prefix_path.sh
+[1.239s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/iris_controller/environment/ament_prefix_path.dsv
+[1.239s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/iris_controller/environment/path.sh
+[1.239s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/iris_controller/environment/path.dsv
+[1.239s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/iris_controller/local_setup.bash
+[1.239s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/iris_controller/local_setup.sh
+[1.239s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/iris_controller/local_setup.zsh
+[1.239s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/iris_controller/local_setup.dsv
+[1.240s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/iris_controller/package.dsv
+[1.240s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/ament_index/resource_index/packages/iris_controller
+[1.240s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/iris_controller/cmake/iris_controllerConfig.cmake
+[1.240s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/iris_controller/cmake/iris_controllerConfig-version.cmake
+[1.240s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/iris_controller/package.xml
+[1.241s] Invoked command in '/home/naoya/wildpose_v1.3/wildpose/build/iris_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/naoya/wildpose_v1.3/wildpose/build/iris_controller

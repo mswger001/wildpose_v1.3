@@ -1,0 +1,8 @@
+[0.474s] Invoking command in '/home/naoya/wildpose_v1.3/wildpose/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/naoya/wildpose_v1.3/wildpose/build/image_geometry -- -j16 -l16
+[0.785s] [ 27%] Built target image_geometry
+[0.785s] [ 63%] Built target gtest_main
+[0.785s] [ 63%] Built target gtest
+[0.785s] [ 81%] Built target image_geometry-utest-equi
+[0.785s] [100%] Built target image_geometry-utest
+[0.796s] Invoked command in '/home/naoya/wildpose_v1.3/wildpose/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/naoya/wildpose_v1.3/wildpose/build/image_geometry -- -j16 -l16
+[0.924s] Invoking command in '/home/naoya/wildpose_v1.3/wildpose/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/naoya/wildpose_v1.3/wildpose/build/image_geometry

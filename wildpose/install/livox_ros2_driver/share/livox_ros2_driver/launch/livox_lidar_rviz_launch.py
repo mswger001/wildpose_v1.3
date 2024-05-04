@@ -1,6 +1,9 @@
 import os
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
+from launch.actions import DeclareLaunchArgument, ExecuteProcess, IncludeLaunchDescription
+from launch.launch_description_sources import AnyLaunchDescriptionSource
+from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
 import launch
 
@@ -34,6 +37,18 @@ livox_ros2_params = [
 
 
 def generate_launch_description():
+
+    # ARGS
+
+    bag_path = "/home/orin/m2s2_ws/Experiments/livox/20230509"
+    
+    bag_name = LaunchConfiguration("bag_name")
+    bag_name_arg = DeclareLaunchArgument(
+        'bag_name',
+        default_value='f{bag_path}/test'
+    )
+
+
     livox_driver = Node(
         package='livox_ros2_driver',
         executable='livox_ros2_driver_node',
@@ -48,10 +63,38 @@ def generate_launch_description():
             output='screen',
             arguments=['--display-config', rviz_config_path]
         )
+    
+    # add the realsense rgb cam
+    realsense_capture_launch = IncludeLaunchDescription(
+        AnyLaunchDescriptionSource(
+            os.path.join(
+                get_package_share_directory('realsense2_camera'),
+                'launch/rs_launch.py')
+        ),
+        # launch_arguments={
+        #     'enable_depth': 'true',
+        #     'enable_color': 'true'
+        # }
+    )
+
+    record_to_bag = ExecuteProcess(
+        cmd=[
+            'ros2',
+            'bag',
+            'record',
+            '/camera/depth/image_rect_raw',
+            '/camera/color/image_raw',
+            '/livox/lidar',
+            '-o', bag_name],
+            output='screen'
+    )
 
     return LaunchDescription([
+        bag_name_arg,
         livox_driver,
+        realsense_capture_launch,
         livox_rviz,
+        record_to_bag,
         # launch.actions.RegisterEventHandler(
         #     event_handler=launch.event_handlers.OnProcessExit(
         #         target_action=livox_rviz,

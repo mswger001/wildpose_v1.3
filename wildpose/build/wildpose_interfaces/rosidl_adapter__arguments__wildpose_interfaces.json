@@ -1,8 +1,10 @@
 {
   "package_name": "wildpose_interfaces",
   "non_idl_tuples": [
+    "/home/naoya/wildpose_v1.3/wildpose/src/wildpose_interfaces:msg/LensAperture.msg",
     "/home/naoya/wildpose_v1.3/wildpose/src/wildpose_interfaces:msg/DjiRsStatus.msg",
     "/home/naoya/wildpose_v1.3/wildpose/src/wildpose_interfaces:msg/MotorStatus.msg",
-    "/home/naoya/wildpose_v1.3/wildpose/src/wildpose_interfaces:msg/MotorPositions.msg"
+    "/home/naoya/wildpose_v1.3/wildpose/src/wildpose_interfaces:msg/MotorPositions.msg",
+    "/home/naoya/wildpose_v1.3/wildpose/src/wildpose_interfaces:msg/FrameBrightness.msg"
   ]
 }

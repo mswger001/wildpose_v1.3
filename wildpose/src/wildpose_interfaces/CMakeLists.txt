@@ -24,9 +24,11 @@ find_package(std_msgs REQUIRED)
 # find_package(<dependency> REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/LensAperture.msg"
   "msg/DjiRsStatus.msg"
   "msg/MotorStatus.msg"
   "msg/MotorPositions.msg"
+  "msg/FrameBrightness.msg"
   DEPENDENCIES builtin_interfaces std_msgs
 )
 ament_export_dependencies(rosidl_default_runtime)

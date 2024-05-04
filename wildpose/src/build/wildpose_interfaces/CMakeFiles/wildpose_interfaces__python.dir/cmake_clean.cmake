@@ -1,10 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_dji_rs_status_s.c.o"
-  "CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_dji_rs_status_s.c.o.d"
+  "CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_frame_brightness_s.c.o"
+  "CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_lens_aperture_s.c.o"
   "CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_motor_positions_s.c.o"
-  "CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_motor_positions_s.c.o.d"
   "CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_motor_status_s.c.o"
-  "CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_motor_status_s.c.o.d"
   "rosidl_generator_py/wildpose_interfaces/libwildpose_interfaces__python.pdb"
   "rosidl_generator_py/wildpose_interfaces/libwildpose_interfaces__python.so"
 )

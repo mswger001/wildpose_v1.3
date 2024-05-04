@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target livox_ros2_driver[0m
+[ 12%] Built target livox_ros2_driver_node
+[ 18%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lddc.cpp.o[0m

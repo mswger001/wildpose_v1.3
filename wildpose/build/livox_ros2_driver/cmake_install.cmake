@@ -1,4 +1,4 @@
-# Install script for directory: /home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_ros2_driver
+# Install script for directory: /home/naoya/wildpose_v1.3/wildpose/src/livox_lidar_ROS2_driver/livox_ros2_driver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -89,11 +89,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_ros2_driver" TYPE DIRECTORY FILES "/home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_ros2_driver/config")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_ros2_driver" TYPE DIRECTORY FILES "/home/naoya/wildpose_v1.3/wildpose/src/livox_lidar_ROS2_driver/livox_ros2_driver/config")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_ros2_driver" TYPE DIRECTORY FILES "/home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_ros2_driver/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_ros2_driver" TYPE DIRECTORY FILES "/home/naoya/wildpose_v1.3/wildpose/src/livox_lidar_ROS2_driver/livox_ros2_driver/launch")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -164,7 +164,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_ros2_driver" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_ros2_driver/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_ros2_driver" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/src/livox_lidar_ROS2_driver/livox_ros2_driver/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

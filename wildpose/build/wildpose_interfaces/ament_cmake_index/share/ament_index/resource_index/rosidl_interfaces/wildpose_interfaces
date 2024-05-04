@@ -1,5 +1,9 @@
 msg/DjiRsStatus.idl
 msg/DjiRsStatus.msg
+msg/FrameBrightness.idl
+msg/FrameBrightness.msg
+msg/LensAperture.idl
+msg/LensAperture.msg
 msg/MotorPositions.idl
 msg/MotorPositions.msg
 msg/MotorStatus.idl

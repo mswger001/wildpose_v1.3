@@ -1,0 +1,46 @@
+[0.599s] Invoking command in '/home/naoya/wildpose_v1.3/wildpose/build/livox_sdk_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake /home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_sdk_vendor -DCMAKE_INSTALL_PREFIX=/home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor
+[0.889s] -- The C compiler identification is GNU 9.4.0
+[0.890s] -- The CXX compiler identification is GNU 9.4.0
+[0.890s] -- Check for working C compiler: /usr/bin/cc
+[0.890s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.890s] -- Detecting C compiler ABI info
+[0.931s] -- Detecting C compiler ABI info - done
+[0.940s] -- Detecting C compile features
+[0.940s] -- Detecting C compile features - done
+[0.942s] -- Check for working CXX compiler: /usr/bin/c++
+[1.010s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.011s] -- Detecting CXX compiler ABI info
+[1.071s] -- Detecting CXX compiler ABI info - done
+[1.079s] -- Detecting CXX compile features
+[1.079s] -- Detecting CXX compile features - done
+[1.081s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.103s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.104s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.292s] -- Configuring done
+[1.294s] -- Generating done
+[1.294s] -- Build files have been written to: /home/naoya/wildpose_v1.3/wildpose/build/livox_sdk_vendor
+[1.297s] Invoked command in '/home/naoya/wildpose_v1.3/wildpose/build/livox_sdk_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake /home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_sdk_vendor -DCMAKE_INSTALL_PREFIX=/home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor
+[1.299s] Invoking command in '/home/naoya/wildpose_v1.3/wildpose/build/livox_sdk_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/naoya/wildpose_v1.3/wildpose/build/livox_sdk_vendor -- -j16 -l16
+[1.331s] Invoked command in '/home/naoya/wildpose_v1.3/wildpose/build/livox_sdk_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/naoya/wildpose_v1.3/wildpose/build/livox_sdk_vendor -- -j16 -l16
+[1.357s] Invoking command in '/home/naoya/wildpose_v1.3/wildpose/build/livox_sdk_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/naoya/wildpose_v1.3/wildpose/build/livox_sdk_vendor
+[1.365s] -- Install configuration: ""
+[1.365s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake
+[1.365s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake/Modules
+[1.365s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake/Modules/Findlivox_sdk.cmake
+[1.365s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/ament_index/resource_index/package_run_dependencies/livox_sdk_vendor
+[1.365s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/ament_index/resource_index/parent_prefix_path/livox_sdk_vendor
+[1.366s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/environment/ament_prefix_path.sh
+[1.366s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/environment/ament_prefix_path.dsv
+[1.366s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/environment/path.sh
+[1.366s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/environment/path.dsv
+[1.366s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/local_setup.bash
+[1.367s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/local_setup.sh
+[1.367s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/local_setup.zsh
+[1.367s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/local_setup.dsv
+[1.367s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/package.dsv
+[1.367s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/ament_index/resource_index/packages/livox_sdk_vendor
+[1.367s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake/livox_sdk_vendor-extras.cmake
+[1.367s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake/livox_sdk_vendorConfig.cmake
+[1.367s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake/livox_sdk_vendorConfig-version.cmake
+[1.367s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor/share/livox_sdk_vendor/package.xml
+[1.368s] Invoked command in '/home/naoya/wildpose_v1.3/wildpose/build/livox_sdk_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/naoya/wildpose_v1.3/wildpose/build/livox_sdk_vendor

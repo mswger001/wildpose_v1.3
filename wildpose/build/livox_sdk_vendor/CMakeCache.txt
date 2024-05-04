@@ -299,7 +299,7 @@ livox_sdk_LIBRARY:FILEPATH=/usr/local/lib/liblivox_sdk_static.a
 livox_sdk_vendor_BINARY_DIR:STATIC=/home/naoya/wildpose_v1.3/wildpose/build/livox_sdk_vendor
 
 //Value Computed by CMake
-livox_sdk_vendor_SOURCE_DIR:STATIC=/home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_sdk_vendor
+livox_sdk_vendor_SOURCE_DIR:STATIC=/home/naoya/wildpose_v1.3/wildpose/src/livox_lidar_ROS2_driver/livox_sdk_vendor
 
 
 ########################
@@ -386,7 +386,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_sdk_vendor
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/naoya/wildpose_v1.3/wildpose/src/livox_lidar_ROS2_driver/livox_sdk_vendor
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

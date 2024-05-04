@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/livox_interfaces__rosidl_generator_c.dir/rosidl_generator_c/livox_interfaces/msg/detail/custom_msg__functions.c.o"
-  "CMakeFiles/livox_interfaces__rosidl_generator_c.dir/rosidl_generator_c/livox_interfaces/msg/detail/custom_msg__functions.c.o.d"
   "CMakeFiles/livox_interfaces__rosidl_generator_c.dir/rosidl_generator_c/livox_interfaces/msg/detail/custom_point__functions.c.o"
-  "CMakeFiles/livox_interfaces__rosidl_generator_c.dir/rosidl_generator_c/livox_interfaces/msg/detail/custom_point__functions.c.o.d"
   "liblivox_interfaces__rosidl_generator_c.pdb"
   "liblivox_interfaces__rosidl_generator_c.so"
   "rosidl_generator_c/livox_interfaces/msg/custom_msg.h"

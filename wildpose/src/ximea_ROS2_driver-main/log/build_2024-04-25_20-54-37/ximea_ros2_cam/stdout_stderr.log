@@ -1,0 +1,4 @@
+CMake Error: The current CMakeCache.txt directory /home/naoya/wildpose_v1.3/wildpose/src/ximea_ROS2_driver-main/build/ximea_ros2_cam/CMakeCache.txt is different than the directory /home/m2s2/WildPose_v1.2-main/wildpose/src/ximea_ROS2_driver-main/build/ximea_ros2_cam where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error: The source directory "/home/m2s2/WildPose_v1.2-main/wildpose/src/ximea_ROS2_driver-main/ximea_ros2_cam" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.
+make: *** [Makefile:294: cmake_check_build_system] Error 1

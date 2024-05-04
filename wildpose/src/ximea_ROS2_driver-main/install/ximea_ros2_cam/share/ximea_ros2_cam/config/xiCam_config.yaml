@@ -54,7 +54,7 @@ ximea_cam_node:
     auto_time_limit: 30000          # auto exposure time limit in microseconds
     auto_gain_limit: 2.0            # auto exposure gain limit
 
-    # camera coloring 
+    # camera coloring
     # white balance mode: 0 - none, 1 - use coefficients, 2 = auto
     white_balance_mode: 2
     white_balance_coef_red: 3.0     # white balance red coefficient (0 to 8)
@@ -62,15 +62,15 @@ ximea_cam_node:
     white_balance_coef_blue: 4.0    # white balance blue coefficient (0 to 8)
 
     # region of interest
-    roi_left: 384                   # top left corner in pixels
-    roi_top: 184
-    roi_width: 1280                 # width height in pixels (2048)
-    roi_height: 720                 # up to (1088)
+    # roi_left: 384                   # top left corner in pixels
+    # roi_top: 184
+    # roi_width: 1280                 # width height in pixels (2048)
+    # roi_height: 720                 # up to (1088)
 
-    #roi_left: 0                    # top left corner in pixels
-    #roi_top: 0
-    #roi_width: 2048                # width height in pixels (2048)
-    #roi_height: 1088               # up to (1088)
+    roi_left: 0                    # top left corner in pixels
+    roi_top: 0
+    roi_width: 2048                # width height in pixels (2048)
+    roi_height: 1088               # up to (1088)
 
     # CV resizing
     # alternative to roi, maintains FOV with an expected performance tradeoff
@@ -81,11 +81,11 @@ ximea_cam_node:
 
     # CV inverting for calibration purposes
     cv_invert_enable: false
-    
+
     # lens control -> Only works if lens_mode is set to 1 (XI_ON)
     # lens_mode: 0		                #XI_PRM_LENS_MODE or "lens_mode", 1 to enable lens control, else 0
     # lens_aperture_value: 0.0	      #XI_PRM_LENS_APERTURE_VALUE or "lens_aperture_value"
     # lens_aperture_index: 0          #XI_PRM_LENS_APERTURE_INDEX or "lens_aperture_index"
     # lens_focus_movement_value: 0    #XI_PRM_LENS_FOCUS_MOVEMENT_VALUE or "lens_focus_movement_value"
     # lens_focus_move: 0              #XI_PRM_LENS_FOCUS_MOVE or "lens_focus_move"
-    # lens_focal_length: 0 	          #XI_PRM_LENS_FOCAL_LENGTH or "lens_focal_length   
+    # lens_focal_length: 0 	          #XI_PRM_LENS_FOCAL_LENGTH or "lens_focal_length

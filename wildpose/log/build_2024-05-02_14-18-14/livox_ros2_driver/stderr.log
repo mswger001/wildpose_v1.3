@@ -1,0 +1,11 @@
+[01m[K/home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.cpp:[m[K In member function ‘[01m[Kuint32_t livox_ros::Lddc::PublishCustomPointcloud(livox_ros::LidarDataQueue*, uint32_t, uint8_t)[m[K’:
+[01m[K/home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.cpp:409:17:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+  409 |       packet_gap[01;31m[K)[m[K;
+      |                 [01;31m[K^[m[K
+      |                 [32m[K;[m[K
+[01m[K/home/naoya/wildpose_v1.3/wildpose/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.cpp:409:7:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+  409 |       [01;35m[Kpacket_gap[m[K);
+      |       [01;35m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/livox_ros2_driver.dir/build.make:141: CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lddc.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/livox_ros2_driver.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

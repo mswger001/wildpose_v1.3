@@ -1,3 +1,5 @@
+/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces:msg/LensAperture.idl
 /home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces:msg/DjiRsStatus.idl
 /home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces:msg/MotorStatus.idl
 /home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces:msg/MotorPositions.idl
+/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces/rosidl_adapter/wildpose_interfaces:msg/FrameBrightness.idl

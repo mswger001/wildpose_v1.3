@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/livox_interfaces__python.dir/rosidl_generator_py/livox_interfaces/msg/_custom_msg_s.c.o"
-  "CMakeFiles/livox_interfaces__python.dir/rosidl_generator_py/livox_interfaces/msg/_custom_msg_s.c.o.d"
   "CMakeFiles/livox_interfaces__python.dir/rosidl_generator_py/livox_interfaces/msg/_custom_point_s.c.o"
-  "CMakeFiles/livox_interfaces__python.dir/rosidl_generator_py/livox_interfaces/msg/_custom_point_s.c.o.d"
   "rosidl_generator_py/livox_interfaces/liblivox_interfaces__python.pdb"
   "rosidl_generator_py/livox_interfaces/liblivox_interfaces__python.so"
 )

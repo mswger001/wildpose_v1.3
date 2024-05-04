@@ -1,0 +1,16 @@
+[0.890s] Invoking command in '/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces -- -j16 -l16
+[1.207s] [  1%] Built target wildpose_interfaces__cpp
+[1.208s] [ 12%] Built target wildpose_interfaces__rosidl_generator_c
+[1.208s] [ 23%] Built target wildpose_interfaces__rosidl_typesupport_cpp
+[1.209s] [ 34%] Built target wildpose_interfaces__rosidl_typesupport_introspection_c
+[1.209s] [ 46%] Built target wildpose_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.209s] [ 57%] Built target wildpose_interfaces__rosidl_typesupport_c
+[1.209s] [ 68%] Built target wildpose_interfaces__rosidl_typesupport_introspection_cpp
+[1.209s] [ 79%] Built target wildpose_interfaces__rosidl_typesupport_fastrtps_c
+[1.209s] [ 79%] Built target wildpose_interfaces
+[1.209s] [ 80%] Built target wildpose_interfaces__py
+[1.209s] [ 90%] Built target wildpose_interfaces__python
+[1.209s] [100%] Built target wildpose_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.209s] [100%] Built target wildpose_interfaces__rosidl_typesupport_c__pyext
+[1.210s] [100%] Built target wildpose_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.213s] Invoked command in '/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces -- -j16 -l16

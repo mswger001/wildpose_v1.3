@@ -1,0 +1,56 @@
+<CameraParameterValues version="4.27.30" sens_serial="D000078331" serial="29970951" model="MQ022CG-CM">
+ <Values>
+  <imgdataformat type="int">3</imgdataformat>
+  <downsampling type="int">1</downsampling>
+  <width type="int">2048</width>
+  <offsetX type="int">0</offsetX>
+  <height type="int">1088</height>
+  <offsetY type="int">0</offsetY>
+  <aeag_roi_width type="int">2048</aeag_roi_width>
+  <aeag_roi_height type="int">1088</aeag_roi_height>
+  <aeag_roi_offset_x type="int">0</aeag_roi_offset_x>
+  <aeag_roi_offset_y type="int">0</aeag_roi_offset_y>
+  <exposure type="float">100060</exposure>
+  <acq_timing_mode type="int">0</acq_timing_mode>
+  <framerate type="float">43.0953</framerate>
+  <gpi_selector type="int">1</gpi_selector>
+  <gpi_mode type="int">0</gpi_mode>
+  <dbnc_en type="bool">0</dbnc_en>
+  <dbnc_t0 type="int">0</dbnc_t0>
+  <dbnc_t1 type="int">0</dbnc_t1>
+  <dbnc_pol type="bool">0</dbnc_pol>
+  <gpo_selector type="int">1</gpo_selector>
+  <gpo_mode type="int">0</gpo_mode>
+  <led_selector type="int">1</led_selector>
+  <led_mode type="int">4</led_mode>
+  <led_selector type="int">2</led_selector>
+  <led_mode type="int">8</led_mode>
+  <led_selector type="int">3</led_selector>
+  <led_mode type="int">8</led_mode>
+  <gain type="float">0</gain>
+  <aeag type="bool">1</aeag>
+  <auto_wb type="bool">1</auto_wb>
+  <ffc type="bool">0</ffc>
+  <ffc_flat_field_file_name type="string"></ffc_flat_field_file_name>
+  <ffc_dark_field_file_name type="string"></ffc_dark_field_file_name>
+  <exp_priority type="float">1</exp_priority>
+  <ae_max_limit type="int">100000</ae_max_limit>
+  <ag_max_limit type="float">6</ag_max_limit>
+  <aeag_level type="float">40</aeag_level>
+  <cooling type="bool">0</cooling>
+  <target_temp type="float">20</target_temp>
+  <temp_selector type="int">2</temp_selector>
+  <trigger_source type="int">0</trigger_source>
+  <trigger_selector type="int">0</trigger_selector>
+  <acq_frame_burst_count type="int">1</acq_frame_burst_count>
+  <hdr_kneepoint_count type="int">2</hdr_kneepoint_count>
+  <hdr_t1 type="int">60</hdr_t1>
+  <hdr_t2 type="int">80</hdr_t2>
+  <hdr_kneepoint1 type="int">40</hdr_kneepoint1>
+  <hdr_kneepoint2 type="int">60</hdr_kneepoint2>
+ </Values>
+ <AdditionalSettings>
+  <LastROI left="0.25" top="0.25" width="0.5" height="0.5"/>
+  <ShadingPresets lastActive=""/>
+ </AdditionalSettings>
+</CameraParameterValues>
