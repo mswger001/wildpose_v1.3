@@ -80,7 +80,7 @@ ximea_cam_parameters = {
     "image_transport_compressed_png_level": 5,
 
     # colour format
-    "format": "XI_MONO8" ,             # Recommended to set to RAW for ARM processors and do offline processing later
+    "format": "XI_RGB24" ,             # Recommended to set to RAW for ARM processors and do offline processing later
                                     #  some options: mono8, rgb24, raw8
 
     # triggering (0 - none, 1 - software trigger (NOT IMPLMENTED YET),
@@ -95,8 +95,8 @@ ximea_cam_parameters = {
     "img_capture_timeout": 1000 ,      # timeout in milliseconds for xiGetImage()
 
     # exposure settings
-    "auto_exposure":  True ,           # auto exposure on or off
-    "exposure_time": 3000  ,           # manual exposure time in microseconds
+    "auto_exposure": False,           # auto exposure on or off
+    "exposure_time": 10000  ,           # manual exposure time in microseconds
     "manual_gain": 9.0 ,               # manual exposure gain
     "auto_exposure_priority": 0.8  ,   # auto exposure to gain ratio (1 = use only exposure)
     "auto_time_limit": 30000  ,        # auto exposure time limit in microseconds

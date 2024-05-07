@@ -19,7 +19,7 @@ ximea_cam_node:
 
     enable_diagnostics: true
     data_age_max: 0.1
-    pub_frequency: 10.0
+    pub_frequency: 200
     pub_frequency_tolerance: 1.0
 
     #########################################
@@ -32,7 +32,7 @@ ximea_cam_node:
     image_transport_compressed_png_level: 5
 
     # colour format
-    format: "XI_RGB24"              # Recommended to set to RAW for ARM processors and do offline processing later
+    format: "XI_RAW8"              # Recommended to set to RAW for ARM processors and do offline processing later
                                     #  some options: mono8, rgb24, raw8
 
     # triggering (0 - none, 1 - software trigger (NOT IMPLMENTED YET),
@@ -43,7 +43,7 @@ ximea_cam_node:
     # for camera frame rate
     frame_rate_control: true        # enable or disable frame razte control
                                     # (works if no triggering is enabled)
-    frame_rate_set: 120             # for trigger mode, fps limiter (0 for none)
+    frame_rate_set: 200             # for trigger mode, fps limiter (0 for none)
     img_capture_timeout: 1000       # timeout in milliseconds for xiGetImage()
 
     # exposure settings

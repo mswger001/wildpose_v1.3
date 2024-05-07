@@ -48,21 +48,20 @@ class BrightnessCalculator(Node):
         self.count2 = 0
         self.command_queue = []
 
-        # Fill up the command queue with 25 "g" commands followed by 25 "f" commands
-        self.command_queue.extend(["g\n"] * 1)
+
 
         # Create a publisher for position data
-        self.position_pub = self.create_publisher(LensAperture, 'arduino_position', 10)
-        self.position_pub2 = self.create_publisher(FrameBrightness, 'frame_lumisence', 10)
+        self.position_pub = self.create_publisher(LensAperture, 'arduino_position', 1)
+        self.position_pub2 = self.create_publisher(FrameBrightness, 'frame_lumisence', 1)
         self.position = 0
 
-        self.subscription = self.create_subscription(Image, '/ximea/image_raw', self.image_callback, 10)
+        self.subscription = self.create_subscription(Image, '/ximea/image_raw', self.image_callback, 40)
 
         self.joy_sub = self.create_subscription(
             Joy,
             '/joy',
             self.joy_callback,
-            10
+            1
         )
 
     def publish_position(self, position):
@@ -129,17 +128,20 @@ class BrightnessCalculator(Node):
     def joy_callback(self, msg):
         buttons, axes = joymsg2f510(msg)        # Motor 3
 
-        if axes['joy_left'][1] == -1 :
+        if buttons['RB'] == 1 :
             self.count1 += 1
             if self.count1 == 2:
                 self.command_queue.append("g\n")
-                self.count1 = 0
+        if buttons['RB'] == 0:
+            self.count1 =1
 
-        if axes['joy_left'][1] == 1 :
+        if buttons['LB'] == 1 :
             self.count2 += 1
             if self.count2 == 2:
                 self.command_queue.append("f\n")
-                self.count2 = 0
+        if buttons['LB'] ==0:
+            self.count2 = 1
+
 
     def timer_callback(self):
         self.execute_commands()
