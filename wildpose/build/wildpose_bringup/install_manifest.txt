@@ -1,4 +1,9 @@
+/home/naoya/wildpose_v1.3/wildpose/install/wildpose_bringup/share/wildpose_bringup/launch/motor_position_gui.py
+/home/naoya/wildpose_v1.3/wildpose/install/wildpose_bringup/share/wildpose_bringup/launch/ximea.launch.py
+/home/naoya/wildpose_v1.3/wildpose/install/wildpose_bringup/share/wildpose_bringup/launch/lens.launch.py
+/home/naoya/wildpose_v1.3/wildpose/install/wildpose_bringup/share/wildpose_bringup/launch/gamepad.launch.py
 /home/naoya/wildpose_v1.3/wildpose/install/wildpose_bringup/share/wildpose_bringup/launch/wildpose_launch.py
+/home/naoya/wildpose_v1.3/wildpose/install/wildpose_bringup/share/wildpose_bringup/launch/lidar.launch.py
 /home/naoya/wildpose_v1.3/wildpose/install/wildpose_bringup/share/ament_index/resource_index/package_run_dependencies/wildpose_bringup
 /home/naoya/wildpose_v1.3/wildpose/install/wildpose_bringup/share/ament_index/resource_index/parent_prefix_path/wildpose_bringup
 /home/naoya/wildpose_v1.3/wildpose/install/wildpose_bringup/share/wildpose_bringup/environment/ament_prefix_path.sh

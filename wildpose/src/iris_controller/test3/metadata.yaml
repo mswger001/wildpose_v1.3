@@ -1,0 +1,25 @@
+rosbag2_bagfile_information:
+  version: 4
+  storage_identifier: sqlite3
+  relative_file_paths:
+    - test3_0.db3
+  duration:
+    nanoseconds: 162245329974
+  starting_time:
+    nanoseconds_since_epoch: 1714948014515836991
+  message_count: 10584
+  topics_with_message_count:
+    - topic_metadata:
+        name: /arduino_position
+        type: wildpose_interfaces/msg/LensAperture
+        serialization_format: custom
+        offered_qos_profiles: "- history: 2\n  depth: 0\n  reliability: 1\n  durability: 1\n  deadline:\n    sec: 0\n    nsec: 0\n  lifespan:\n    sec: 0\n    nsec: 0\n  liveliness: 4\n  liveliness_lease_duration:\n    sec: 0\n    nsec: 0\n  avoid_ros_namespace_conventions: false"
+      message_count: 5292
+    - topic_metadata:
+        name: /frame_lumisence
+        type: wildpose_interfaces/msg/FrameBrightness
+        serialization_format: custom
+        offered_qos_profiles: "- history: 2\n  depth: 0\n  reliability: 1\n  durability: 1\n  deadline:\n    sec: 0\n    nsec: 0\n  lifespan:\n    sec: 0\n    nsec: 0\n  liveliness: 4\n  liveliness_lease_duration:\n    sec: 0\n    nsec: 0\n  avoid_ros_namespace_conventions: false"
+      message_count: 5292
+  compression_format: ""
+  compression_mode: ""

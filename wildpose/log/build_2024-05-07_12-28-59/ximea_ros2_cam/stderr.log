@@ -1,0 +1,7 @@
+[01m[K/home/naoya/wildpose_v1.3/wildpose/src/ximea_ROS2_driver-main/ximea_ros2_cam/src/ximea_ros2_cam.cpp:[m[K In member function ‘[01m[Kvoid ximea_ros2_cam::XimeaROSCam::openCam()[m[K’:
+[01m[K/home/naoya/wildpose_v1.3/wildpose/src/ximea_ROS2_driver-main/ximea_ros2_cam/src/ximea_ros2_cam.cpp:349:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kbuffer_size[m[K’ was not declared in this scope
+  349 |      &[01;31m[Kbuffer_size[m[K);
+      |       [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/ximea_ros2_cam_node.dir/build.make:76: CMakeFiles/ximea_ros2_cam_node.dir/src/ximea_ros2_cam.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/ximea_ros2_cam_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

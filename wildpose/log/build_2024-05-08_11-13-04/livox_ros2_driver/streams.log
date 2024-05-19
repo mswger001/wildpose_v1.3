@@ -1,0 +1,219 @@
+[0.645s] Invoking command in '/home/naoya/wildpose_v1.3/wildpose/build/livox_ros2_driver': AMENT_PREFIX_PATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor:/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor:/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces:/home/naoya/ros2_ws/rmw_ecal/install/rmw_ecal_dynamic_cpp:/home/naoya/ros2_ws/rmw_ecal/install/rmw_ecal_shared_cpp:/opt/ros/foxy LD_LIBRARY_PATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/naoya/wildpose_v1.3/wildpose/src/livox_lidar_ROS2_driver/livox_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver
+[0.691s] -- The C compiler identification is GNU 9.4.0
+[0.725s] -- The CXX compiler identification is GNU 9.4.0
+[0.730s] -- Check for working C compiler: /usr/bin/cc
+[0.778s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.780s] -- Detecting C compiler ABI info
+[0.827s] -- Detecting C compiler ABI info - done
+[0.839s] -- Detecting C compile features
+[0.840s] -- Detecting C compile features - done
+[0.843s] -- Check for working CXX compiler: /usr/bin/c++
+[0.896s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.897s] -- Detecting CXX compiler ABI info
+[0.952s] -- Detecting CXX compiler ABI info - done
+[0.967s] -- Detecting CXX compile features
+[0.967s] -- Detecting CXX compile features - done
+[0.969s] -- livox_ros2_driver version: 0.0.1
+[0.970s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[0.993s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.993s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.184s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.188s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.234s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.255s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.307s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.361s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.363s] -- Using RMW implementation 'rmw_ecal_dynamic_cpp' as default
+[1.363s] -- Looking for pthread.h
+[1.437s] -- Looking for pthread.h - found
+[1.437s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.513s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.513s] -- Looking for pthread_create in pthreads
+[1.584s] -- Looking for pthread_create in pthreads - not found
+[1.584s] -- Looking for pthread_create in pthread
+[1.662s] -- Looking for pthread_create in pthread - found
+[1.664s] -- Found Threads: TRUE  
+[2.309s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.65.0") found components: system filesystem iostreams serialization 
+[2.320s] -- Checking for module 'flann'
+[2.332s] --   Found flann, version 1.9.1
+[2.367s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.368s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.604s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[2.605s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[2.650s] -- The imported target "vtkParseOGLExt" references the file
+[2.650s]    "/usr/bin/vtkParseOGLExt-7.1"
+[2.650s] but this file does not exist.  Possible reasons include:
+[2.651s] * The file was deleted, renamed, or moved to another location.
+[2.651s] * An install or uninstall procedure did not complete successfully.
+[2.651s] * The installation package was faulty and contained
+[2.651s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.651s] but not all the files it references.
+[2.651s] 
+[2.651s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[2.651s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[2.652s] but this file does not exist.  Possible reasons include:
+[2.652s] * The file was deleted, renamed, or moved to another location.
+[2.652s] * An install or uninstall procedure did not complete successfully.
+[2.652s] * The installation package was faulty and contained
+[2.652s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.652s] but not all the files it references.
+[2.652s] 
+[2.652s] -- The imported target "vtk" references the file
+[2.652s]    "/usr/bin/vtk"
+[2.652s] but this file does not exist.  Possible reasons include:
+[2.653s] * The file was deleted, renamed, or moved to another location.
+[2.653s] * An install or uninstall procedure did not complete successfully.
+[2.653s] * The installation package was faulty and contained
+[2.653s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.653s] but not all the files it references.
+[2.653s] 
+[2.653s] -- The imported target "pvtk" references the file
+[2.653s]    "/usr/bin/pvtk"
+[2.653s] but this file does not exist.  Possible reasons include:
+[2.653s] * The file was deleted, renamed, or moved to another location.
+[2.653s] * An install or uninstall procedure did not complete successfully.
+[2.653s] * The installation package was faulty and contained
+[2.654s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.654s] but not all the files it references.
+[2.654s] 
+[2.727s] -- Checking for module 'libusb-1.0'
+[2.738s] --   Found libusb-1.0, version 1.0.23
+[2.767s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.769s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[2.769s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.814s] -- Found OpenNI2: /usr/lib/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[2.814s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so;libusb::libusb)
+[2.816s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[2.816s] ** WARNING ** io features related to pcap will be disabled
+[2.825s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[2.838s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[2.867s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.873s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so;libusb::libusb)
+[2.910s] -- Found Qhull: /usr/lib/x86_64-linux-gnu/libqhull_r.so  
+[2.910s] -- QHULL found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libqhull_r.so)
+[2.929s] -- looking for PCL_COMMON
+[2.930s] -- Found PCL_COMMON: /usr/local/lib/libpcl_common.so  
+[2.930s] -- looking for PCL_KDTREE
+[2.930s] -- Found PCL_KDTREE: /usr/local/lib/libpcl_kdtree.so  
+[2.930s] -- looking for PCL_OCTREE
+[2.930s] -- Found PCL_OCTREE: /usr/local/lib/libpcl_octree.so  
+[2.931s] -- looking for PCL_SEARCH
+[2.931s] -- Found PCL_SEARCH: /usr/local/lib/libpcl_search.so  
+[2.931s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.931s] -- Found PCL_SAMPLE_CONSENSUS: /usr/local/lib/libpcl_sample_consensus.so  
+[2.931s] -- looking for PCL_FILTERS
+[2.932s] -- Found PCL_FILTERS: /usr/local/lib/libpcl_filters.so  
+[2.932s] -- looking for PCL_2D
+[2.932s] -- Found PCL_2D: /usr/local/include/pcl-1.13  
+[2.933s] -- looking for PCL_GEOMETRY
+[2.933s] -- Found PCL_GEOMETRY: /usr/local/include/pcl-1.13  
+[2.933s] -- looking for PCL_IO
+[2.933s] -- Found PCL_IO: /usr/local/lib/libpcl_io.so  
+[2.934s] -- looking for PCL_FEATURES
+[2.934s] -- Found PCL_FEATURES: /usr/local/lib/libpcl_features.so  
+[2.934s] -- looking for PCL_ML
+[2.934s] -- Found PCL_ML: /usr/local/lib/libpcl_ml.so  
+[2.935s] -- looking for PCL_SEGMENTATION
+[2.935s] -- Found PCL_SEGMENTATION: /usr/local/lib/libpcl_segmentation.so  
+[2.935s] -- looking for PCL_VISUALIZATION
+[2.935s] -- Found PCL_VISUALIZATION: /usr/local/lib/libpcl_visualization.so  
+[2.936s] -- looking for PCL_SURFACE
+[2.936s] -- Found PCL_SURFACE: /usr/local/lib/libpcl_surface.so  
+[2.936s] -- looking for PCL_REGISTRATION
+[2.937s] -- Found PCL_REGISTRATION: /usr/local/lib/libpcl_registration.so  
+[2.937s] -- looking for PCL_KEYPOINTS
+[2.937s] -- Found PCL_KEYPOINTS: /usr/local/lib/libpcl_keypoints.so  
+[2.937s] -- looking for PCL_TRACKING
+[2.938s] -- Found PCL_TRACKING: /usr/local/lib/libpcl_tracking.so  
+[2.938s] -- looking for PCL_RECOGNITION
+[2.938s] -- Found PCL_RECOGNITION: /usr/local/lib/libpcl_recognition.so  
+[2.939s] -- looking for PCL_STEREO
+[2.939s] -- Found PCL_STEREO: /usr/local/lib/libpcl_stereo.so  
+[2.939s] -- looking for PCL_OUTOFCORE
+[2.939s] -- Found PCL_OUTOFCORE: /usr/local/lib/libpcl_outofcore.so  
+[2.940s] -- looking for PCL_PEOPLE
+[2.940s] -- Found PCL_PEOPLE: /usr/local/lib/libpcl_people.so  
+[2.941s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/libOpenNI2.so;libusb::libusb;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionImage;vtkImagingColor;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsCore;vtkViewsContext2D;vtkRenderingOpenGL2;vtkRenderingContextOpenGL2;vtkGUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[2.942s] -- Found livox_sdk: /usr/local/include  
+[2.945s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[2.946s] -- Checking for module 'apr-1'
+[2.949s] --   No package 'apr-1' found
+[2.980s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.002s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.007s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.008s] -- Configured cppcheck include dirs: /home/naoya/wildpose_v1.3/wildpose/src/livox_lidar_ROS2_driver/livox_ros2_driver/common;/home/naoya/wildpose_v1.3/wildpose/src/livox_lidar_ROS2_driver/livox_ros2_driver/common/rapidjson;/home/naoya/wildpose_v1.3/wildpose/src/livox_lidar_ROS2_driver/livox_ros2_driver/comon/rapdidxml;/home/naoya/wildpose_v1.3/wildpose/src/livox_lidar_ROS2_driver/livox_ros2_driver/common/comm;/home/naoya/wildpose_v1.3/wildpose/src/livox_lidar_ROS2_driver/livox_ros2_driver/timesync;/home/naoya/wildpose_v1.3/wildpose/src/livox_lidar_ROS2_driver/livox_ros2_driver/timesync/user_uart;/home/naoya/wildpose_v1.3/wildpose/src/livox_lidar_ROS2_driver/livox_ros2_driver/livox_ros2_driver
+[3.008s] -- Configured cppcheck exclude dirs and/or files: 
+[3.012s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.012s] -- Configured cpplint exclude dirs and/or files: 
+[3.013s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.014s] -- Added test 'lint_cmake' to check CMake code style
+[3.015s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.018s] -- Added test 'uncrustify' to check C / C++ code style
+[3.019s] -- Configured uncrustify additional arguments: 
+[3.019s] -- Added test 'xmllint' to check XML markup files
+[3.025s] -- Configuring done
+[3.101s] -- Generating done
+[3.104s] -- Build files have been written to: /home/naoya/wildpose_v1.3/wildpose/build/livox_ros2_driver
+[3.119s] Invoked command in '/home/naoya/wildpose_v1.3/wildpose/build/livox_ros2_driver' returned '0': AMENT_PREFIX_PATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor:/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor:/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces:/home/naoya/ros2_ws/rmw_ecal/install/rmw_ecal_dynamic_cpp:/home/naoya/ros2_ws/rmw_ecal/install/rmw_ecal_shared_cpp:/opt/ros/foxy LD_LIBRARY_PATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/naoya/wildpose_v1.3/wildpose/src/livox_lidar_ROS2_driver/livox_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver
+[3.123s] Invoking command in '/home/naoya/wildpose_v1.3/wildpose/build/livox_ros2_driver': AMENT_PREFIX_PATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor:/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor:/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces:/home/naoya/ros2_ws/rmw_ecal/install/rmw_ecal_dynamic_cpp:/home/naoya/ros2_ws/rmw_ecal/install/rmw_ecal_shared_cpp:/opt/ros/foxy LD_LIBRARY_PATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/naoya/wildpose_v1.3/wildpose/build/livox_ros2_driver -- -j16 -l16
+[3.153s] [35m[1mScanning dependencies of target livox_ros2_driver[0m
+[3.157s] [35m[1mScanning dependencies of target livox_ros2_driver_node[0m
+[3.248s] [  6%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver_node.dir/rclcpp_components/node_main_livox_ros2_driver_node.cpp.o[0m
+[3.272s] [ 12%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lds.cpp.o[0m
+[3.276s] [ 31%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lvx_file.cpp.o[0m
+[3.276s] [ 31%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lds_lvx.cpp.o[0m
+[3.276s] [ 31%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/ldq.cpp.o[0m
+[3.276s] [ 43%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lds_lidar.cpp.o[0m
+[3.276s] [ 37%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lds_hub.cpp.o[0m
+[3.289s] [ 56%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lddc.cpp.o[0m
+[3.289s] [ 56%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/livox_ros2_driver.cpp.o[0m
+[3.290s] [ 62%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/timesync/user_uart/user_uart.cpp.o[0m
+[3.290s] [ 68%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/common/comm/comm_protocol.cpp.o[0m
+[3.292s] [ 75%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/timesync/timesync.cpp.o[0m
+[3.316s] [ 81%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/common/comm/sdk_protocol.cpp.o[0m
+[3.322s] [ 87%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/common/comm/gps_protocol.cpp.o[0m
+[4.816s] [ 93%] [32m[1mLinking CXX executable livox_ros2_driver_node[0m
+[4.919s] [ 93%] Built target livox_ros2_driver_node
+[8.243s] [100%] [32m[1mLinking CXX shared library liblivox_ros2_driver.so[0m
+[8.993s] [100%] Built target livox_ros2_driver
+[9.003s] Invoked command in '/home/naoya/wildpose_v1.3/wildpose/build/livox_ros2_driver' returned '0': AMENT_PREFIX_PATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor:/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor:/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces:/home/naoya/ros2_ws/rmw_ecal/install/rmw_ecal_dynamic_cpp:/home/naoya/ros2_ws/rmw_ecal/install/rmw_ecal_shared_cpp:/opt/ros/foxy LD_LIBRARY_PATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/naoya/wildpose_v1.3/wildpose/build/livox_ros2_driver -- -j16 -l16
+[9.030s] Invoking command in '/home/naoya/wildpose_v1.3/wildpose/build/livox_ros2_driver': AMENT_PREFIX_PATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor:/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor:/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces:/home/naoya/ros2_ws/rmw_ecal/install/rmw_ecal_dynamic_cpp:/home/naoya/ros2_ws/rmw_ecal/install/rmw_ecal_shared_cpp:/opt/ros/foxy LD_LIBRARY_PATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/naoya/wildpose_v1.3/wildpose/build/livox_ros2_driver
+[9.036s] -- Install configuration: ""
+[9.036s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/lib/livox_ros2_driver/livox_ros2_driver_node
+[9.036s] -- Set runtime path of "/home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/lib/livox_ros2_driver/livox_ros2_driver_node" to ""
+[9.037s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/environment/library_path.sh
+[9.037s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/environment/library_path.dsv
+[9.037s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/lib/liblivox_ros2_driver.so
+[9.040s] -- Set runtime path of "/home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/lib/liblivox_ros2_driver.so" to ""
+[9.040s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/config
+[9.040s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/config/livox_hub_config.json
+[9.040s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/config/livox_lidar_config.json
+[9.040s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/config/livox_hub.rviz
+[9.040s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/config/livox_lidar.rviz
+[9.041s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/launch
+[9.041s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_hub_launch.py
+[9.041s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_lidar_launch.py
+[9.041s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_hub_rviz_launch.py
+[9.041s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_template_launch.py
+[9.041s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_lidar_msg_launch.py
+[9.041s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_lidar_rviz_launch.py
+[9.041s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_hub_msg_launch .py
+[9.041s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/ament_index/resource_index/package_run_dependencies/livox_ros2_driver
+[9.041s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/ament_index/resource_index/parent_prefix_path/livox_ros2_driver
+[9.041s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/environment/ament_prefix_path.sh
+[9.041s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/environment/ament_prefix_path.dsv
+[9.041s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/environment/path.sh
+[9.041s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/environment/path.dsv
+[9.041s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/local_setup.bash
+[9.042s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/local_setup.sh
+[9.042s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/local_setup.zsh
+[9.042s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/local_setup.dsv
+[9.042s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/package.dsv
+[9.042s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/ament_index/resource_index/packages/livox_ros2_driver
+[9.042s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/ament_index/resource_index/rclcpp_components/livox_ros2_driver
+[9.042s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.042s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[9.042s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/cmake/livox_ros2_driverConfig.cmake
+[9.042s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/cmake/livox_ros2_driverConfig-version.cmake
+[9.042s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/livox_ros2_driver/share/livox_ros2_driver/package.xml
+[9.044s] Invoked command in '/home/naoya/wildpose_v1.3/wildpose/build/livox_ros2_driver' returned '0': AMENT_PREFIX_PATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor:/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_sdk_vendor:/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces:/home/naoya/ros2_ws/rmw_ecal/install/rmw_ecal_dynamic_cpp:/home/naoya/ros2_ws/rmw_ecal/install/rmw_ecal_shared_cpp:/opt/ros/foxy LD_LIBRARY_PATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/naoya/wildpose_v1.3/wildpose/install/livox_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/naoya/wildpose_v1.3/wildpose/build/livox_ros2_driver

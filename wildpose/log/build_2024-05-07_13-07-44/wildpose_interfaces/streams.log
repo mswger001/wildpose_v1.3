@@ -1,0 +1,324 @@
+[1.240s] Invoking command in '/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/wildpose_v1.3/wildpose/install/motor_controller_pkg:/home/naoya/wildpose_v1.3/wildpose/install/lidar_control_package:/home/naoya/wildpose_v1.3/wildpose/install/dji_rs3_pkg:/home/naoya/wildpose_v1.3/wildpose/install/opencv_tests:/home/naoya/wildpose_v1.3/wildpose/install/gamepad_pkg:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake /home/naoya/wildpose_v1.3/wildpose/src/wildpose_interfaces -DCMAKE_INSTALL_PREFIX=/home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces
+[1.758s] -- The C compiler identification is GNU 9.4.0
+[1.759s] -- The CXX compiler identification is GNU 9.4.0
+[1.759s] -- Check for working C compiler: /usr/bin/cc
+[1.759s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.759s] -- Detecting C compiler ABI info
+[1.762s] -- Detecting C compiler ABI info - done
+[1.764s] -- Detecting C compile features
+[1.764s] -- Detecting C compile features - done
+[1.764s] -- Check for working CXX compiler: /usr/bin/c++
+[1.765s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.767s] -- Detecting CXX compiler ABI info
+[1.767s] -- Detecting CXX compiler ABI info - done
+[1.768s] -- Detecting CXX compile features
+[1.768s] -- Detecting CXX compile features - done
+[1.769s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.770s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.770s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.022s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.032s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.044s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.171s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.197s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.260s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.289s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[2.372s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.552s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[2.718s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.784s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.855s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.857s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[2.888s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[2.889s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.889s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.889s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[2.915s] -- Found PythonExtra: .so  
+[3.034s] -- Configuring done
+[3.100s] -- Generating done
+[3.104s] -- Build files have been written to: /home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces
+[3.149s] Invoked command in '/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/wildpose_v1.3/wildpose/install/motor_controller_pkg:/home/naoya/wildpose_v1.3/wildpose/install/lidar_control_package:/home/naoya/wildpose_v1.3/wildpose/install/dji_rs3_pkg:/home/naoya/wildpose_v1.3/wildpose/install/opencv_tests:/home/naoya/wildpose_v1.3/wildpose/install/gamepad_pkg:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake /home/naoya/wildpose_v1.3/wildpose/src/wildpose_interfaces -DCMAKE_INSTALL_PREFIX=/home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces
+[3.152s] Invoking command in '/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/wildpose_v1.3/wildpose/install/motor_controller_pkg:/home/naoya/wildpose_v1.3/wildpose/install/lidar_control_package:/home/naoya/wildpose_v1.3/wildpose/install/dji_rs3_pkg:/home/naoya/wildpose_v1.3/wildpose/install/opencv_tests:/home/naoya/wildpose_v1.3/wildpose/install/gamepad_pkg:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces -- -j16 -l16
+[3.218s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.218s] [35m[1mScanning dependencies of target wildpose_interfaces__cpp[0m
+[3.235s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.908s] [35m[1mScanning dependencies of target wildpose_interfaces__rosidl_generator_c[0m
+[3.925s] [  3%] Built target wildpose_interfaces__cpp
+[3.928s] [  6%] [32mBuilding C object CMakeFiles/wildpose_interfaces__rosidl_generator_c.dir/rosidl_generator_c/wildpose_interfaces/msg/detail/lens_aperture__functions.c.o[0m
+[3.929s] [  6%] [32mBuilding C object CMakeFiles/wildpose_interfaces__rosidl_generator_c.dir/rosidl_generator_c/wildpose_interfaces/msg/detail/dji_rs_status__functions.c.o[0m
+[3.939s] [  7%] [32mBuilding C object CMakeFiles/wildpose_interfaces__rosidl_generator_c.dir/rosidl_generator_c/wildpose_interfaces/msg/detail/motor_positions__functions.c.o[0m
+[3.939s] [  9%] [32mBuilding C object CMakeFiles/wildpose_interfaces__rosidl_generator_c.dir/rosidl_generator_c/wildpose_interfaces/msg/detail/frame_brightness__functions.c.o[0m
+[3.940s] [ 11%] [32mBuilding C object CMakeFiles/wildpose_interfaces__rosidl_generator_c.dir/rosidl_generator_c/wildpose_interfaces/msg/detail/motor_status__functions.c.o[0m
+[3.949s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.950s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.952s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.019s] [ 17%] [32m[1mLinking C shared library libwildpose_interfaces__rosidl_generator_c.so[0m
+[4.078s] [ 17%] Built target wildpose_interfaces__rosidl_generator_c
+[4.100s] [ 19%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.119s] [ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.458s] [35m[1mScanning dependencies of target wildpose_interfaces__rosidl_typesupport_cpp[0m
+[4.495s] [ 22%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wildpose_interfaces/msg/dji_rs_status__type_support.cpp.o[0m
+[4.504s] [ 23%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wildpose_interfaces/msg/motor_positions__type_support.cpp.o[0m
+[4.514s] [ 25%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wildpose_interfaces/msg/motor_status__type_support.cpp.o[0m
+[4.517s] [35m[1mScanning dependencies of target wildpose_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[4.523s] [ 26%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wildpose_interfaces/msg/lens_aperture__type_support.cpp.o[0m
+[4.536s] [ 28%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wildpose_interfaces/msg/frame_brightness__type_support.cpp.o[0m
+[4.570s] [ 30%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wildpose_interfaces/msg/detail/dds_fastrtps/motor_status__type_support.cpp.o[0m
+[4.570s] [ 31%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wildpose_interfaces/msg/detail/dds_fastrtps/motor_positions__type_support.cpp.o[0m
+[4.591s] [ 33%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wildpose_interfaces/msg/detail/dds_fastrtps/lens_aperture__type_support.cpp.o[0m
+[4.592s] [ 34%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wildpose_interfaces/msg/detail/dds_fastrtps/dji_rs_status__type_support.cpp.o[0m
+[4.609s] [35m[1mScanning dependencies of target wildpose_interfaces__rosidl_typesupport_c[0m
+[4.609s] [ 36%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wildpose_interfaces/msg/detail/dds_fastrtps/frame_brightness__type_support.cpp.o[0m
+[4.615s] [35m[1mScanning dependencies of target wildpose_interfaces__rosidl_typesupport_introspection_cpp[0m
+[4.648s] [ 38%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/wildpose_interfaces/msg/lens_aperture__type_support.cpp.o[0m
+[4.716s] [ 39%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/wildpose_interfaces/msg/dji_rs_status__type_support.cpp.o[0m
+[4.726s] [ 41%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wildpose_interfaces/msg/detail/lens_aperture__type_support.cpp.o[0m
+[4.729s] [ 42%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/wildpose_interfaces/msg/motor_status__type_support.cpp.o[0m
+[4.775s] [ 44%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wildpose_interfaces/msg/detail/dji_rs_status__type_support.cpp.o[0m
+[4.793s] [ 46%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/wildpose_interfaces/msg/motor_positions__type_support.cpp.o[0m
+[4.828s] [35m[1mScanning dependencies of target wildpose_interfaces__rosidl_typesupport_introspection_c[0m
+[4.850s] [ 47%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/wildpose_interfaces/msg/frame_brightness__type_support.cpp.o[0m
+[4.867s] [ 49%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wildpose_interfaces/msg/detail/motor_status__type_support.cpp.o[0m
+[4.907s] [ 50%] [32mBuilding C object CMakeFiles/wildpose_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wildpose_interfaces/msg/detail/lens_aperture__type_support.c.o[0m
+[4.929s] [ 52%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wildpose_interfaces/msg/detail/motor_positions__type_support.cpp.o[0m
+[4.973s] [ 53%] [32m[1mLinking CXX shared library libwildpose_interfaces__rosidl_typesupport_c.so[0m
+[5.005s] [ 55%] [32mBuilding C object CMakeFiles/wildpose_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wildpose_interfaces/msg/detail/dji_rs_status__type_support.c.o[0m
+[5.023s] [ 57%] [32mBuilding C object CMakeFiles/wildpose_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wildpose_interfaces/msg/detail/motor_status__type_support.c.o[0m
+[5.048s] [ 58%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wildpose_interfaces/msg/detail/frame_brightness__type_support.cpp.o[0m
+[5.119s] [ 60%] [32mBuilding C object CMakeFiles/wildpose_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wildpose_interfaces/msg/detail/motor_positions__type_support.c.o[0m
+[5.140s] [ 60%] Built target wildpose_interfaces__rosidl_typesupport_c
+[5.155s] [ 61%] [32mBuilding C object CMakeFiles/wildpose_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wildpose_interfaces/msg/detail/frame_brightness__type_support.c.o[0m
+[5.232s] [ 63%] [32m[1mLinking C shared library libwildpose_interfaces__rosidl_typesupport_introspection_c.so[0m
+[5.298s] [ 63%] Built target wildpose_interfaces__rosidl_typesupport_introspection_c
+[5.357s] [ 65%] [32m[1mLinking CXX shared library libwildpose_interfaces__rosidl_typesupport_cpp.so[0m
+[5.425s] [ 65%] Built target wildpose_interfaces__rosidl_typesupport_cpp
+[5.450s] [ 66%] [32m[1mLinking CXX shared library libwildpose_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.458s] [ 68%] [32m[1mLinking CXX shared library libwildpose_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[5.529s] [ 68%] Built target wildpose_interfaces__rosidl_typesupport_introspection_cpp
+[5.546s] [ 68%] Built target wildpose_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.558s] [ 69%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.811s] [35m[1mScanning dependencies of target wildpose_interfaces__rosidl_typesupport_fastrtps_c[0m
+[5.825s] [ 71%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wildpose_interfaces/msg/detail/lens_aperture__type_support_c.cpp.o[0m
+[5.832s] [ 77%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wildpose_interfaces/msg/detail/motor_status__type_support_c.cpp.o[0m
+[5.832s] [ 77%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wildpose_interfaces/msg/detail/dji_rs_status__type_support_c.cpp.o[0m
+[5.832s] [ 77%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wildpose_interfaces/msg/detail/frame_brightness__type_support_c.cpp.o[0m
+[5.832s] [ 77%] [32mBuilding CXX object CMakeFiles/wildpose_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wildpose_interfaces/msg/detail/motor_positions__type_support_c.cpp.o[0m
+[6.331s] [ 79%] [32m[1mLinking CXX shared library libwildpose_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[6.430s] [ 79%] Built target wildpose_interfaces__rosidl_typesupport_fastrtps_c
+[6.446s] [35m[1mScanning dependencies of target wildpose_interfaces[0m
+[6.464s] [ 79%] Built target wildpose_interfaces
+[6.479s] [35m[1mScanning dependencies of target wildpose_interfaces__py[0m
+[6.501s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.282s] [ 80%] Built target wildpose_interfaces__py
+[7.294s] [35m[1mScanning dependencies of target wildpose_interfaces__python[0m
+[7.326s] [ 82%] [32mBuilding C object CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_lens_aperture_s.c.o[0m
+[7.329s] [ 87%] [32mBuilding C object CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_frame_brightness_s.c.o[0m
+[7.329s] [ 87%] [32mBuilding C object CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_motor_status_s.c.o[0m
+[7.329s] [ 87%] [32mBuilding C object CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_motor_positions_s.c.o[0m
+[7.329s] [ 88%] [32mBuilding C object CMakeFiles/wildpose_interfaces__python.dir/rosidl_generator_py/wildpose_interfaces/msg/_dji_rs_status_s.c.o[0m
+[7.463s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/wildpose_interfaces/libwildpose_interfaces__python.so[0m
+[7.520s] [ 90%] Built target wildpose_interfaces__python
+[7.539s] [35m[1mScanning dependencies of target wildpose_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[7.539s] [35m[1mScanning dependencies of target wildpose_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[7.539s] [35m[1mScanning dependencies of target wildpose_interfaces__rosidl_typesupport_c__pyext[0m
+[7.563s] [ 92%] [32mBuilding C object CMakeFiles/wildpose_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.563s] [ 95%] [32mBuilding C object CMakeFiles/wildpose_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.563s] [ 95%] [32mBuilding C object CMakeFiles/wildpose_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/wildpose_interfaces/_wildpose_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[7.652s] [ 96%] [32m[1mLinking CXX shared library rosidl_generator_py/wildpose_interfaces/wildpose_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[7.702s] [100%] [32m[1mLinking C shared library rosidl_generator_py/wildpose_interfaces/wildpose_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[7.702s] [100%] [32m[1mLinking C shared library rosidl_generator_py/wildpose_interfaces/wildpose_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[7.714s] [100%] Built target wildpose_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[7.751s] [100%] Built target wildpose_interfaces__rosidl_typesupport_c__pyext
+[7.764s] [100%] Built target wildpose_interfaces__rosidl_typesupport_introspection_c__pyext
+[7.783s] Invoked command in '/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/wildpose_v1.3/wildpose/install/motor_controller_pkg:/home/naoya/wildpose_v1.3/wildpose/install/lidar_control_package:/home/naoya/wildpose_v1.3/wildpose/install/dji_rs3_pkg:/home/naoya/wildpose_v1.3/wildpose/install/opencv_tests:/home/naoya/wildpose_v1.3/wildpose/install/gamepad_pkg:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces -- -j16 -l16
+[7.919s] Invoking command in '/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/wildpose_v1.3/wildpose/install/motor_controller_pkg:/home/naoya/wildpose_v1.3/wildpose/install/lidar_control_package:/home/naoya/wildpose_v1.3/wildpose/install/dji_rs3_pkg:/home/naoya/wildpose_v1.3/wildpose/install/opencv_tests:/home/naoya/wildpose_v1.3/wildpose/install/gamepad_pkg:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces
+[7.935s] -- Install configuration: ""
+[7.935s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/ament_index/resource_index/rosidl_interfaces/wildpose_interfaces
+[7.935s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces
+[7.935s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg
+[7.935s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/motor_positions.h
+[7.935s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail
+[7.935s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__functions.c
+[7.936s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/frame_brightness__struct.h
+[7.936s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__functions.h
+[7.936s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/lens_aperture__type_support.h
+[7.936s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/lens_aperture__functions.h
+[7.936s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__struct.h
+[7.936s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__functions.h
+[7.936s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__type_support.h
+[7.936s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/lens_aperture__struct.h
+[7.936s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__functions.c
+[7.936s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/lens_aperture__functions.c
+[7.936s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__type_support.h
+[7.937s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/frame_brightness__functions.h
+[7.937s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__struct.h
+[7.937s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__functions.c
+[7.937s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/frame_brightness__type_support.h
+[7.937s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__functions.h
+[7.937s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__type_support.h
+[7.937s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/frame_brightness__functions.c
+[7.937s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__struct.h
+[7.937s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/frame_brightness.h
+[7.938s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/rosidl_generator_c__visibility_control.h
+[7.938s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/dji_rs_status.h
+[7.938s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/motor_status.h
+[7.938s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/lens_aperture.h
+[7.938s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/environment/library_path.sh
+[7.938s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/environment/library_path.dsv
+[7.938s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/libwildpose_interfaces__rosidl_generator_c.so
+[7.938s] -- Set runtime path of "/home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/libwildpose_interfaces__rosidl_generator_c.so" to ""
+[7.938s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces
+[7.938s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg
+[7.939s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail
+[7.939s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__rosidl_typesupport_fastrtps_c.h
+[7.939s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/frame_brightness__rosidl_typesupport_fastrtps_c.h
+[7.939s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__rosidl_typesupport_fastrtps_c.h
+[7.939s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__rosidl_typesupport_fastrtps_c.h
+[7.939s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/lens_aperture__rosidl_typesupport_fastrtps_c.h
+[7.939s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.939s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/libwildpose_interfaces__rosidl_typesupport_fastrtps_c.so
+[7.939s] -- Set runtime path of "/home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/libwildpose_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[7.940s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces
+[7.940s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg
+[7.940s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail
+[7.940s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/lens_aperture__rosidl_typesupport_fastrtps_cpp.hpp
+[7.940s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__rosidl_typesupport_fastrtps_cpp.hpp
+[7.940s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/frame_brightness__rosidl_typesupport_fastrtps_cpp.hpp
+[7.940s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dds_fastrtps
+[7.940s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__rosidl_typesupport_fastrtps_cpp.hpp
+[7.940s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__rosidl_typesupport_fastrtps_cpp.hpp
+[7.940s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.941s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/libwildpose_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[7.941s] -- Set runtime path of "/home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/libwildpose_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.941s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces
+[7.941s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg
+[7.941s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail
+[7.941s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/lens_aperture__type_support.c
+[7.941s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/frame_brightness__type_support.c
+[7.942s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__rosidl_typesupport_introspection_c.h
+[7.942s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__type_support.c
+[7.942s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/frame_brightness__rosidl_typesupport_introspection_c.h
+[7.942s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__rosidl_typesupport_introspection_c.h
+[7.942s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__rosidl_typesupport_introspection_c.h
+[7.942s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/lens_aperture__rosidl_typesupport_introspection_c.h
+[7.942s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__type_support.c
+[7.942s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__type_support.c
+[7.942s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.942s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/libwildpose_interfaces__rosidl_typesupport_introspection_c.so
+[7.943s] -- Set runtime path of "/home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/libwildpose_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[7.943s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/libwildpose_interfaces__rosidl_typesupport_c.so
+[7.943s] -- Set runtime path of "/home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/libwildpose_interfaces__rosidl_typesupport_c.so" to ""
+[7.943s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces
+[7.943s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg
+[7.943s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/lens_aperture.hpp
+[7.943s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/frame_brightness.hpp
+[7.943s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail
+[7.944s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/lens_aperture__struct.hpp
+[7.944s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__builder.hpp
+[7.944s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__type_support.hpp
+[7.944s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/frame_brightness__traits.hpp
+[7.944s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__struct.hpp
+[7.944s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/frame_brightness__builder.hpp
+[7.944s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__struct.hpp
+[7.944s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/lens_aperture__builder.hpp
+[7.944s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__traits.hpp
+[7.944s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/frame_brightness__type_support.hpp
+[7.944s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__builder.hpp
+[7.944s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/frame_brightness__struct.hpp
+[7.945s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__type_support.hpp
+[7.945s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__struct.hpp
+[7.945s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__traits.hpp
+[7.945s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__traits.hpp
+[7.945s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__builder.hpp
+[7.945s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/lens_aperture__traits.hpp
+[7.946s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__type_support.hpp
+[7.946s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/lens_aperture__type_support.hpp
+[7.946s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/motor_status.hpp
+[7.946s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.946s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/dji_rs_status.hpp
+[7.946s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/motor_positions.hpp
+[7.946s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces
+[7.946s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg
+[7.946s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail
+[7.947s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__rosidl_typesupport_introspection_cpp.hpp
+[7.947s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/lens_aperture__rosidl_typesupport_introspection_cpp.hpp
+[7.947s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_positions__type_support.cpp
+[7.947s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__type_support.cpp
+[7.947s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__rosidl_typesupport_introspection_cpp.hpp
+[7.947s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/frame_brightness__type_support.cpp
+[7.947s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/frame_brightness__rosidl_typesupport_introspection_cpp.hpp
+[7.947s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/motor_status__rosidl_typesupport_introspection_cpp.hpp
+[7.947s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/lens_aperture__type_support.cpp
+[7.948s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/include/wildpose_interfaces/msg/detail/dji_rs_status__type_support.cpp
+[7.948s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/libwildpose_interfaces__rosidl_typesupport_introspection_cpp.so
+[7.948s] -- Set runtime path of "/home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/libwildpose_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[7.948s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/libwildpose_interfaces__rosidl_typesupport_cpp.so
+[7.948s] -- Set runtime path of "/home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/libwildpose_interfaces__rosidl_typesupport_cpp.so" to ""
+[7.948s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/environment/pythonpath.sh
+[7.948s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/environment/pythonpath.dsv
+[7.948s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/__init__.py
+[7.979s] Compiling '/home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/__init__.py'...
+[7.985s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/msg
+[7.985s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/msg/_motor_status.py
+[7.985s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/msg/_lens_aperture.py
+[7.985s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/msg/_frame_brightness.py
+[7.986s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/msg/_motor_status_s.c
+[7.986s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/msg/_frame_brightness_s.c
+[7.986s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/msg/_dji_rs_status_s.c
+[7.986s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/msg/_motor_positions.py
+[7.986s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/msg/_lens_aperture_s.c
+[7.986s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/msg/__init__.py
+[7.986s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/msg/_motor_positions_s.c
+[7.986s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/msg/_dji_rs_status.py
+[7.986s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/wildpose_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[7.987s] -- Set runtime path of "/home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/wildpose_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[7.987s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/wildpose_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[7.987s] -- Set runtime path of "/home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/wildpose_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[7.988s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/wildpose_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[7.988s] -- Set runtime path of "/home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/python3.8/site-packages/wildpose_interfaces/wildpose_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[7.989s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/libwildpose_interfaces__python.so
+[7.990s] -- Set runtime path of "/home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/lib/libwildpose_interfaces__python.so" to ""
+[7.990s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/msg/LensAperture.idl
+[7.993s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/msg/DjiRsStatus.idl
+[7.994s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/msg/MotorStatus.idl
+[7.999s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/msg/MotorPositions.idl
+[8.000s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/msg/FrameBrightness.idl
+[8.000s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/msg/LensAperture.msg
+[8.000s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/msg/DjiRsStatus.msg
+[8.000s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/msg/MotorStatus.msg
+[8.000s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/msg/MotorPositions.msg
+[8.000s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/msg/FrameBrightness.msg
+[8.000s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/ament_index/resource_index/package_run_dependencies/wildpose_interfaces
+[8.001s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/ament_index/resource_index/parent_prefix_path/wildpose_interfaces
+[8.002s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/environment/ament_prefix_path.sh
+[8.003s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/environment/ament_prefix_path.dsv
+[8.003s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/environment/path.sh
+[8.003s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/environment/path.dsv
+[8.003s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/local_setup.bash
+[8.003s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/local_setup.sh
+[8.003s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/local_setup.zsh
+[8.004s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/local_setup.dsv
+[8.004s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/package.dsv
+[8.004s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/ament_index/resource_index/packages/wildpose_interfaces
+[8.004s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfaces__rosidl_generator_cExport.cmake
+[8.004s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfaces__rosidl_generator_cExport-noconfig.cmake
+[8.004s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[8.004s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.004s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfaces__rosidl_typesupport_cExport.cmake
+[8.004s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[8.004s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfaces__rosidl_generator_cppExport.cmake
+[8.004s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[8.005s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.005s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfaces__rosidl_typesupport_cppExport.cmake
+[8.005s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[8.005s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/rosidl_cmake-extras.cmake
+[8.005s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.005s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[8.005s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[8.005s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.005s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.005s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.006s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfacesConfig.cmake
+[8.006s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/cmake/wildpose_interfacesConfig-version.cmake
+[8.006s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/wildpose_interfaces/share/wildpose_interfaces/package.xml
+[8.006s] Invoked command in '/home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/wildpose_v1.3/wildpose/install/motor_controller_pkg:/home/naoya/wildpose_v1.3/wildpose/install/lidar_control_package:/home/naoya/wildpose_v1.3/wildpose/install/dji_rs3_pkg:/home/naoya/wildpose_v1.3/wildpose/install/opencv_tests:/home/naoya/wildpose_v1.3/wildpose/install/gamepad_pkg:/home/naoya/WildPose_v1.2/wildpose/install/motor_controller_pkg:/home/naoya/WildPose_v1.2/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/naoya/wildpose_v1.3/wildpose/build/wildpose_interfaces

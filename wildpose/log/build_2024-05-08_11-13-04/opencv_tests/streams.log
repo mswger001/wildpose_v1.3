@@ -1,0 +1,45 @@
+[0.804s] Invoking command in '/home/naoya/wildpose_v1.3/wildpose/src/vision_opencv/opencv_tests': AMENT_PREFIX_PATH=/home/naoya/wildpose_v1.3/wildpose/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naoya/wildpose_v1.3/wildpose/install/cv_bridge:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/naoya/wildpose_v1.3/wildpose/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/naoya/wildpose_v1.3/wildpose/build/opencv_tests/prefix_override:/home/naoya/wildpose_v1.3/wildpose/install/opencv_tests/lib/python3.8/site-packages:/home/naoya/wildpose_v1.3/wildpose/install/cv_bridge/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/opencv_tests build --build-base /home/naoya/wildpose_v1.3/wildpose/build/opencv_tests/build install --record /home/naoya/wildpose_v1.3/wildpose/build/opencv_tests/install.log --single-version-externally-managed
+[0.926s] running egg_info
+[0.927s] creating ../../../build/opencv_tests/opencv_tests.egg-info
+[0.927s] writing ../../../build/opencv_tests/opencv_tests.egg-info/PKG-INFO
+[0.927s] writing dependency_links to ../../../build/opencv_tests/opencv_tests.egg-info/dependency_links.txt
+[0.927s] writing entry points to ../../../build/opencv_tests/opencv_tests.egg-info/entry_points.txt
+[0.927s] writing requirements to ../../../build/opencv_tests/opencv_tests.egg-info/requires.txt
+[0.927s] writing top-level names to ../../../build/opencv_tests/opencv_tests.egg-info/top_level.txt
+[0.928s] writing manifest file '../../../build/opencv_tests/opencv_tests.egg-info/SOURCES.txt'
+[0.949s] reading manifest file '../../../build/opencv_tests/opencv_tests.egg-info/SOURCES.txt'
+[0.949s] writing manifest file '../../../build/opencv_tests/opencv_tests.egg-info/SOURCES.txt'
+[0.949s] running build
+[0.949s] running build_py
+[0.950s] creating /home/naoya/wildpose_v1.3/wildpose/build/opencv_tests/build
+[0.950s] creating /home/naoya/wildpose_v1.3/wildpose/build/opencv_tests/build/lib
+[0.950s] creating /home/naoya/wildpose_v1.3/wildpose/build/opencv_tests/build/lib/opencv_tests
+[0.950s] copying opencv_tests/rosfacedetect.py -> /home/naoya/wildpose_v1.3/wildpose/build/opencv_tests/build/lib/opencv_tests
+[0.950s] copying opencv_tests/source.py -> /home/naoya/wildpose_v1.3/wildpose/build/opencv_tests/build/lib/opencv_tests
+[0.950s] copying opencv_tests/__init__.py -> /home/naoya/wildpose_v1.3/wildpose/build/opencv_tests/build/lib/opencv_tests
+[0.950s] copying opencv_tests/broadcast.py -> /home/naoya/wildpose_v1.3/wildpose/build/opencv_tests/build/lib/opencv_tests
+[0.950s] running install
+[0.950s] running install_lib
+[0.951s] creating /home/naoya/wildpose_v1.3/wildpose/install/opencv_tests/lib/python3.8/site-packages/opencv_tests
+[0.951s] copying /home/naoya/wildpose_v1.3/wildpose/build/opencv_tests/build/lib/opencv_tests/rosfacedetect.py -> /home/naoya/wildpose_v1.3/wildpose/install/opencv_tests/lib/python3.8/site-packages/opencv_tests
+[0.951s] copying /home/naoya/wildpose_v1.3/wildpose/build/opencv_tests/build/lib/opencv_tests/source.py -> /home/naoya/wildpose_v1.3/wildpose/install/opencv_tests/lib/python3.8/site-packages/opencv_tests
+[0.951s] copying /home/naoya/wildpose_v1.3/wildpose/build/opencv_tests/build/lib/opencv_tests/__init__.py -> /home/naoya/wildpose_v1.3/wildpose/install/opencv_tests/lib/python3.8/site-packages/opencv_tests
+[0.951s] copying /home/naoya/wildpose_v1.3/wildpose/build/opencv_tests/build/lib/opencv_tests/broadcast.py -> /home/naoya/wildpose_v1.3/wildpose/install/opencv_tests/lib/python3.8/site-packages/opencv_tests
+[0.951s] byte-compiling /home/naoya/wildpose_v1.3/wildpose/install/opencv_tests/lib/python3.8/site-packages/opencv_tests/rosfacedetect.py to rosfacedetect.cpython-38.pyc
+[0.953s] byte-compiling /home/naoya/wildpose_v1.3/wildpose/install/opencv_tests/lib/python3.8/site-packages/opencv_tests/source.py to source.cpython-38.pyc
+[0.953s] byte-compiling /home/naoya/wildpose_v1.3/wildpose/install/opencv_tests/lib/python3.8/site-packages/opencv_tests/__init__.py to __init__.cpython-38.pyc
+[0.953s] byte-compiling /home/naoya/wildpose_v1.3/wildpose/install/opencv_tests/lib/python3.8/site-packages/opencv_tests/broadcast.py to broadcast.cpython-38.pyc
+[0.953s] running install_data
+[0.954s] creating /home/naoya/wildpose_v1.3/wildpose/install/opencv_tests/share/ament_index
+[0.954s] creating /home/naoya/wildpose_v1.3/wildpose/install/opencv_tests/share/ament_index/resource_index
+[0.954s] creating /home/naoya/wildpose_v1.3/wildpose/install/opencv_tests/share/ament_index/resource_index/packages
+[0.954s] copying resource/opencv_tests -> /home/naoya/wildpose_v1.3/wildpose/install/opencv_tests/share/ament_index/resource_index/packages
+[0.954s] copying package.xml -> /home/naoya/wildpose_v1.3/wildpose/install/opencv_tests/share/opencv_tests
+[0.954s] running install_egg_info
+[0.955s] Copying ../../../build/opencv_tests/opencv_tests.egg-info to /home/naoya/wildpose_v1.3/wildpose/install/opencv_tests/lib/python3.8/site-packages/opencv_tests-3.0.7-py3.8.egg-info
+[0.955s] running install_scripts
+[0.967s] Installing broadcast script to /home/naoya/wildpose_v1.3/wildpose/install/opencv_tests/lib/opencv_tests
+[0.967s] Installing rosfacedetect script to /home/naoya/wildpose_v1.3/wildpose/install/opencv_tests/lib/opencv_tests
+[0.968s] Installing source script to /home/naoya/wildpose_v1.3/wildpose/install/opencv_tests/lib/opencv_tests
+[0.968s] writing list of installed files to '/home/naoya/wildpose_v1.3/wildpose/build/opencv_tests/install.log'
+[0.984s] Invoked command in '/home/naoya/wildpose_v1.3/wildpose/src/vision_opencv/opencv_tests' returned '0': AMENT_PREFIX_PATH=/home/naoya/wildpose_v1.3/wildpose/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naoya/wildpose_v1.3/wildpose/install/cv_bridge:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/naoya/wildpose_v1.3/wildpose/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/naoya/wildpose_v1.3/wildpose/build/opencv_tests/prefix_override:/home/naoya/wildpose_v1.3/wildpose/install/opencv_tests/lib/python3.8/site-packages:/home/naoya/wildpose_v1.3/wildpose/install/cv_bridge/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/opencv_tests build --build-base /home/naoya/wildpose_v1.3/wildpose/build/opencv_tests/build install --record /home/naoya/wildpose_v1.3/wildpose/build/opencv_tests/install.log --single-version-externally-managed

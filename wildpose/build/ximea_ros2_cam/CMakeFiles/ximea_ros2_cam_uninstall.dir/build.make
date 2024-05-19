@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/naoya/wildpose_v1.3/wildpose/src/ximea_ROS2_driver-main/ximea_ros2_cam
+CMAKE_SOURCE_DIR = /home/naoya/wildpose_v1.3/wildpose/src/ximea_ros2_cam
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/naoya/wildpose_v1.3/wildpose/build/ximea_ros2_cam
@@ -71,6 +71,6 @@ CMakeFiles/ximea_ros2_cam_uninstall.dir/clean:
 .PHONY : CMakeFiles/ximea_ros2_cam_uninstall.dir/clean
 
 CMakeFiles/ximea_ros2_cam_uninstall.dir/depend:
-	cd /home/naoya/wildpose_v1.3/wildpose/build/ximea_ros2_cam && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/naoya/wildpose_v1.3/wildpose/src/ximea_ROS2_driver-main/ximea_ros2_cam /home/naoya/wildpose_v1.3/wildpose/src/ximea_ROS2_driver-main/ximea_ros2_cam /home/naoya/wildpose_v1.3/wildpose/build/ximea_ros2_cam /home/naoya/wildpose_v1.3/wildpose/build/ximea_ros2_cam /home/naoya/wildpose_v1.3/wildpose/build/ximea_ros2_cam/CMakeFiles/ximea_ros2_cam_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/naoya/wildpose_v1.3/wildpose/build/ximea_ros2_cam && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/naoya/wildpose_v1.3/wildpose/src/ximea_ros2_cam /home/naoya/wildpose_v1.3/wildpose/src/ximea_ros2_cam /home/naoya/wildpose_v1.3/wildpose/build/ximea_ros2_cam /home/naoya/wildpose_v1.3/wildpose/build/ximea_ros2_cam /home/naoya/wildpose_v1.3/wildpose/build/ximea_ros2_cam/CMakeFiles/ximea_ros2_cam_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ximea_ros2_cam_uninstall.dir/depend
 

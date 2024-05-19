@@ -1,3 +1,0 @@
-[console_scripts]
-lidar_control_node = lidar_control_package.lidar_control_node:main
-

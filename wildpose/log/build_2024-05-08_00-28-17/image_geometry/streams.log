@@ -1,0 +1,41 @@
+[0.588s] Invoking command in '/home/naoya/wildpose_v1.3/wildpose/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/wildpose_v1.3/wildpose/install/motor_controller_pkg:/home/naoya/wildpose_v1.3/wildpose/install/lidar_control_package:/home/naoya/wildpose_v1.3/wildpose/install/dji_rs3_pkg:/home/naoya/wildpose_v1.3/wildpose/install/opencv_tests:/home/naoya/wildpose_v1.3/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/naoya/wildpose_v1.3/wildpose/build/image_geometry -- -j16 -l16
+[0.971s] [ 27%] Built target image_geometry
+[0.972s] [ 45%] Built target gtest_main
+[0.972s] [ 63%] Built target gtest
+[0.973s] [ 81%] Built target image_geometry-utest-equi
+[0.974s] [100%] Built target image_geometry-utest
+[0.984s] Invoked command in '/home/naoya/wildpose_v1.3/wildpose/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/wildpose_v1.3/wildpose/install/motor_controller_pkg:/home/naoya/wildpose_v1.3/wildpose/install/lidar_control_package:/home/naoya/wildpose_v1.3/wildpose/install/dji_rs3_pkg:/home/naoya/wildpose_v1.3/wildpose/install/opencv_tests:/home/naoya/wildpose_v1.3/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/naoya/wildpose_v1.3/wildpose/build/image_geometry -- -j16 -l16
+[1.012s] Invoking command in '/home/naoya/wildpose_v1.3/wildpose/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/wildpose_v1.3/wildpose/install/motor_controller_pkg:/home/naoya/wildpose_v1.3/wildpose/install/lidar_control_package:/home/naoya/wildpose_v1.3/wildpose/install/dji_rs3_pkg:/home/naoya/wildpose_v1.3/wildpose/install/opencv_tests:/home/naoya/wildpose_v1.3/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/naoya/wildpose_v1.3/wildpose/build/image_geometry
+[1.028s] -- Install configuration: ""
+[1.028s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/image_geometry/share/image_geometry/environment/pythonpath.sh
+[1.028s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/image_geometry/share/image_geometry/environment/pythonpath.dsv
+[1.028s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/image_geometry/lib/python3.8/site-packages/image_geometry
+[1.028s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/image_geometry/lib/python3.8/site-packages/image_geometry/cameramodels.py
+[1.028s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/image_geometry/lib/python3.8/site-packages/image_geometry/__init__.py
+[1.062s] Listing '/home/naoya/wildpose_v1.3/wildpose/install/image_geometry/lib/python3.8/site-packages/image_geometry'...
+[1.066s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/image_geometry/include/image_geometry
+[1.066s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/image_geometry/include/image_geometry/visibility_control.hpp
+[1.067s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/image_geometry/include/image_geometry/stereo_camera_model.h
+[1.067s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/image_geometry/include/image_geometry/pinhole_camera_model.h
+[1.068s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/image_geometry/lib/libimage_geometry.so
+[1.069s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/image_geometry/share/image_geometry/environment/library_path.sh
+[1.070s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/image_geometry/share/image_geometry/environment/library_path.dsv
+[1.070s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/image_geometry/share/ament_index/resource_index/package_run_dependencies/image_geometry
+[1.070s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/image_geometry/share/ament_index/resource_index/parent_prefix_path/image_geometry
+[1.071s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/image_geometry/share/image_geometry/environment/ament_prefix_path.sh
+[1.071s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/image_geometry/share/image_geometry/environment/ament_prefix_path.dsv
+[1.071s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/image_geometry/share/image_geometry/environment/path.sh
+[1.071s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/image_geometry/share/image_geometry/environment/path.dsv
+[1.071s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/image_geometry/share/image_geometry/local_setup.bash
+[1.071s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/image_geometry/share/image_geometry/local_setup.sh
+[1.072s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/image_geometry/share/image_geometry/local_setup.zsh
+[1.072s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/image_geometry/share/image_geometry/local_setup.dsv
+[1.072s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/image_geometry/share/image_geometry/package.dsv
+[1.072s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/image_geometry/share/ament_index/resource_index/packages/image_geometry
+[1.072s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_libraries-extras.cmake
+[1.072s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.073s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.073s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/image_geometry/share/image_geometry/cmake/image_geometryConfig.cmake
+[1.073s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/image_geometry/share/image_geometry/cmake/image_geometryConfig-version.cmake
+[1.073s] -- Up-to-date: /home/naoya/wildpose_v1.3/wildpose/install/image_geometry/share/image_geometry/package.xml
+[1.149s] Invoked command in '/home/naoya/wildpose_v1.3/wildpose/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naoya/wildpose_v1.3/wildpose/install/motor_controller_pkg:/home/naoya/wildpose_v1.3/wildpose/install/lidar_control_package:/home/naoya/wildpose_v1.3/wildpose/install/dji_rs3_pkg:/home/naoya/wildpose_v1.3/wildpose/install/opencv_tests:/home/naoya/wildpose_v1.3/wildpose/install/gamepad_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/naoya/wildpose_v1.3/wildpose/build/image_geometry

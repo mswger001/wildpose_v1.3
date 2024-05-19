@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "ximea_ros2_cam")
 set(ximea_ros2_cam_VERSION "0.0.0")
-set(ximea_ros2_cam_MAINTAINER "lindelani <lindelanimcebo@gmail.com>")
+set(ximea_ros2_cam_MAINTAINER "naoya <sh.mn.nat@gmail.com>")
 set(ximea_ros2_cam_BUILD_DEPENDS "rclcpp" "std_msgs" "sensor_msgs" "camera_calibration_parsers" "camera_info_manager" "cv_bridge")
 set(ximea_ros2_cam_BUILDTOOL_DEPENDS "ament_cmake")
 set(ximea_ros2_cam_BUILD_EXPORT_DEPENDS "rclcpp" "std_msgs" "sensor_msgs" "camera_calibration_parsers" "camera_info_manager" "cv_bridge")

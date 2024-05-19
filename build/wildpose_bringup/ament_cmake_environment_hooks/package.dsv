@@ -1,4 +1,0 @@
-source;share/wildpose_bringup/local_setup.bash
-source;share/wildpose_bringup/local_setup.dsv
-source;share/wildpose_bringup/local_setup.sh
-source;share/wildpose_bringup/local_setup.zsh

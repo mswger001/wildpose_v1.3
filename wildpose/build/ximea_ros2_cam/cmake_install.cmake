@@ -1,4 +1,4 @@
-# Install script for directory: /home/naoya/wildpose_v1.3/wildpose/src/ximea_ROS2_driver-main/ximea_ros2_cam
+# Install script for directory: /home/naoya/wildpose_v1.3/wildpose/src/ximea_ros2_cam
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -59,8 +59,8 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ximea_ros2_cam" TYPE DIRECTORY FILES
-    "/home/naoya/wildpose_v1.3/wildpose/src/ximea_ROS2_driver-main/ximea_ros2_cam/config"
-    "/home/naoya/wildpose_v1.3/wildpose/src/ximea_ROS2_driver-main/ximea_ros2_cam/launch"
+    "/home/naoya/wildpose_v1.3/wildpose/src/ximea_ros2_cam/config"
+    "/home/naoya/wildpose_v1.3/wildpose/src/ximea_ros2_cam/launch"
     )
 endif()
 
@@ -120,7 +120,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ximea_ros2_cam" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/src/ximea_ROS2_driver-main/ximea_ros2_cam/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ximea_ros2_cam" TYPE FILE FILES "/home/naoya/wildpose_v1.3/wildpose/src/ximea_ros2_cam/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

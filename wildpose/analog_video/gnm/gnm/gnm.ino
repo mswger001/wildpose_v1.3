@@ -34,13 +34,12 @@ void loop() {
       setNormalPoints(0);
     }
      else if (input == 'n'){
-      setNormalPoints(3000);
+      setNormalPoints(3500);
     }
     else if (input == 'g'){
       setNormalPoints(6000);
       incrementPosition +=1;
-      setNormalPoints(3000);
-      Serial.print("Position:");
+      setNormalPoints(3500);
       Serial.println(incrementPosition); // Send position data back to Python node
     }
     else if (input == 'f'){
@@ -49,12 +48,12 @@ void loop() {
       if(incrementPosition<0){
         incrementPosition=0;
       }
-      setNormalPoints(3000);
-      Serial.print("Position:");
+      setNormalPoints(3500);
       Serial.println(incrementPosition); // Send position data back to Python node
     }
 
     }
+  Serial.println(incrementPosition); // Send position data back to Python node
   
 }
 

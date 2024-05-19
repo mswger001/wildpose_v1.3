@@ -1,0 +1,55 @@
+[0.311s] Invoking command in '/home/naoya/wildpose_v1.3/wildpose/build/iris_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/naoya/wildpose_v1.3/wildpose/src/iris_controller -DCMAKE_INSTALL_PREFIX=/home/naoya/wildpose_v1.3/wildpose/install/iris_controller
+[0.346s] -- The C compiler identification is GNU 9.4.0
+[0.391s] -- The CXX compiler identification is GNU 9.4.0
+[0.394s] -- Check for working C compiler: /usr/bin/cc
+[0.439s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.440s] -- Detecting C compiler ABI info
+[0.494s] -- Detecting C compiler ABI info - done
+[0.508s] -- Detecting C compile features
+[0.508s] -- Detecting C compile features - done
+[0.511s] -- Check for working CXX compiler: /usr/bin/c++
+[0.581s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.582s] -- Detecting CXX compiler ABI info
+[0.635s] -- Detecting CXX compiler ABI info - done
+[0.642s] -- Detecting CXX compile features
+[0.643s] -- Detecting CXX compile features - done
+[0.644s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.660s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.660s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.779s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.836s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.837s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.838s] -- Configured cppcheck include dirs: 
+[0.838s] -- Configured cppcheck exclude dirs and/or files: 
+[0.839s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.839s] -- Configured cpplint exclude dirs and/or files: 
+[0.839s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.840s] -- Added test 'lint_cmake' to check CMake code style
+[0.840s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.841s] -- Added test 'uncrustify' to check C / C++ code style
+[0.841s] -- Configured uncrustify additional arguments: 
+[0.841s] -- Added test 'xmllint' to check XML markup files
+[0.843s] -- Configuring done
+[0.844s] -- Generating done
+[0.844s] -- Build files have been written to: /home/naoya/wildpose_v1.3/wildpose/build/iris_controller
+[0.847s] Invoked command in '/home/naoya/wildpose_v1.3/wildpose/build/iris_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/naoya/wildpose_v1.3/wildpose/src/iris_controller -DCMAKE_INSTALL_PREFIX=/home/naoya/wildpose_v1.3/wildpose/install/iris_controller
+[0.850s] Invoking command in '/home/naoya/wildpose_v1.3/wildpose/build/iris_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/naoya/wildpose_v1.3/wildpose/build/iris_controller -- -j16 -l16
+[0.876s] Invoked command in '/home/naoya/wildpose_v1.3/wildpose/build/iris_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/naoya/wildpose_v1.3/wildpose/build/iris_controller -- -j16 -l16
+[0.899s] Invoking command in '/home/naoya/wildpose_v1.3/wildpose/build/iris_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/naoya/wildpose_v1.3/wildpose/build/iris_controller
+[0.904s] -- Install configuration: ""
+[0.904s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/ament_index/resource_index/package_run_dependencies/iris_controller
+[0.904s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/ament_index/resource_index/parent_prefix_path/iris_controller
+[0.904s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/iris_controller/environment/ament_prefix_path.sh
+[0.904s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/iris_controller/environment/ament_prefix_path.dsv
+[0.904s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/iris_controller/environment/path.sh
+[0.904s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/iris_controller/environment/path.dsv
+[0.904s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/iris_controller/local_setup.bash
+[0.904s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/iris_controller/local_setup.sh
+[0.905s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/iris_controller/local_setup.zsh
+[0.905s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/iris_controller/local_setup.dsv
+[0.905s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/iris_controller/package.dsv
+[0.905s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/ament_index/resource_index/packages/iris_controller
+[0.905s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/iris_controller/cmake/iris_controllerConfig.cmake
+[0.905s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/iris_controller/cmake/iris_controllerConfig-version.cmake
+[0.905s] -- Installing: /home/naoya/wildpose_v1.3/wildpose/install/iris_controller/share/iris_controller/package.xml
+[0.907s] Invoked command in '/home/naoya/wildpose_v1.3/wildpose/build/iris_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/naoya/wildpose_v1.3/wildpose/build/iris_controller
